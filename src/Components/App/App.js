@@ -14,6 +14,7 @@ import Blog from '../../Pages/Blog/Blog';
 import Careers from '../../Pages/Careers/Careers';
 import Contact from '../../Pages/Contact/Contact';
 import NoMatch from '../../Pages/NoMatch/NoMatch';
+import Footer from '../Footer/Footer';
 
 
 function App() {
@@ -39,7 +40,9 @@ function App() {
           <Route component={NoMatch} />
         </Switch>
       </Router>
+      <Footer />
     </React.Fragment>
+
   );
 }
 
