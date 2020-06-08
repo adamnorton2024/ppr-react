@@ -1,0 +1,9 @@
+#client-logos{
+    text-align: center;
+}
+
+img{
+        padding: 1.25em;
+        max-height: 5em;
+        align-self: center;
+    }

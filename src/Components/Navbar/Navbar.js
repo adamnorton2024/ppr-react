@@ -9,7 +9,7 @@ class Navigation extends Component {
     render(){
         return(
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-                <Navbar.Brand href="/"><a className="navbar-brand" href="/"><img src="./assets/images/logo.svg" height='64px' width='64px' alt="PPR Logo" /></a></Navbar.Brand>
+                <Navbar.Brand href="/"><img src="./assets/images/logo.svg" height='128px' width='128px' alt="PPR Logo" /></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
