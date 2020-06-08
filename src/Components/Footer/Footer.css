@@ -1,0 +1,44 @@
+footer{
+    background-image: url('/assets/images/bg_rings.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom-center;
+    background-size: cover;
+    margin: 0px;
+    padding-top: 2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    color: white;
+}
+
+.footer-fab{
+    font-size: 2em;
+    margin-left: .15em;
+    margin-right: .15em;
+}
+
+.fab-link{
+    color: white;
+}
+
+.fab-link:hover{
+    color: #ffa600;
+}
+
+#current-year {
+    color: white;
+}
+
+.footer-span {
+    color: #ffa600;
+}
+
+.button-footer{
+    background-color: #ffa600;
+    color: black;
+}
+
+.button-footer:hover{
+    background-color: #009fc4;
+    color: white;
+}
+
