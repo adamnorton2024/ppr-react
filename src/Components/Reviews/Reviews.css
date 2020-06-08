@@ -1,0 +1,41 @@
+#reviews{
+    background-color: #f4f4f4;
+}
+
+.box{
+    background-color: rgba(63,69,97,0.75);
+    border-radius: .5em;
+    padding: 3em;
+    border: .25em solid #f4f4f4;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.logo{
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+img{
+    max-height: 7em;
+    align-self: center;
+}
+
+p{
+    color: white;
+    font-size: .8em;
+}
+
+.client{
+    font-style: italic;
+}
+
+
+/* $color-background : #ffffff;
+$color-bg-trans : rgba(255,255,255,0.8);
+$color-text : #0d0e13;
+$color-blue-dark: #3f4561;
+$color-blue-mid: #3f4561;
+$color-blue-light: #009fc4;
+$color-orange: #ffa600;
+$color-gray: #f4f4f4; */
