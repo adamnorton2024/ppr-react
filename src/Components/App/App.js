@@ -2,18 +2,18 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navigation from '../Navbar/Navbar';
-import Home from '../Home/Home';
-import Services from '../Services/Services';
-import Bicultural from '../Bicultural/Bicultural';
-import Training from '../Training/Training';
-import Talent from '../Talent/Talent';
-import Mission from '../Mission/Mission';
-import Team from '../Team/Team';
-import About from '../About/About';
-import Blog from '../Blog/Blog';
-import Careers from '../Careers/Careers';
-import Contact from '../Contact/Contact';
-import NoMatch from '../NoMatch/NoMatch';
+import Home from '../../Pages/Home/Home';
+import Services from '../../Pages/Services/Services';
+import Bicultural from '../../Pages/Bicultural/Bicultural';
+import Training from '../../Pages/Training/Training';
+import Talent from '../../Pages/Talent/Talent';
+import Mission from '../../Pages/Mission/Mission';
+import Team from '../../Pages/Team/Team';
+import About from '../../Pages/About/About';
+import Blog from '../../Pages/Blog/Blog';
+import Careers from '../../Pages/Careers/Careers';
+import Contact from '../../Pages/Contact/Contact';
+import NoMatch from '../../Pages/NoMatch/NoMatch';
 
 
 function App() {
