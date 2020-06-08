@@ -13,7 +13,7 @@ class Reviews extends Component {
                             <div className="row">
                                 <div className="col-4 d-flex align-items-center justify-content-center">
                                     <div className="logo">
-                                        <img className="img-fluid"src="./assets/images/logos/logo-swmf.png" alt="Southwester Medical Foundation Logo" />
+                                        <img className="img-fluid review-logos"src="./assets/images/logos/logo-swmf.png" alt="Southwester Medical Foundation Logo" />
                                     </div>
                                 </div>
                                 <div className="col-8">
@@ -27,7 +27,7 @@ class Reviews extends Component {
                             <div className="row">
                                 <div className="col-4 d-flex align-items-center justify-content-center">
                                     <div className="logo">
-                                        <img className="img-fluid" src="./assets/images/logos/logo-vvf.png" alt="Verde Valle Foods Logo" />
+                                        <img className="img-fluid review-logos" src="./assets/images/logos/logo-vvf.png" alt="Verde Valle Foods Logo" />
                                     </div>
                                 </div>
                                 <div className="col-8">
@@ -40,7 +40,7 @@ class Reviews extends Component {
                             <div className="row">
                                 <div className="col-4 d-flex align-items-center justify-content-center">
                                     <div className="logo">
-                                        <img className="img-fluid" src="./assets/images/logos/logo-je.png" alt="Joshua Expeditions Logo" />
+                                        <img className="img-fluid review-logos" src="./assets/images/logos/logo-je.png" alt="Joshua Expeditions Logo" />
                                     </div>
                                 </div>
                                 <div className="col-8">
@@ -53,7 +53,7 @@ class Reviews extends Component {
                             <div className="row">
                                 <div className="col-4 d-flex align-items-center justify-content-center">
                                     <div className="logo">
-                                        <img className="img-fluid" src="./assets/images/logos/logo-ps.png" alt="Premier Services Logo" />
+                                        <img className="img-fluid review-logos" src="./assets/images/logos/logo-ps.png" alt="Premier Services Logo" />
                                     </div>
                                 </div>
                                 <div className="col-8">
@@ -66,7 +66,7 @@ class Reviews extends Component {
                             <div className="row">
                                 <div className="col-4 d-flex align-items-center justify-content-center">
                                     <div className="logo">
-                                        <img className="img-fluid" src="./assets/images/logos/logo-ntfb.png" alt="North Texas Food Bank Logo" />
+                                        <img className="img-fluid review-logos" src="./assets/images/logos/logo-ntfb.png" alt="North Texas Food Bank Logo" />
                                     </div>
                                 </div>
                                 <div className="col-8">
@@ -80,7 +80,7 @@ class Reviews extends Component {
                             <div className="row">
                                 <div className="col-4">
                                     <div className="logo">
-                                        <img className="img-fluid" src="./assets/images/logos/logo-dt.png" alt="Dura-Tech Logo" />
+                                        <img className="img-fluid review-logos" src="./assets/images/logos/logo-dt.png" alt="Dura-Tech Logo" />
                                     </div>
                                 </div>
                                 <div className="col-8">

@@ -12,13 +12,15 @@
 }
 
 .logo{
-    text-align: center;
-    margin-bottom: 2em;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* text-align: center; */
+    /* margin-bottom: 2em; */
 }
 
-img{
+.review-logos{
     max-height: 7em;
-    align-self: center;
 }
 
 p{
@@ -31,11 +33,3 @@ p{
 }
 
 
-/* $color-background : #ffffff;
-$color-bg-trans : rgba(255,255,255,0.8);
-$color-text : #0d0e13;
-$color-blue-dark: #3f4561;
-$color-blue-mid: #3f4561;
-$color-blue-light: #009fc4;
-$color-orange: #ffa600;
-$color-gray: #f4f4f4; */

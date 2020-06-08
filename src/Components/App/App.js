@@ -19,29 +19,30 @@ import Footer from '../Footer/Footer';
 
 function App() {
   return (
-    // <div className="App">
-    //     <Navigation />
-    // </div>
-    <React.Fragment>
-      <Router>
-        <Navigation />
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/services" component={Services} />
-          <Route exact path="/bicultural" component={Bicultural} />
-          <Route exact path="/training" component={Training} />
-          <Route exact path="/talent" component={Talent} />
-          <Route exact path="/mission" component={Mission} />
-          <Route exact path="/team" component={Team} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/blog" component={Blog} />
-          <Route exact path="/careers" component={Careers} />
-          <Route exact path="/contact" component={Contact} />
-          <Route component={NoMatch} />
-        </Switch>
-      </Router>
-      <Footer />
-    </React.Fragment>
+    <div className="App">
+      <React.Fragment>
+        <Router>
+          <Navigation />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/services" component={Services} />
+            <Route exact path="/bicultural" component={Bicultural} />
+            <Route exact path="/training" component={Training} />
+            <Route exact path="/talent" component={Talent} />
+            <Route exact path="/mission" component={Mission} />
+            <Route exact path="/team" component={Team} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/blog" component={Blog} />
+            <Route exact path="/careers" component={Careers} />
+            <Route exact path="/contact" component={Contact} />
+            <Route component={NoMatch} />
+          </Switch>
+        </Router>
+
+        <Footer />
+      </React.Fragment>
+    </div>
+    
 
   );
 }

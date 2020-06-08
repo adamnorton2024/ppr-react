@@ -1,8 +1,14 @@
 #client-logos{
+    background-color: white;
     text-align: center;
+    color: black;
 }
 
-img{
+#happy-clients{
+    color: black;
+}
+
+.client-logos{
         padding: 1.25em;
         max-height: 5em;
         align-self: center;
