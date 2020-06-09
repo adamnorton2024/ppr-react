@@ -22,7 +22,7 @@ function App() {
     <div className="App">
       <React.Fragment>
         <Router>
-          <Navigation />
+          <Navigation className="no-bg" />
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/services" component={Services} />
@@ -38,7 +38,6 @@ function App() {
             <Route component={NoMatch} />
           </Switch>
         </Router>
-
         <Footer />
       </React.Fragment>
     </div>
