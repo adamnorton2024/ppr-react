@@ -14,6 +14,7 @@ const Foot = styled.footer `
     padding-left: 0em;
     padding-right: 0em;
     padding-bottom: 2em;
+    color: white;
 `
 
 const Div = styled.div `
@@ -62,7 +63,8 @@ class Footer extends Component {
         return(
             <ThemeProvider theme={theme}>
                 <Foot id="footer-page">
-                    <Div className="Container">
+                    <Div>
+                        <div className="container">
                         <div className="row">
                             <div className="col-lg-4 col-sm-12 text-center">
                                 <p className="lead">HUMAN RESOURCES SOLUTIONS WITH A <Span orange>PERSONAL TOUCH</Span></p>
@@ -112,10 +114,11 @@ class Footer extends Component {
 
                     </div>
                         </div>
-                        <div class="row">
-                            <div class="col">
-                                <p class="text-center"><small>&copy; Copyright <span id="current-year" dangerouslySetInnerHTML={{__html: this.state.copyrightYear}}></span>, People Performance Resources - A Human Resources Solutions Firm. All rights Reserved.</small></p>
+                        <div className="row">
+                            <div className="col">
+                                <p className="text-center"><small>&copy; Copyright <span id="current-year" dangerouslySetInnerHTML={{__html: this.state.copyrightYear}}></span>, People Performance Resources - A Human Resources Solutions Firm. All rights Reserved.</small></p>
                             </div>
+                        </div>
                         </div>
                     </Div>
                 </Foot>

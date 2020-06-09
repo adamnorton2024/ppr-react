@@ -1,8 +1,8 @@
-#reviews{
+/* #reviews{
     background-color: #f4f4f4;
-}
+} */
 
-.box{
+/* .box{
     background-color: rgba(63,69,97,0.75);
     border-radius: .5em;
     padding: 3em;
@@ -15,8 +15,6 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    /* text-align: center; */
-    /* margin-bottom: 2em; */
 }
 
 .review-logos{
@@ -30,6 +28,6 @@ p{
 
 .client{
     font-style: italic;
-}
+} */
 
 

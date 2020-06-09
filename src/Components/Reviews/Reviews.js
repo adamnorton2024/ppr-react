@@ -1,12 +1,58 @@
 import React, { Component } from 'react';
+import styled, { ThemeProvider } from 'styled-components';
+import theme from "../../Config/Theme";
 import Carousel from 'react-bootstrap/Carousel'
 import './Reviews.css';
+
+const ReviewsSection = styled.section`
+    background-color: #f4f4f4;
+    text-align: center;
+
+    .display-4{
+        padding: 1em 0em;
+        margin-bottom: 0px;
+        color: ${props => props.theme.colors.light_blue}; 
+        font-size: 2em;
+    }
+
+    .box {
+        background-color: rgba(63,69,97,0.75);
+        border-radius: .5em;
+        padding: 3em;
+        border: .25em solid #f4f4f4;
+        margin-bottom: 2em;
+        margin-top: 0em;
+
+        .logo{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+
+            .review-logos{
+                max-height: 7em;
+            }
+        }
+    }
+
+    p{
+    color: white;
+    font-size: .8em;
+
+    .client{
+    font-style: italic;
+}
+}
+`
 
 class Reviews extends Component {
 
     render(){
         return(
-            <section id="reviews">
+            <ThemeProvider theme={theme}>
+            <ReviewsSection id="reviews">
+                    <div class="mx-auto">
+                        <h1 class="display-4">What Our Clients Are Saying</h1>
+                    </div>
                 <div className="container">
                     <Carousel>
                         <Carousel.Item className='box'>
@@ -92,8 +138,8 @@ class Reviews extends Component {
                         </Carousel.Item>
                     </Carousel>
                 </div>
-            </section>
-            
+            </ReviewsSection>
+            </ThemeProvider>
         )
     }
 }

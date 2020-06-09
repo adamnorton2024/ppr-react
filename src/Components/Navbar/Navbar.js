@@ -8,7 +8,9 @@ class Navigation extends Component {
 
     render(){
         return(
+            
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+                <div className="container">
                 <Navbar.Brand href="/"><img src="./assets/images/logo.svg" height='128px' width='128px' alt="PPR Logo" /></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
@@ -29,7 +31,9 @@ class Navigation extends Component {
                         <Nav.Link href="/contact">Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
+                </div>
             </Navbar>
+            
         )
     }
 }
