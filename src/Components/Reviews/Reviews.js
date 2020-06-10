@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import styled, { ThemeProvider } from 'styled-components';
 import theme from "../../Config/Theme";
 import Carousel from 'react-bootstrap/Carousel'
-import './Reviews.css';
 
 const ReviewsSection = styled.section`
     background-color: #f4f4f4;

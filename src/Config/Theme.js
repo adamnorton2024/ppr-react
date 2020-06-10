@@ -8,5 +8,13 @@ export default {
         bg_gray: "f4f4f4",
         black: "#000",
         white: "#fff" 
+    },
+    sizes: {
+        tiny_phones: "414px;",
+        portrait_phones: "575.98px",
+        landscape_phones: "768.89;",
+        tablets: "991.98px",
+        desktop: "1199.98px"
     }
+    
 }
