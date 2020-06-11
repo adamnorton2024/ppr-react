@@ -123,6 +123,7 @@ class Footer extends Component {
                     </Div>
                 </Foot>
             </ThemeProvider>
+
         )
     }
 }

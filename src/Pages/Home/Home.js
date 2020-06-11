@@ -3,7 +3,7 @@ import styled, { ThemeProvider } from 'styled-components';
 import theme from "../../Config/Theme";
 import Reviews from '../../Components/Reviews/Reviews';
 import ClientLogos from '../../Components/ClientLogos/ClientLogos';
-import MainHeader from '../../Components/MainHeader/MainHeader';
+import MainHeader from './MainHeader/MainHeader';
 
 const Div = styled.div `
     .jumbotron {

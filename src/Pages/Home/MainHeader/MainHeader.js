@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import Button from 'react-bootstrap/Button'
 import styled, { ThemeProvider } from 'styled-components';
-import theme from "../../Config/Theme";
+import theme from "../../../Config/Theme";
 
 const Div = styled.div `
     #main-header{

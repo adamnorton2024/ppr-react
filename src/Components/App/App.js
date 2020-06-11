@@ -15,6 +15,7 @@ import Careers from '../../Pages/Careers/Careers';
 import Contact from '../../Pages/Contact/Contact';
 import NoMatch from '../../Pages/NoMatch/NoMatch';
 import Footer from '../Footer/Footer';
+import ScrollToTop from '../ScrollUpButton/ScrollToTop';
 
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
           </Switch>
         </Router>
         <Footer />
+        <ScrollToTop />
       </React.Fragment>
     </div>
     
