@@ -49,8 +49,8 @@ class Reviews extends Component {
         return(
             <ThemeProvider theme={theme}>
             <ReviewsSection id="reviews">
-                    <div class="mx-auto">
-                        <h1 class="display-4">What Our Clients Are Saying</h1>
+                    <div className="mx-auto">
+                        <h1 className="display-4">What Our Clients Are Saying</h1>
                     </div>
                 <div className="container">
                     <Carousel>
