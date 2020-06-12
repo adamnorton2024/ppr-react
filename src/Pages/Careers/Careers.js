@@ -83,15 +83,15 @@ class Career extends Component {
                             </div>
                         </div>
 
-                        <div class="section pt-3 pb-3" id='career-header'>
-                            <div class="row mx-0">
-                                <div class="col-lg-7 col-md-12 my-5">
-                                    <div class="text-box">
-                                        <h1 class="display-4">Career Opportunities</h1>
-                                        <div class="description">
+                        <div className="section pt-3 pb-3" id='career-header'>
+                            <div className="row mx-0">
+                                <div className="col-lg-7 col-md-12 my-5">
+                                    <div className="text-box">
+                                        <h1 className="display-4">Career Opportunities</h1>
+                                        <div className="description">
                                         </div>
-                                        <p class='sub-title'>Finding Your Next Team Member</p>
-                                        <p class="lead">These are some of the positions we are currently sourcing for. If you or anyone you know would be a good fit, feel free to reach out to us for more information.</p>
+                                        <p className='sub-title'>Finding Your Next Team Member</p>
+                                        <p className="lead">These are some of the positions we are currently sourcing for. If you or anyone you know would be a good fit, feel free to reach out to us for more information.</p>
                                     </div>
                                 </div>
                             </div>
