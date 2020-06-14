@@ -6,6 +6,26 @@ const Div = styled.div`
     .banner{
         background-color: ${props => props.theme.colors.white};
         padding: 3em 3em;
+        @media only screen and (min-width: ${props => props.theme.sizes.portrait_phone} ) and (max-width: ${props => props.theme.sizes.landscape_phones}) {
+                    padding: 2em;
+                }
+
+        @media only screen and (max-width: ${props => props.theme.sizes.portrait_phone}) {
+            padding: 1.75em;
+        }
+
+        .text-box-container{
+            padding: 2em;
+            @media only screen and (min-width: ${props => props.theme.sizes.portrait_phone} ) and (max-width: ${props => props.theme.sizes.landscape_phones}) {
+                    padding: 1em;
+                    margin: 0px;
+                }
+
+                @media only screen and (max-width: ${props => props.theme.sizes.portrait_phone}) {
+                    padding: 1em;
+                    margin:0px;
+                }
+        }
         .text-box{
             .display-4{
                     color: ${props => props.theme.colors.light_blue}; 
@@ -59,7 +79,7 @@ class Rewards extends Component {
                 <Div>
                     <section className="banner">
                         <div className="row mx-0 shadow">
-                            <div className="col-md-6 col-sm-12 px-5 my-5">
+                            <div className="col-md-6 col-sm-12 text-box-container">
                                 <div className="text-box">
                                     <h1 className="display-4">Total Rewards</h1>
                                     <div className="description">
@@ -72,7 +92,7 @@ class Rewards extends Component {
                             <div className="col-md-6 col-sm-12 px-5 mb-0" id='img-rewards'>
 
                             </div>
-                            <img className="img-fluid mt-0" id="mobile-image" src="/assets/images/services/services_rewards.pn" alt="mobile total reward strategy" />
+                            <img className="img-fluid mt-0" id="mobile-image" src="/assets/images/services/services_rewards.png" alt="mobile total reward strategy" />
                         </div>
 
                     </section>

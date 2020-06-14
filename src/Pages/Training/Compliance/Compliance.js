@@ -6,6 +6,25 @@ const Div = styled.div`
     .banner{
         background-color: #f4f4f4;
         padding: 3em 3em;
+        @media only screen and (min-width: ${props => props.theme.sizes.portrait_phone} ) and (max-width: ${props => props.theme.sizes.landscape_phones}) {
+                    padding: 2em;
+                }
+
+        @media only screen and (max-width: ${props => props.theme.sizes.portrait_phone}) {
+            padding: 1.75em;
+        }
+        .text-box-container{
+            padding: 2em;
+            @media only screen and (min-width: ${props => props.theme.sizes.portrait_phone} ) and (max-width: ${props => props.theme.sizes.landscape_phones}) {
+                    padding: 1em;
+                    margin: 0px;
+                }
+
+                @media only screen and (max-width: ${props => props.theme.sizes.portrait_phone}) {
+                    padding: 1em;
+                    margin:0px;
+                }
+        }
         .text-box{
             .display-4{
                     color: ${props => props.theme.colors.light_blue}; 
@@ -51,7 +70,7 @@ class Compliance extends Component {
                             <div class="col-md-6 col-sm-12 px-5 bg-white" id='img-compliance'>
 
                             </div>
-                            <div class="col-md-6 col-sm-12 px-5 my-5">
+                            <div class="col-md-6 col-sm-12 text-box-container">
                                 <div class="text-box">
                                     <h1 class="display-4">Compliance Training Topics</h1>
                                     <div class="description">

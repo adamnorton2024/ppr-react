@@ -7,6 +7,25 @@ const Div = styled.div `
     .banner{
         background-color: ${props => props.theme.colors.white};
         padding: 3em 3em;
+        @media only screen and (min-width: ${props => props.theme.sizes.portrait_phone} ) and (max-width: ${props => props.theme.sizes.landscape_phones}) {
+                    padding: 2em;
+                }
+
+        @media only screen and (max-width: ${props => props.theme.sizes.portrait_phone}) {
+            padding: 1.75em;
+        }
+        .text-box-container{
+            padding: 2em;
+            @media only screen and (min-width: ${props => props.theme.sizes.portrait_phone} ) and (max-width: ${props => props.theme.sizes.landscape_phones}) {
+                    padding: 1em;
+                    margin: 0px;
+                }
+
+                @media only screen and (max-width: ${props => props.theme.sizes.portrait_phone}) {
+                    padding: 1em;
+                    margin:0px;
+                }
+        }
         .text-box{
             .display-4{
                     color: ${props => props.theme.colors.light_blue}; 
@@ -50,7 +69,7 @@ class SpanishSpeaking extends Component {
                 <Div>
                     <section className="banner">
                         <div className="row mx-0 shadow">
-                            <div className="col-md-6 col-sm-12 px-5 my-5">
+                            <div className="col-md-6 col-sm-12 text-box-container">
                                 <div className="text-box">
                                     <h1 className="display-4">For Non-Spanish Speaking Employers</h1>
                                     <div className="description">

@@ -4,8 +4,19 @@ import theme from "../../../Config/Theme";
 
 const Div = styled.div`
     .banner{
-          background-color: ${props => props.theme.colors.white};  
-            .text-box{
+          background-color: ${props => props.theme.colors.white}; 
+          .text-box-container{
+            padding: 2em;
+            @media only screen and (min-width: ${props => props.theme.sizes.portrait_phone} ) and (max-width: ${props => props.theme.sizes.landscape_phones}) {
+                    padding: 1em;
+                    margin: 0px;
+                }
+
+                @media only screen and (max-width: ${props => props.theme.sizes.portrait_phone}) {
+                    padding: 1em;
+                    margin:0px;
+                }
+                .text-box{
                 padding: 1em;
                 .display-4{
                     margin-bottom: .5em;
@@ -42,6 +53,7 @@ const Div = styled.div`
                 }
 
             }
+        } 
             
             .employee{
                 background-repeat: no-repeat;
@@ -66,7 +78,7 @@ class Gabriela extends Component {
                             <div className="col-md-4 col-sm-12 px-5 bg-light d-flex align-items-center">
                                 <img className="img-fluid employee mx-auto" src="/assets/images/team/gabriela.jpg" alt="Gabriela" id="img-gabriela" />              
                             </div>
-                                <div className="col-md-8 col-sm-12 px-5 my-5">
+                                <div className="col-md-8 col-sm-12 text-box-container">
                                     <div className="text-box">
                                         <div className="description">
                                             <h1 className="display-4">Gabriela</h1>

@@ -25,6 +25,13 @@ const Div = styled.div`
                 background-color: rgba(63,69,97,0.75);
                 border-radius: .25em;
                 padding: 4em;
+                @media only screen and (min-width: ${props => props.theme.sizes.portrait_phone} ) and (max-width: ${props => props.theme.sizes.landscape_phones}) {
+                    padding: 2em;
+                }
+
+                @media only screen and (max-width: ${props => props.theme.sizes.portrait_phone}) {
+                    padding: 1.75em;
+                }
                 .display-4{
                     color: ${props => props.theme.colors.orange};
                     margin-bottom:.5em;
@@ -38,11 +45,23 @@ const Div = styled.div`
                     }
                 }
 
+                
+
                 .sub-title{
                     color: ${props => props.theme.colors.orange};
                     font-size: 2em;
                     margin-top: 1em;
                 }
+
+                .lead{
+                    color: ${props => props.theme.colors.white};
+                    @media only screen and (min-width: ${props => props.theme.sizes.portrait_phone} ) and (max-width: ${props => props.theme.sizes.landscape_phone}) {
+                    font-size: 1em;
+                    }
+
+                    @media only screen and (max-width: ${props => props.theme.sizes.portrait_phone}) {
+                    font-size: 1em;
+                    }
 
                 p{
                     color: white;
