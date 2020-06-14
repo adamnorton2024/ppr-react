@@ -71,10 +71,10 @@ class Navigation extends Component {
                             <Nav.Link className="nav-link" href="/mission">Mission & Values</Nav.Link>
                             <Nav.Link className="nav-link" href="/team">Meet the Team</Nav.Link>
                             <Nav.Link className="nav-link" href="/about">About Us</Nav.Link>
-                        </Nav>
-                        <Nav>
                             <Nav.Link className="nav-link" href="/blog">HR Insider</Nav.Link>
                             <Nav.Link className="nav-link" href="/careers">Career Opportunities</Nav.Link>
+                        </Nav>
+                        <Nav>
                             <Button variant="outline-warning"><Nav.Link className="btn nav-contact" href="/contact">Contact</Nav.Link></Button>
                         </Nav>
                     </Navbar.Collapse>
