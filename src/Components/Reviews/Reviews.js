@@ -50,6 +50,7 @@ const ReviewsSection = styled.section`
     p{
     color: white;
     font-size: .8em;
+    text-align: left;
 
     .client{
     font-style: italic;
