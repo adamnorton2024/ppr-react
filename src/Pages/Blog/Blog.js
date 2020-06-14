@@ -131,7 +131,7 @@ class Blog extends Component {
                         <div className="blog-body">
                             <div className="">
                             <div className="blog-goes-here">
-                                <div id="dib-posts"></div>
+                                <div className="mt-0" id="dib-posts"></div>
                             </div>
                             </div>
                         </div>
