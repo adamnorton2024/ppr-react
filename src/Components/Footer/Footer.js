@@ -87,10 +87,10 @@ class Footer extends Component {
                             </div>
 
                             <div className="col-lg-4 col-sm-12 text-center"><p className="lead">FOLLOW US ON <Span orange>SOCIAL MEDIA</Span></p>
-                                <A href="https://www.facebook.com/pprhr" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-square"></i></A>
-                                <A href="https://www.instagram.com/ppr_hr/" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></A>
-                                <A href="https://www.linkedin.com/company/people-performance-resources-llc/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></A>
-                                <A href="https://twitter.com/info_ppr/" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter-square"></i></A>
+                                    <A href="https://www.facebook.com/pprhr" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-square fa-3x px-2"></i></A>
+                                    <A href="https://www.instagram.com/ppr_hr/" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram fa-3x px-2"></i></A>
+                                    <A href="https://www.linkedin.com/company/people-performance-resources-llc/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin fa-3x px-2"></i></A>
+                                    <A href="https://twitter.com/info_ppr/" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter-square fa-3x px-2"></i></A>
 
 
                                 {/* <!-- Begin Mailchimp Signup Form --> */}

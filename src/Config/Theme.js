@@ -12,7 +12,7 @@ export default {
     sizes: {
         tiny_phone: "414px;",
         portrait_phone: "575.98px",
-        landscape_phone: "768.89;",
+        landscape_phone: "768.89px;",
         tablet: "991.98px",
         desktop: "1199.98px"
     }

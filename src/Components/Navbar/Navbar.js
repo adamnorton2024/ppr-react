@@ -58,7 +58,7 @@ class Navigation extends Component {
             <Div>
                 <Navbar collapseOnSelect expand="lg" variant="dark">
                     <div className="container">
-                    <Navbar.Brand href="/"><img src="/logo.svg" height='128px' width='128px' alt="PPR Logo" /></Navbar.Brand>
+                    <Navbar.Brand href="/"><img src="logo.svg" height='128px' width='128px' alt="PPR Logo" /></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto">

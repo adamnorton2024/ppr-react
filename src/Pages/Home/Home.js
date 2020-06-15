@@ -13,12 +13,21 @@ const Div = styled.div `
             margin-top: 1em;
             height: 70vh;
             padding: 0px;
+            
         }
 
         #ppr-logo{
             display: flex;
             justify-content: flex-end;
             flex-direction: column;
+            @media only screen and (min-width: 575.98px ) and (max-width: 768.89px) {
+                    height: 15vh;
+                    justify-content: flex-start;
+                }
+
+            @media only screen and (max-width: 575.98px) {
+                height: 15vh;
+            }
         }
 
         #think-be{
