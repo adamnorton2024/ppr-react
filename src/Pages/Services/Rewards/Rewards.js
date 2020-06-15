@@ -61,14 +61,12 @@ const Div = styled.div`
                 display: none;
                 @media only screen and (min-width: ${props => props.theme.sizes.portrait_phone} ) and (max-width: ${props => props.theme.sizes.landscape_phone}s) {
                     display: block;
-                    width: 100% !important;
-                    height: auto !important;
+                    object-fit: contain;
                 }
 
                 @media only screen and (max-width: ${props => props.theme.sizes.portrait_phone}) {
                     display: block;
-                    width: 100% !important;
-                    height: auto !important;
+                    object-fit: contain;
                 }
             }
     }

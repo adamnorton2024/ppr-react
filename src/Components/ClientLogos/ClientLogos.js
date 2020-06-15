@@ -24,7 +24,6 @@ class ClientLogos extends Component {
             <Section id="client-logos">
                 <p className="lead text-center" id="happy-clients">Just a few of our happy clients...</p>
                 <div>
-                    <Image className="img-fluid client-logos" src="./assets/images/logos/logo-ccg.png" alt="Child Care Group Logo"></Image>
                     <Image className="img-fluid client-logos" src="./assets/images/logos/logo-ccg.png" alt="Child Care Group Logo" ></Image>
                     <Image className="img-fluid client-logos" src="./assets/images/logos/logo-ctl.png" alt="Center for Transforming Lives Logo" ></Image>
                     <Image className="img-fluid client-logos" src="./assets/images/logos/logo-dma.png" alt="Dallas Museum of Art Logo" ></Image>
