@@ -53,6 +53,16 @@ const Div = styled.div`
                 }
 
             }
+        }
+
+        .employee{
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: cover;
+                border-radius: 50%;
+                border: 3px solid ${props => props.theme.colors.orange};
+                margin: 2em;
+            }
         } 
 
 `
