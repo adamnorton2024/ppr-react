@@ -121,12 +121,12 @@ class Team extends Component {
                 <Kacye />
                 <Cindy />
                 <Marissa />
-                <Jazmin />
-                <Brooke />
                 <Andrew />
-                <Stephanie />
-                <Maegan />
+                <Brooke />
+                <Jazmin />
                 <Kathy />
+                <Maegan />
+                <Stephanie />
             </div>
 
         )

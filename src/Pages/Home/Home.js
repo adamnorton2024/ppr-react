@@ -11,7 +11,7 @@ const Div = styled.div `
 
         #ppr-logo, #think-be{
             margin-top: 1em;
-            height: 70vh;
+            height: 84vh;
             padding: 0px;
             
         }
