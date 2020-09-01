@@ -84,6 +84,53 @@ const Div = styled.div`
 
                 
             }
+
+        }
+
+        #bzOpeningsContainer{
+            background: white;
+            padding-top: 5em;
+            .bzOpeningsCategoryList{  /*entire list*/
+                color: ${props => props.theme.colors.orange};
+                list-style-type: none;
+                .bzOpeningsCategory {
+                    margin-top: 3em;
+                    .bzCategory{
+                            font-size: 1.5em;
+                            margin-bottom: 1em;
+                            background-color: ${props => props.theme.colors.medium_blue};
+                            padding: .5em;
+                            border-radius: .15em;
+                        }
+                    .bzOpeningsList{
+                        .bzOpening{
+                            list-style-type: none;
+                            margin-bottom: 1.25em;
+                            
+                            .bzButtonApply{
+                                display: none;
+                            }
+                            h2{
+                                font-size: 1.25em;
+                                
+
+                            }
+                            .bzMeta{
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        a{
+            color: ${props => props.theme.colors.light_blue} !important;
+            text-decoration: none;
+            &:hover{
+                color: ${props => props.theme.colors.orange} !important;
+                text-decoration: line;
+            }
         }
        
 
@@ -118,7 +165,11 @@ class Career extends Component {
                             </div>
                         </div>
                         
-                        <div class="hire-jobs"></div>
+                        <div className="p-5" id='bzOpeningsContainer'></div>
+                        
+                        
+                        
+                        
                     </Div>
                 </ThemeProvider>
             </div>
