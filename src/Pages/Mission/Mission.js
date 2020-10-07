@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styled, { ThemeProvider } from 'styled-components';
 import theme from "../../Config/Theme";
+import { Helmet } from 'react-helmet';
 
 
 const Div = styled.div`
@@ -78,36 +79,48 @@ class Mission extends Component {
 
     render() {
         return (
-            <div>
-                <ThemeProvider theme={theme}>
-                    <Div>
-                        <div className="jumbotron jumbotron-fluid">
-                            <div className="container">
-                                <h1 className="display-1">Mission</h1>
-                            </div>
-                        </div>
+          <div>
+            <Helmet>
+              <html lang="en" />
+              <title>PPR - Mission, Vision, and Values</title>
+              <meta
+                name="description"
+                content="To be known and trusted as the most personalized human capital firm for small to mid-sized organizations."
+              />
+            </Helmet>
+            <ThemeProvider theme={theme}>
+              <Div>
+                <div className="jumbotron jumbotron-fluid">
+                  <div className="container">
+                    <h1 className="display-1">Mission</h1>
+                  </div>
+                </div>
 
-                        <div className="section pt-3 pb-3" id='mission-header'>
-                            <div className="row mx-0 d-flex justify-content-end">
-                                <div className="col-lg-7 col-md-12 my-5">
-                                    <div className="text-box">
-                                        <h1 className="display-4">Mission, Vision, Values</h1>
-                                        <div className="description">
-                                        </div>
-                                        <p className='sub-title'>Mission</p>
-                                        <p className="lead">We create better workplaces.</p>
-                                        <p className='sub-title'>Vision</p>
-                                        <p className="lead">To be known and trusted as the most personalized human capital firm for small to mid-sized organizations.</p>
-                                        <p className='sub-title'>Values</p>
-                                        <p className="lead">Personalized Partnerships that drive Results.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </Div>
-                </ThemeProvider>
-            </div>
-        )
+                <div className="section pt-3 pb-3" id="mission-header">
+                  <div className="row mx-0 d-flex justify-content-end">
+                    <div className="col-lg-7 col-md-12 my-5">
+                      <div className="text-box">
+                        <h1 className="display-4">Mission, Vision, Values</h1>
+                        <div className="description"></div>
+                        <p className="sub-title">Mission</p>
+                        <p className="lead">We create better workplaces.</p>
+                        <p className="sub-title">Vision</p>
+                        <p className="lead">
+                          To be known and trusted as the most personalized human
+                          capital firm for small to mid-sized organizations.
+                        </p>
+                        <p className="sub-title">Values</p>
+                        <p className="lead">
+                          Personalized Partnerships that drive Results.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </Div>
+            </ThemeProvider>
+          </div>
+        );
     }
 }
 

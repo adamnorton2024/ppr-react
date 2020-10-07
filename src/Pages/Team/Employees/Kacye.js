@@ -81,14 +81,16 @@ class Kacye extends Component {
                             <div className="col-md-8 col-sm-12 text-box-container">
                                 <div className="text-box">
                                     <div className="description">
-                                        <h1 className="display-4">Kacye</h1>
+                                        <h1 className="display-4">Kacye Benson</h1>
                                         <blockquote>
-                                            <p className="lead">M.PA, PHR, SHRM-SCP<br/>Sr. HR Consultant</p>
+                                            <p className="lead">M.PA, PHR, SHRM-SCP, Certified Trained Mediator<br/>Sr. HR Consultant</p>
                                             <p className="strengths">Responsibility | Relator | Strategic | Learner | Significance</p>
                                         </blockquote>
 
-                                        <p>Kacye has more than 7 years of experience in human resources, working in the government and non-profit sector. Her expertise includes human resources administration, organizational development, training, risk management & payroll management.</p>
+                                        <p>Kacye has over ten years of experience in HR, working in the government and non-profit sectors. Her expertise includes employment relations, compensation, performance management, risk management, training and development,    organizational development, payroll management, and other generalist functions.</p>
+
                                         <p>Kacye earned a Master’s Degree in Public Administration from Marist College and a B.S. in Criminal Justice.</p>
+
                                         <p>Kacye enjoys most any outdoor activity including running, hiking, tennis & spending as much time as possible pool or beachside.</p>
                                     </div>
                                 </div>

@@ -81,15 +81,15 @@ class Cindy extends Component {
                             <div className="col-md-8 col-sm-12 text-box-container">
                                 <div className="text-box">
                                     <div className="description">
-                                        <h1 className="display-4">Cindy</h1>
+                                        <h1 className="display-4">Cindy Wall</h1>
                                         <blockquote>
                                             <p className="lead">SPHR, SHRM-SCP<br/>Sr. HR Consultant</p>
                                             <p className="strengths">Responsibility | Intellection | Input | Arranger | Adaptability</p>
                                         </blockquote>
 
-                                        <p>Cindy has over 20 years of HR, Recruitment, and Talent Management experience, her expertise includes Employee Relations Counseling, Employee Recruitment & Retention, Strategic Planning, Compliance, and HR Policy Development & Implementation.</p>
-                                        <p>Cindy enjoys reading, baking and spending time with her husband, daughter, and their two dogs.</p>
-                                        <p>Cindy is originally from New England, so she a big fan of all New England sports teams – especially the Patriots and Red Sox!</p>
+                                        <p>Cindy has over 20 years of HR, recruitment and talent management, employee relations counseling, retention, strategic planning, compliance, policy development and implementation, and total rewards and executive compensation.</p>
+                                        <p>Cindy enjoys reading, baking and spending time with her husband, daughter, and their two dogs. She is originally from New England, so she a big fan of all New England sports teams – especially the Patriots and Red Sox! </p>
+                                        
                                     </div>
                                 </div>
                             </div>

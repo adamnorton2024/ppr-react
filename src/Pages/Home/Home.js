@@ -4,6 +4,7 @@ import theme from "../../Config/Theme";
 import Reviews from '../../Components/Reviews/Reviews';
 import ClientLogos from '../../Components/ClientLogos/ClientLogos';
 import MainHeader from './MainHeader/MainHeader';
+import { Helmet } from 'react-helmet';
 
 const Div = styled.div `
     .jumbotron {
@@ -45,6 +46,11 @@ class Home extends Component {
         return(
             
             <div>
+                <Helmet>
+                    <html lang="en" />
+                    <title>PPR Human Resources Consulting and Executive Talent Attraction Specialist</title>
+                    <meta name="description" content="People Performance Resources - PPR - The best human resources consulting firm in the Dallas / Ft. Worth area." />
+                </Helmet>
                 <Div>
                     <ThemeProvider theme={theme}>
                     <div className="jumbotron jumbotron-fluid pt-0 pb-0 mb-0">

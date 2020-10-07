@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styled, { ThemeProvider } from 'styled-components';
 import theme from "../../Config/Theme";
+import Helmet from 'react-helmet';
 
 
 const Div = styled.div`
@@ -105,41 +106,53 @@ class Blog extends Component {
 
     render() {
         return (
+          <div>
+            <Helmet>
+              <html lang="en" />
+              <title>HR Insider - People Performance Resources</title>
+              <meta
+                name="description"
+                content="HR Insider - People Performance Resources - Features and Information that Matter to You"
+              />
+            </Helmet>
+            <ThemeProvider theme={theme}>
+              <Div>
+                <div className="jumbotron jumbotron-fluid">
+                  <div className="container">
+                    <h1 className="display-1">Blog</h1>
+                  </div>
+                </div>
 
-            <div>
-                <ThemeProvider theme={theme}>
-                    <Div>
-                        <div className="jumbotron jumbotron-fluid">
-                            <div className="container">
-                                <h1 className="display-1">Blog</h1>
-                            </div>
-                        </div>
-
-                        <div className="section pt-3 pb-3" id='blog-header'>
-                            <div className="row mx-0">
-                                <div className="col-lg-7 col-md-12 my-5">
-                                    <div className="text-box">
-                                        <h1 className="display-4">HR Insider</h1>
-                                        <div className="description">
-                                        </div>
-                                        <p className='sub-title'>Features and Information that Matter to You</p>
-                                        <p className="lead">Articles from our monthly newsletters as well as featured content to keep you up to date on our community, HR policy and law changes. We also have tips and best practice information.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="blog-body">
-                            <div className="">
-                            <div className="blog-goes-here">
-                                <div className="mt-0" id="dib-posts"></div>
-                            </div>
-                            </div>
-                        </div>
-                    </Div>
-                </ThemeProvider>
-            </div>
-
-        )
+                <div className="section pt-3 pb-3" id="blog-header">
+                  <div className="row mx-0">
+                    <div className="col-lg-7 col-md-12 my-5">
+                      <div className="text-box">
+                        <h1 className="display-4">HR Insider</h1>
+                        <div className="description"></div>
+                        <p className="sub-title">
+                          Features and Information that Matter to You
+                        </p>
+                        <p className="lead">
+                          Articles from our monthly newsletters as well as
+                          featured content to keep you up to date on our
+                          community, HR policy and law changes. We also have
+                          tips and best practice information.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="blog-body">
+                  <div className="">
+                    <div className="blog-goes-here">
+                      <div className="mt-0" id="dib-posts"></div>
+                    </div>
+                  </div>
+                </div>
+              </Div>
+            </ThemeProvider>
+          </div>
+        );
     }
 }
 

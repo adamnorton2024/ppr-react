@@ -81,14 +81,14 @@ class Brooke extends Component {
                             <div className="col-md-8 col-sm-12 text-box-container">
                                 <div className="text-box">
                                     <div className="description">
-                                        <h1 className="display-4">Brooke</h1>
+                                        <h1 className="display-4">Brooke Dickey</h1>
                                         <blockquote>
                                             <p className="lead">Payroll Specialist</p>
                                             <p className="strengths">Relator | Responsibility | Arranger | Input | Communication</p>
                                         </blockquote>
 
-                                        <p>Brooke has over 12 years of Payroll experience processing full-cycle exempt, non-exempt, tips, commissions, car allowance, bonus and expense reports using multiple payroll systems. In addition to her payroll knowledge, she has experience with both benefits and accounting.</p>
-                                        <p>In her spare time, Brooke is a mom to two boys and enjoys watching them play sports. She also enjoys being outdoors, camping and hiking, and is a huge hockey fan.</p>
+                                        <p>Brooke has over 12 years of payroll experience processing full-cycle exempt, non-exempt, tips, commissions, car allowance, bonus and expense reports using multiple payroll systems. In addition, she has experience leading benefits and accounting functions.</p>
+                                        <p>In her spare time, Brooke is a mom of two boys and enjoys watching them play sports. She also enjoys being outdoors, camping and hiking, and is a huge hockey fan.</p>
                                     </div>
                                 </div>
                             </div>

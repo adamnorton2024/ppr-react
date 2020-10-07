@@ -12,6 +12,7 @@ import Jazmin from './Employees/Jazmin';
 import Andrew from './Employees/Andrew';
 import Maegan from './Employees/Maegan';
 import Kathy from './Employees/Kathy';
+import { Helmet } from 'react-helmet';
 
 
 
@@ -90,46 +91,68 @@ class Team extends Component {
 
     render() {
         return (
+          <div>
+            <Helmet>
+              <html lang="en" />
+              <title>
+                Team - Meet your PPR Team.  We become an extension of your team. 
+              </title>
+              <meta
+                name="description"
+                content="Meet the team at PPR. When you engage PPR, you gain a team of subject matter experts across a broad range of topics."
+              />
+            </Helmet>
+            <ThemeProvider theme={theme}>
+              <Div>
+                <div className="jumbotron jumbotron-fluid">
+                  <div className="container">
+                    <h1 className="display-1">Meet The Team</h1>
+                  </div>
+                </div>
 
-            <div>
-                <ThemeProvider theme={theme}>
-                    <Div>
-                        <div className="jumbotron jumbotron-fluid">
-                            <div className="container">
-                                <h1 className="display-1">Meet The Team</h1>
-                            </div>
+                <div className="section pt-3 pb-3" id="team-header">
+                  <div className="row mx-0">
+                    <div className="col-lg-7 col-md-12 my-5">
+                      <div className="text-box">
+                        <h1 className="display-4">Your Team</h1>
+                        <div className="description">
+                          <p className="lead">
+                            At the heart of PPR is a team of exceptional
+                            individuals whose daily efforts contribute to our
+                            overall success. It is through the engagement and
+                            dedication of each team member that PPR achieves our
+                            mission and our goals. With over 80 years of
+                            combined experience, we provide best practices in
+                            all areas of Human Resources.
+                          </p>
+                          <p className="lead">
+                            Every time we are engaged as a strategic HR business
+                            partner, our clients receive the highest level of
+                            personal commitment and a dedication that is
+                            best-in-class. We pride ourselves on becoming an
+                            extension of your organization in order to show a
+                            unified vision to all of your employees.
+                          </p>
                         </div>
-
-                        <div className="section pt-3 pb-3" id='team-header'>
-                            <div className="row mx-0">
-                                <div className="col-lg-7 col-md-12 my-5">
-                                    <div className="text-box">
-                                        <h1 className="display-4">Your Team</h1>
-                                        <div className="description">
-                                            <p className="lead">At the heart of PPR is a team of exceptional individuals whose daily efforts contribute to our overall success. It is through the engagement and dedication of each team member that PPR achieves our mission and our goals. With over 80 years of combined experience, we provide best practices in all areas of Human Resources.</p>
-                                            <p className="lead">Every time we are engaged as a strategic HR business partner, our clients receive the highest level of personal commitment and a dedication that is best-in-class. We pride ourselves on becoming an extension of your organization in order to show a unified vision to all of your employees.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </Div>
-                </ThemeProvider>
-                <Gabriela />
-                <Rachel />
-                <Kacye />
-                <Cindy />
-                <Marissa />
-                <Andrew />
-                <Brooke />
-                <Jazmin />
-                <Kathy />
-                <Maegan />
-                <Stephanie />
-            </div>
-
-        )
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </Div>
+            </ThemeProvider>
+            <Gabriela />
+            <Rachel />
+            <Kacye />
+            <Cindy />
+            <Andrew />
+            <Brooke />
+            <Jazmin />
+            <Kathy />
+            <Maegan />
+            <Marissa />
+            <Stephanie />
+          </div>
+        );
     }
 }
 

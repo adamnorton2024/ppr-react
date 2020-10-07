@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styled, { ThemeProvider } from 'styled-components';
 import theme from "../../Config/Theme";
+import { Helmet } from 'react-helmet';
 
 const Div = styled.div `
 
@@ -74,33 +75,78 @@ class About extends Component {
 
     render() {
         return (
-            <ThemeProvider theme={theme}>
-                <Div>
-                    <div className="jumbotron jumbotron-fluid pt-0 mb-0">
-                        <div className="container">
-                            <h1 className="display-1 mb-0">About Our Team</h1>
-                        </div>
-                    </div>
+          <ThemeProvider theme={theme}>
+            <Helmet>
+              <html lang="en" />
+              <title>PPR - About Us -</title>
+              <meta
+                name="description"
+                content="A commitment of excellence to each client is non-negotiable within our culture, so our HR consultants work closely as a unified extension of the teams we support."
+              />
+            </Helmet>
+            <Div>
+              <div className="jumbotron jumbotron-fluid pt-0 mb-0">
+                <div className="container">
+                  <h1 className="display-1 mb-0">About Our Team</h1>
+                </div>
+              </div>
 
-                    <div className="section pt-3 pb-3" id='about-header'>
-                        <div className="row mx-0">
-                            <div className="col-lg-7 col-md-12 my-5">
-                                <div className="text-box">
-                                    <h1 className="display-4">Our Story</h1>
-                                    <div className="description">
-                                        <p className="lead">Since our founding in February 2010, we have insisted in becoming a strategic, responsive and collaborative human capital management partner. Organizations as diverse as Southwestern Medical Foundation, Dallas Regional Chamber, The Dallas Foundation, Dallas Museum of Art, United Way of Metropolitan Dallas, Verde Valle Foods, Palacios & Sons (Charras Tostadas), Out Teach and many others, have trusted our expertise and through this process, we have been
-                                        able to be a part of creating better workplaces.</p>
-                                        <p className="lead">A commitment of excellence to each client is non-negotiable within our culture, so our HR consultants work closely as a unified extension of the teams we support. That level of trust and respect is important in achieving the goal of confident subject matter experts. At the end of the day, we want our clients to know that we’re there to handle the details of HR management so they can focus on the core issues of running their business.</p>
-                                        <p className="lead">Each client presents us with unique environments, their own company culture, and individualized needs, which means there is no template for what we do. We believe in personalizing our approach to align leadership’s vision, while providing subject matter guidance and best practice recommendations, a tactic that has consistently yield positive outcomes.</p>
-                                        <p className="lead">It’s our passion that drives these results. We want our clients to know that they have access to a consultant who is intimately familiar with their operations, their culture, and their team. Not only are we there to find positive solutions and mitigate risks, our goal is to elevate organizational performance and introduce best practices to achieve greater efficiency and profitability.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+              <div className="section pt-3 pb-3" id="about-header">
+                <div className="row mx-0">
+                  <div className="col-lg-7 col-md-12 my-5">
+                    <div className="text-box">
+                      <h1 className="display-4">Our Story</h1>
+                      <div className="description">
+                        <p className="lead">
+                          Since our founding in February 2010, we have insisted
+                          in becoming a strategic, responsive and collaborative
+                          human capital management partner. Organizations as
+                          diverse as Southwestern Medical Foundation, Dallas
+                          Regional Chamber, The Dallas Foundation, Dallas Museum
+                          of Art, United Way of Metropolitan Dallas, Verde Valle
+                          Foods, Palacios & Sons (Charras Tostadas), Out Teach
+                          and many others, have trusted our expertise and
+                          through this process, we have been able to be a part
+                          of creating better workplaces.
+                        </p>
+                        <p className="lead">
+                          A commitment of excellence to each client is
+                          non-negotiable within our culture, so our HR
+                          consultants work closely as a unified extension of the
+                          teams we support. That level of trust and respect is
+                          important in achieving the goal of confident subject
+                          matter experts. At the end of the day, we want our
+                          clients to know that we’re there to handle the details
+                          of HR management so they can focus on the core issues
+                          of running their business.
+                        </p>
+                        <p className="lead">
+                          Each client presents us with unique environments,
+                          their own company culture, and individualized needs,
+                          which means there is no template for what we do. We
+                          believe in personalizing our approach to align
+                          leadership’s vision, while providing subject matter
+                          guidance and best practice recommendations, a tactic
+                          that has consistently yield positive outcomes.
+                        </p>
+                        <p className="lead">
+                          It’s our passion that drives these results. We want
+                          our clients to know that they have access to a
+                          consultant who is intimately familiar with their
+                          operations, their culture, and their team. Not only
+                          are we there to find positive solutions and mitigate
+                          risks, our goal is to elevate organizational
+                          performance and introduce best practices to achieve
+                          greater efficiency and profitability.
+                        </p>
+                      </div>
                     </div>
-                </Div>
-            </ThemeProvider>
-        )
+                  </div>
+                </div>
+              </div>
+            </Div>
+          </ThemeProvider>
+        );
     }
 }
 

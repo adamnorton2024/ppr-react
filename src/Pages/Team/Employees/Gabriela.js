@@ -81,14 +81,20 @@ class Gabriela extends Component {
                                 <div className="col-md-8 col-sm-12 text-box-container">
                                     <div className="text-box">
                                         <div className="description">
-                                            <h1 className="display-4">Gabriela</h1>
+                                            <h1 className="display-4">Gabriela Norton</h1>
                                             <blockquote>
                                                 <p className="lead">SPHR<br/>Founder, President & CEO</p>
                                                     <p className="strengths">Positivity | Achiever | Arranger | Responsibility | Input</p>
                                             </blockquote>
 
-                                                <p>Gabriela is a passionate HR subject matter expert with a focus on strategy, operational excellence, high-level decision making and overall implementation of best practices.</p>
-                                                <p>Gabriela is a member of DallasHR, SHRM, and the Dallas Regional Chamber. She also participates in several causes that support low-income communities, women’s causes, children at risk and conservation efforts.</p>
+                                                <p>Gabriela is a passionate and strategic HR subject matter expert. Along with a talented team, Gabriela focuses on delivering best practices in operational excellence, high-level decision making, bilingual/bicultural expertise, board governance support, CEO succession planning, human capital analysis, executive assessment/coaching, conflict resolution, performance management, compensation, organizational development, diversity, equity and inclusion, strategic planning and development, change management, mergers and acquisitions, employment compliance, labor relations management, organizational development, executive search, talent acquisition and more.</p>
+
+
+
+                                                <p>Gabriela participates in several causes that support low income communities, women’s causes, at risk children and conservation efforts.</p>
+
+
+
                                                 <p>When not enjoying time at PPR, Gabriela is a foodie who loves to travel, run, snorkel, and spend time with her family and dog, Harley.</p>
                                         </div>
                                     </div>

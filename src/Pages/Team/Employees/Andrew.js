@@ -81,13 +81,13 @@ class Andrew extends Component {
                             <div className="col-md-8 col-sm-12 text-box-container">
                                 <div className="text-box">
                                     <div className="description">
-                                        <h1 className="display-4">Andrew</h1>
+                                        <h1 className="display-4">Andrew McMillan</h1>
                                         <blockquote>
                                             <p className="lead">Executive Search Specialist<br/>Associate HR Consultant</p>
                                             <p className="strengths">Responsibility | Restorative | Individualization | Input | Belief</p>
                                         </blockquote>
 
-                                        <p>Andrew's natural people understanding and connectedness drives his commitment to Talent Acquisition. His specialty in leading executive placements now provides a proven track record of highly successful connections to key roles, which continue to earn clients' trust and position PPR as a leading search firm.</p>
+                                        <p>Andrew's natural people understanding and connectedness drives his commitment to Talent Acquisition. His specialty in leading executive placements now provides a proven track record of highly successful connections to key roles, which continues to earn clients' trust.</p>
                                         <p>Andrew earned a B.A. in Biology from Austin College and is pursuing an MSHRM from the University of Southern California.</p>
                                         <p>For fun, Andrew enjoys learning new recipes and perfecting his pasta-making skills.</p>
                                     </div>

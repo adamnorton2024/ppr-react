@@ -81,7 +81,7 @@ class Jazmin extends Component {
                             <div className="col-md-8 col-sm-12 text-box-container">
                                 <div className="text-box">
                                     <div className="description">
-                                        <h1 className="display-4">Jazmin</h1>
+                                        <h1 className="display-4">Jazmin Kelly</h1>
                                         <blockquote>
                                             <p className="lead">M.S., SHRM-CP<br />HR Consultant & StrengthsFinder Coach</p>
                                             <p className="strengths">Deliberative | Restorative | Harmony | Intellection | Input</p>
@@ -89,7 +89,7 @@ class Jazmin extends Component {
 
                                         <p>Jazmin provides a unique combination of Psychology and behavior understanding to PPR’s people-focused initiatives. As a certified StrengthsFinder Coach by the Gallup organization, Jazmin facilitates organizational cohesiveness through training in this methodology.</p>
                                         <p>Jazmin holds an M.S. in Applied Psychology from the University of Southern California and a B.S. in Psychology from Austin College.</p>
-                                        <p>Jazmin enjoys fostering animals through Dallas Pets Alive! as well as finding new and exciting restaurants in Dallas and beyond.</p>
+                                        <p>Jazmin enjoys fostering animals through Dallas Pets Alive!, as well as finding new and exciting restaurants in Dallas and beyond.</p>
                                     </div>
                                 </div>
                             </div>

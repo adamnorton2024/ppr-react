@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styled, { ThemeProvider } from 'styled-components';
 import theme from "../../Config/Theme";
+import { Helmet } from 'react-helmet';
 
 
 const Div = styled.div`
@@ -141,40 +142,50 @@ class Career extends Component {
 
     render() {
         return (
+          <div>
+            <Helmet>
+              <html lang="en" />
+              <title>
+                PPR - Career Opportunities - Finding your next team member
+              </title>
+              <meta
+                name="description"
+                content="These are some of the positions we are currently sourcing for. If you or anyone you know would be a good fit, feel free to reach out to us for more information."
+              />
+            </Helmet>
+            <ThemeProvider theme={theme}>
+              <Div>
+                <div className="jumbotron jumbotron-fluid">
+                  <div className="container">
+                    <h1 className="display-1">Career</h1>
+                  </div>
+                </div>
 
-            <div>
-                <ThemeProvider theme={theme}>
-                    <Div>
-                        <div className="jumbotron jumbotron-fluid">
-                            <div className="container">
-                                <h1 className="display-1">Career</h1>
-                            </div>
-                        </div>
+                <div className="section pt-3 pb-3" id="career-header">
+                  <div className="row mx-0">
+                    <div className="col-lg-7 col-md-12 my-5">
+                      <div className="text-box">
+                        <h1 className="display-4">Career Opportunities</h1>
+                        <div className="description"></div>
+                        <p className="sub-title">
+                          Finding Your Next Team Member
+                        </p>
+                        <p className="lead">
+                          These are some of the positions we are currently
+                          sourcing for. If you or anyone you know would be a
+                          good fit, feel free to reach out to us for more
+                          information.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
-                        <div className="section pt-3 pb-3" id='career-header'>
-                            <div className="row mx-0">
-                                <div className="col-lg-7 col-md-12 my-5">
-                                    <div className="text-box">
-                                        <h1 className="display-4">Career Opportunities</h1>
-                                        <div className="description">
-                                        </div>
-                                        <p className='sub-title'>Finding Your Next Team Member</p>
-                                        <p className="lead">These are some of the positions we are currently sourcing for. If you or anyone you know would be a good fit, feel free to reach out to us for more information.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div className="p-5" id='bzOpeningsContainer'></div>
-                        
-                        
-                        
-                        
-                    </Div>
-                </ThemeProvider>
-            </div>
-
-        )
+                <div className="p-5" id="bzOpeningsContainer"></div>
+              </Div>
+            </ThemeProvider>
+          </div>
+        );
     }
 }
 

@@ -7,6 +7,7 @@ import Policy from "./Policy/Policy";
 import Strategy from './Strategy/Strategy';
 import Rewards from './Rewards/Rewards';
 import Workforce from './Workforce/Workforce';
+import { Helmet } from 'react-helmet';
 
 const Div = styled.div`
     .jumbotron{
@@ -93,44 +94,72 @@ class Services extends Component {
 
     render() {
         return (
-           
-            <div>
-                <ThemeProvider theme={theme}>
-                    <Div>
-                        <div className="jumbotron jumbotron-fluid">
-                            <div className="container">
-                                <h1 className="display-1">Services</h1>
-                            </div>
-                        </div>
+          <div>
+            <Helmet>
+              <html lang="en" />
+              <title>Services - What Do We Do For You?</title>
+              <meta
+                name="description"
+                content="In today's rapidly evolving business environment, a trusted advisor who not only provides relevant insights, but delivers a combination of strategic vision, expertise and practical experience can enhance the value of your business dramatically."
+              />
+            </Helmet>
+            <ThemeProvider theme={theme}>
+              <Div>
+                <div className="jumbotron jumbotron-fluid">
+                  <div className="container">
+                    <h1 className="display-1">Services</h1>
+                  </div>
+                </div>
 
-                        <div className="section" id='services-header'>
-                            <div className="row mx-0">
-                                <div className="col-lg-7 col-md-12 my-5">
-                                    <div className="text-box">
-                                        <h1 className="display-4">WHAT DO WE DO FOR YOU?</h1>
-                                        <div className="description">
-                                            <p className="lead">In today's rapidly evolving business environment, a trusted advisor who not only provides relevant insights, but delivers a compination of strategic vision, expertise and practical experience can enhance the value of your business dramatically.</p>
-                                            <p className="lead">When it comes to pricing options, you are in control. Many of our clients prefer a retainer in order to maximize results with measured expense.</p>
-                                            <p className="lead">Our Consulting Partnerships program will help you achieve your Human Resources goals where expectations and deliverables are established upfront. However, if a project by project partnership works best, this is also available and can be crafted to accommodate your unique needs. With either option, you will always receive a detailed invoice.</p>
-                                            <p className="sub-title">Popular Customizable Menu Options for You</p>
-                                            <p className="lead text-center">It's all up to you!</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                <div className="section" id="services-header">
+                  <div className="row mx-0">
+                    <div className="col-lg-7 col-md-12 my-5">
+                      <div className="text-box">
+                        <h1 className="display-4">WHAT DO WE DO FOR YOU?</h1>
+                        <div className="description">
+                          <p className="lead">
+                            In today's rapidly evolving business environment, a
+                            trusted advisor who not only provides relevant
+                            insights, but delivers a combination of strategic
+                            vision, expertise and practical experience can
+                            enhance the value of your business dramatically.
+                          </p>
+                          <p className="lead">
+                            When it comes to pricing options, you are in
+                            control. Many of our clients prefer a retainer in
+                            order to maximize results with measured expense.
+                          </p>
+                          <p className="lead">
+                            Our Consulting Partnerships program will help you
+                            achieve your Human Resources goals where
+                            expectations and deliverables are established
+                            upfront. However, if a project by project
+                            partnership works best, this is also available and
+                            can be crafted to accommodate your unique needs.
+                            With either option, you will always receive a
+                            detailed invoice.
+                          </p>
+                          <p className="sub-title">
+                            Popular Customizable Menu Options for You
+                          </p>
+                          <p className="lead text-center">
+                            It's all up to you!
+                          </p>
                         </div>
-
-                    </Div>
-                </ThemeProvider>
-                <CultureDev />
-                <Performance />
-                <Policy />
-                <Strategy />
-                <Rewards />
-                <Workforce />
-            </div>
-            
-        )
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </Div>
+            </ThemeProvider>
+            <CultureDev />
+            <Performance />
+            <Policy />
+            <Strategy />
+            <Rewards />
+            <Workforce />
+          </div>
+        );
     }
 }
 

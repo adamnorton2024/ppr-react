@@ -81,14 +81,14 @@ class Marissa extends Component {
                             <div className="col-md-8 col-sm-12 text-box-container">
                                 <div className="text-box">
                                     <div className="description">
-                                        <h1 className="display-4">Marissa</h1>
+                                        <h1 className="display-4">Marissa Rodriguez</h1>
                                         <blockquote>
                                             <p className="lead">HR Consultant</p>
                                             <p className="strengths">Responsibility | Individualization | Developer | Belief | Connectedness</p>
                                         </blockquote>
 
                                         <p>Marissa has fourteen years of progressive human resources and leadership experience. Prior to joining the PPR team, Marissa worked as an HR consultant managing the needs of her clients, delivering human capital services and value-added solutions to meet the requirements of her diverse customer population.</p>
-                                        <p>Marissa received her Bachelor of Science degree from Texas A&M University in College Station, Texas.</p>
+                                        <p>Marissa received her B.S. degree from Texas A&M University in College Station, Texas.</p>
                                         <p>In her spare time, she enjoys spending time with her family, traveling, Aggie football and movie nights with her kids</p>
                                     </div>
                                 </div>

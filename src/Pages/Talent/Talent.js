@@ -4,6 +4,7 @@ import theme from "../../Config/Theme";
 import Hiring from './Hiring/Hiring';
 import Background from './Background/Background';
 import Orientation from './Orientation/Orientation';
+import { Helmet } from 'react-helmet';
 
 
 const Div = styled.div`
@@ -102,41 +103,72 @@ class Training extends Component {
 
     render() {
         return (
+          <div>
+            <Helmet>
+              <html lang="en" />
+              <title>
+                Talent Acquisition - Find the right employee for your team.
+              </title>
+              <meta
+                name="description"
+                content="With extensive expertise and a positive track record of delivering full-service talent management and executive placement solutions, our experts can support your staff growth needs."
+              />
+            </Helmet>
+            <ThemeProvider theme={theme}>
+              <Div>
+                <div className="jumbotron jumbotron-fluid">
+                  <div className="container">
+                    <h1 className="display-1">Services</h1>
+                  </div>
+                </div>
 
-            <div>
-                <ThemeProvider theme={theme}>
-                    <Div>
-                        <div className="jumbotron jumbotron-fluid">
-                            <div className="container">
-                                <h1 className="display-1">Services</h1>
-                            </div>
+                <div class="section pt-3 pb-3" id="talent-header">
+                  <div class="row mx-0">
+                    <div class="col-lg-7 col-md-12 my-5">
+                      <div class="text-box">
+                        <h1 class="display-4">Talent Acquisition</h1>
+                        <div class="description">
+                          <p class="lead">
+                            When it comes to the right employee for your team,
+                            we provide best practices and will partner with
+                            hiring managers to fully understand your needs.
+                          </p>
+                          <p class="lead">
+                            With extensive expertise and a positive track record
+                            of delivering full-service talent management and
+                            executive placement solutions, our experts can
+                            support your staff growth needs.
+                          </p>
                         </div>
-
-                        <div class="section pt-3 pb-3" id='talent-header'>
-                            <div class="row mx-0">
-                                <div class="col-lg-7 col-md-12 my-5">
-                                    <div class="text-box">
-                                        <h1 class="display-4">Talent Acquisition</h1>
-                                        <div class="description">
-                                            <p class="lead">When it comes to the right employee for your team, we provide best practices and will partner with hiring managers to fully understand your needs.</p>
-                                            <p class="lead">With extensive expertise and a positive track record of delivering full-service talent management and executive placement solutions, our experts can support your staff growth needs.</p>
-                                        </div>
-                                        <p class='sub-title'>Finding Your Next Team Member</p>
-                                        <p class="lead">PPR has earned a strong reputation as a subject matter expert in all people matters. Our practices are rooted in years of both academic and practical hands-on experience partnering with executive teams, boards, and the business community at large.</p>
-                                        <p class="lead">Our consultants are uniquely positioned to learn from a diverse group of leaders. We, in essence, have first-hand knowledge as to the kind of leadership philosophies that work and also those that do not. This perspective allows us to identify the combination of competencies and behavioral performance that delivers clients a highly qualified match, which is critical at all levels.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </Div>
-                </ThemeProvider>
-               <Hiring />
-               <Orientation />
-               <Background />
-            </div>
-
-        )
+                        <p class="sub-title">Finding Your Next Team Member</p>
+                        <p class="lead">
+                          PPR has earned a strong reputation as a subject matter
+                          expert in all people matters. Our practices are rooted
+                          in years of both academic and practical hands-on
+                          experience partnering with executive teams, boards,
+                          and the business community at large.
+                        </p>
+                        <p class="lead">
+                          Our consultants are uniquely positioned to learn from
+                          a diverse group of leaders. We, in essence, have
+                          first-hand knowledge as to the kind of leadership
+                          philosophies that work and also those that do not.
+                          This perspective allows us to identify the combination
+                          of competencies and behavioral performance that
+                          delivers clients a highly qualified match, which is
+                          critical at all levels.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </Div>
+            </ThemeProvider>
+            <Hiring />
+            <Orientation />
+            <Background />
+          </div>
+        );
     }
 }
 

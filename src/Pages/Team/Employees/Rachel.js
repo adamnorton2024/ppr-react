@@ -81,13 +81,13 @@ class Rachel extends Component {
                             <div className="col-md-8 col-sm-12 text-box-container">
                                 <div className="text-box">
                                     <div className="description">
-                                        <h1 className="display-4">Rachel</h1>
+                                        <h1 className="display-4">Rachel Hale</h1>
                                         <blockquote>
                                             <p className="lead">J.D., MS., PHR, SHRM-CP<br/>Sr. HR Consultant & Compliance Specialist</p>
                                             <p className="strengths">Empathy | Includer | Connectedness | Positivity | Woo</p>
                                         </blockquote>
 
-                                        <p>Rachel’s practice focuses on HR legal solutions, best practices, and compliance. She is a licensed attorney and a graduate of Texas A&M University School of Law.</p>
+                                        <p>Rachel’s focuses on HR best practices, and overall compliance guidance. She is a licensed attorney and a graduate of Texas A&M University School of Law.</p>
                                         <p>Rachel is an active member and has served on the boards at Tarrant County Bar Association Women’s Section, Fort Worth Tri Club and currently serves on the Board at Fort Worth Christian School.</p>
                                         <p>For fun, Rachel enjoys endurance sports and has finished multiple marathons and triathlons, including the New York City Marathon and five half Ironman races.</p>
                                     </div>

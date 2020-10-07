@@ -81,13 +81,13 @@ class Maegan extends Component {
                             <div className="col-md-8 col-sm-12 text-box-container">
                                 <div className="text-box">
                                     <div className="description">
-                                        <h1 className="display-4">Maegan</h1>
+                                        <h1 className="display-4">Maegan Burger</h1>
                                         <blockquote>
-                                            <p className="lead">Administrative and Project Manager</p>
+                                            <p className="lead">Administration and Project Manager</p>
                                             <p className="strengths">Arranger | Includer | Restorative | Adaptability | Connectedness</p>
                                         </blockquote>
 
-                                        <p>Maegan provides administrative support for the President & CEO, Consultants and Recruiters, and assists in the coordination and preparation of company events. Maegan is passionate about providing excellent customer and internal service through project management, development, administration, and digital media presence.</p>
+                                        <p>Maegan provides administrative support to PPR, Consultants and Recruiters, and assists in the coordination and preparation of company events. Maegan is passionate about providing excellent customer service.</p>
                                         <p>Maegan holds a B.S. in Psychology from Dallas Baptist University.</p>
                                         <p>In her free time, you can find Maegan at the climbing gym, walking her dogs on the Katy Trail, or exploring local art museums.</p>
                                     </div>

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styled, { ThemeProvider } from 'styled-components';
 import theme from "../../Config/Theme";
+import { Helmet } from "react-helmet";
 
 
 const Div = styled.div`
@@ -97,39 +98,74 @@ class Contact extends Component {
 
     render() {
         return (
-            <div>
-                <ThemeProvider theme={theme}>
-                    <Div>
-                        <div className="jumbotron jumbotron-fluid">
-                            <div className="container">
-                                <h1 className="display-1">Contact</h1>
-                            </div>
-                        </div>
+          <div>
+            <Helmet>
+              <html lang="en" />
+              <title>
+                Contact - PPR Human Resources Consulting and Executive Talent Attraction
+                Specialist
+              </title>
+              <meta
+                name="description"
+                content="Contact PPR to discuss your HR needs."
+              />
+            </Helmet>
+            <ThemeProvider theme={theme}>
+              <Div>
+                <div className="jumbotron jumbotron-fluid">
+                  <div className="container">
+                    <h1 className="display-1">Contact</h1>
+                  </div>
+                </div>
 
-                        <div className="section pt-3 pb-3" id='contact-header'>
-                            <div className="row mx-0 d-flex justify-content-end">
-                                <div className="col-lg-7 col-md-12 my-5">
-                                    <div className="text-box">
-                                        <h1 className="display-4">Contact Us</h1>
-                                        <p className='sub-title'>Ready to Get Started?</p>
-                                        <p className="lead">Our team can devise a superior program that will meet and exceed your needs. At People Performance Resources, we are glad to demonstrate the real results and success that our clients have experienced.</p>
-                                        <p className="sub-title">Contact us for more information!</p>
-                                        <p className="lead">Phone: <a className="link-contact" href="tel:1-214-616-2040"> 214.616.2040</a></p>
-                                        <p className="lead">Email: <a className="link-contact" href="mailto:info@pprhr.com?subject=Services Inquiry"> info@pprhr.com</a></p>
-                                        <p className="lead">Mailing Address:</p>
-                                        <p className="lead" id="address">
-                                            1914 Skillman St.<br />
-                                                Ste. 110153<br />
-                                                    Dallas, TX 75206
-                                            </p>
-                                        </div>
-                                    </div>
-                                    </div>
-                                </div>
-                    </Div>
-                </ThemeProvider>
-            </div>
-        )
+                <div className="section pt-3 pb-3" id="contact-header">
+                  <div className="row mx-0 d-flex justify-content-end">
+                    <div className="col-lg-7 col-md-12 my-5">
+                      <div className="text-box">
+                        <h1 className="display-4">Contact Us</h1>
+                        <p className="sub-title">Ready to Get Started?</p>
+                        <p className="lead">
+                          Our team can devise a superior program that will meet
+                          and exceed your needs. At People Performance
+                          Resources, we are glad to demonstrate the real results
+                          and success that our clients have experienced.
+                        </p>
+                        <p className="sub-title">
+                          Contact us for more information!
+                        </p>
+                        <p className="lead">
+                          Phone:{" "}
+                          <a className="link-contact" href="tel:1-214-616-2040">
+                            {" "}
+                            214.616.2040
+                          </a>
+                        </p>
+                        <p className="lead">
+                          Email:{" "}
+                          <a
+                            className="link-contact"
+                            href="mailto:info@pprhr.com?subject=Services Inquiry"
+                          >
+                            {" "}
+                            info@pprhr.com
+                          </a>
+                        </p>
+                        <p className="lead">Mailing Address:</p>
+                        <p className="lead" id="address">
+                          1914 Skillman St.
+                          <br />
+                          Ste. 110153
+                          <br />
+                          Dallas, TX 75206
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </Div>
+            </ThemeProvider>
+          </div>
+        );
     }
 }
 

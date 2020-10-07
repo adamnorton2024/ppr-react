@@ -81,7 +81,7 @@ class Stephanie extends Component {
                             <div className="col-md-8 col-sm-12 text-box-container">
                                 <div className="text-box">
                                     <div className="description">
-                                        <h1 className="display-4">Stephanie</h1>
+                                        <h1 className="display-4">Stephanie McGillicuddy</h1>
                                         <blockquote>
                                             <p className="lead">HR Consultant</p>
                                             <p className="strengths">Arranger | Relator | Harmony | Input | Developer</p>

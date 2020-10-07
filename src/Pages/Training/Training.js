@@ -4,6 +4,7 @@ import theme from "../../Config/Theme";
 import StrengthsFinder from './StrengthsFinder/StrengthsFinder';
 import Coaching from './Coaching/Coaching';
 import Compliance from './Compliance/Compliance';
+import { Helmet } from 'react-helmet';
 
 const Div = styled.div`
     .jumbotron{
@@ -98,50 +99,62 @@ class Training extends Component {
 
     render() {
         return (
+          <div>
+            <Helmet>
+              <html lang="en" />
+              <title>Training and Development</title>
+              <meta
+                name="description"
+                content="Presentations are customized according to your specific needs. Our sessions can be delivered as part of a team meeting, a stand-alone training session, or Lunch-and-Learns."
+              />
+            </Helmet>
+            <ThemeProvider theme={theme}>
+              <Div>
+                <div className="jumbotron jumbotron-fluid">
+                  <div className="container">
+                    <h1 className="display-1">Services</h1>
+                  </div>
+                </div>
 
-            <div>
-                <ThemeProvider theme={theme}>
-                    <Div>
-                        <div className="jumbotron jumbotron-fluid">
-                            <div className="container">
-                                <h1 className="display-1">Services</h1>
-                            </div>
+                <div className="section pt-3 pb-3" id="training-header">
+                  <div className="row mx-0">
+                    <div className="col-lg-7 col-md-12 my-5">
+                      <div className="text-box">
+                        <h1 className="display-4">Training and Development</h1>
+                        <div className="description">
+                          <p className="lead">
+                            Presentations are customized according to your
+                            specific needs. Our sessions can be delivered as
+                            part of a team meeting, a stand-alone training
+                            session, or Lunch-and-Learns.
+                          </p>
                         </div>
-
-                        <div className="section pt-3 pb-3" id='training-header'>
-                            <div className="row mx-0">
-                                <div className="col-lg-7 col-md-12 my-5">
-                                    <div className="text-box">
-                                        <h1 className="display-4">Training and Development</h1>
-                                        <div className="description">
-                                            <p className="lead">Presentations are customized according to your specific needs. Our sessions can be delivered as part of a team meeting, a stand-alone training session, or Lunch-and-Learns.</p>
-                                        </div>
-                                        <p className='sub-title'>Top 10 HR Issues</p>
-                                        <ul>
-                                            <li className="lead">Retention</li>
-                                            <li className="lead">Hiring Practices</li>
-                                            <li className="lead">Fair Labor Standards Act</li>
-                                            <li className="lead">Employee Handbooks</li>
-                                            <li className="lead">Harassment</li>
-                                            <li className="lead">Family Medical Leave Act</li>
-                                            <li className="lead">Workers' Compensation</li>
-                                            <li className="lead">Employee Descipline & Termination</li>
-                                            <li className="lead">Protected Activities</li>
-                                            <li className="lead">Payroll</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </Div>
-                </ThemeProvider>
-                <StrengthsFinder />
-                <Compliance />
-                <Coaching />
-            </div>
-
-        )
+                        <p className="sub-title">Top 10 HR Issues</p>
+                        <ul>
+                          <li className="lead">Retention</li>
+                          <li className="lead">Hiring Practices</li>
+                          <li className="lead">Fair Labor Standards Act</li>
+                          <li className="lead">Employee Handbooks</li>
+                          <li className="lead">Harassment</li>
+                          <li className="lead">Family Medical Leave Act</li>
+                          <li className="lead">Workers' Compensation</li>
+                          <li className="lead">
+                            Employee Descipline & Termination
+                          </li>
+                          <li className="lead">Protected Activities</li>
+                          <li className="lead">Payroll</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </Div>
+            </ThemeProvider>
+            <StrengthsFinder />
+            <Compliance />
+            <Coaching />
+          </div>
+        );
     }
 }
 
