@@ -79,7 +79,7 @@ class SpanishSpeaking extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-sm-12 px-5" id='img-worker'>
+                            <div className="col-md-6 col-sm-12 px-5" id='img-worker'>
 
                             </div>
                         </div>

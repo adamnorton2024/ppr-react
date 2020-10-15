@@ -65,16 +65,16 @@ class Compliance extends Component {
         return (
             <ThemeProvider theme={theme}>
                 <Div>
-                    <section class="banner">
-                        <div class="row mx-0 shadow bg-white">
-                            <div class="col-md-6 col-sm-12 px-5 bg-white" id='img-compliance'>
+                    <section className="banner">
+                        <div className="row mx-0 shadow bg-white">
+                            <div className="col-md-6 col-sm-12 px-5 bg-white" id='img-compliance'>
 
                             </div>
-                            <div class="col-md-6 col-sm-12 text-box-container">
-                                <div class="text-box">
-                                    <h1 class="display-4">Compliance Training Topics</h1>
-                                    <div class="description">
-                                        <p class="lead">PPR will provide guides to critical subject matters for awareness and prevention including, but not limited to:</p>
+                            <div className="col-md-6 col-sm-12 text-box-container">
+                                <div className="text-box">
+                                    <h1 className="display-4">Compliance Training Topics</h1>
+                                    <div className="description">
+                                        <p className="lead">PPR will provide guides to critical subject matters for awareness and prevention including, but not limited to:</p>
                                         <ul>
                                             <li>Non-Harassment</li>
                                             <li>Alcohol and Drug Free Workplace</li>

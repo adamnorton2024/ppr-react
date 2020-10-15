@@ -62,7 +62,7 @@ class Navigation extends Component {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto">
-                            <NavDropdown className="dropdown" title="Services" id="collasible-nav-dropdown">
+                            <NavDropdown className="dropdown" title="Services" id="collapsible-nav-dropdown">
                                 <NavDropdown.Item className="nav-item" href="/services">HR Consulting</NavDropdown.Item>
                                 <NavDropdown.Item className="nav-item" href="/training">Training</NavDropdown.Item>
                                 <NavDropdown.Item className="nav-item" href="/talent">Talent Acquisition</NavDropdown.Item>

@@ -66,17 +66,17 @@ class TalentAcquisition extends Component {
         return (
             <ThemeProvider theme={theme}>
                 <Div>
-                    <section class="banner px-3 pt-3 pb-3">
-                        <div class="row mx-0 shadow">
-                            <div class="col-md-6 col-sm-12 text-box-container">
-                                <div class="text-box">
-                                    <h1 class="display-4">Talent Acquisition</h1>
-                                    <div class="description">
-                                        <p class="lead">High-level placement of Spanish speaking professionals.</p>
+                    <section className="banner px-3 pt-3 pb-3">
+                        <div className="row mx-0 shadow">
+                            <div className="col-md-6 col-sm-12 text-box-container">
+                                <div className="text-box">
+                                    <h1 className="display-4">Talent Acquisition</h1>
+                                    <div className="description">
+                                        <p className="lead">High-level placement of Spanish speaking professionals.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-sm-12 px-5" id='img-latina'>
+                            <div className="col-md-6 col-sm-12 px-5" id='img-latina'>
 
                             </div>
                         </div>

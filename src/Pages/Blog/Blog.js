@@ -88,7 +88,7 @@ const Div = styled.div`
         }
 
         .blog-body{
-            background-color: ${props => props.theme.colors.dark_blue};
+            margin-top: 2em;
         }
 
         #dib-posts{
@@ -143,7 +143,7 @@ class Blog extends Component {
                   </div>
                 </div>
                 <div className="blog-body">
-                  <div className="">
+                  <div className="container">
                     <div className="blog-goes-here">
                       <div className="mt-0" id="dib-posts"></div>
                     </div>

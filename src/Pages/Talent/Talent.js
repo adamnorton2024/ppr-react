@@ -122,33 +122,33 @@ class Training extends Component {
                   </div>
                 </div>
 
-                <div class="section pt-3 pb-3" id="talent-header">
-                  <div class="row mx-0">
-                    <div class="col-lg-7 col-md-12 my-5">
-                      <div class="text-box">
-                        <h1 class="display-4">Talent Acquisition</h1>
-                        <div class="description">
-                          <p class="lead">
+                <div className="section pt-3 pb-3" id="talent-header">
+                  <div className="row mx-0">
+                    <div className="col-lg-7 col-md-12 my-5">
+                      <div className="text-box">
+                        <h1 className="display-4">Talent Acquisition</h1>
+                        <div className="description">
+                          <p className="lead">
                             When it comes to the right employee for your team,
                             we provide best practices and will partner with
                             hiring managers to fully understand your needs.
                           </p>
-                          <p class="lead">
+                          <p className="lead">
                             With extensive expertise and a positive track record
                             of delivering full-service talent management and
                             executive placement solutions, our experts can
                             support your staff growth needs.
                           </p>
                         </div>
-                        <p class="sub-title">Finding Your Next Team Member</p>
-                        <p class="lead">
+                        <p className="sub-title">Finding Your Next Team Member</p>
+                        <p className="lead">
                           PPR has earned a strong reputation as a subject matter
                           expert in all people matters. Our practices are rooted
                           in years of both academic and practical hands-on
                           experience partnering with executive teams, boards,
                           and the business community at large.
                         </p>
-                        <p class="lead">
+                        <p className="lead">
                           Our consultants are uniquely positioned to learn from
                           a diverse group of leaders. We, in essence, have
                           first-hand knowledge as to the kind of leadership

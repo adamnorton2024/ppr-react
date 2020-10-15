@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navigation from '../Navbar/Navbar';
 import Home from '../../Pages/Home/Home';
@@ -16,12 +15,31 @@ import Contact from '../../Pages/Contact/Contact';
 import NoMatch from '../../Pages/NoMatch/NoMatch';
 import Footer from '../Footer/Footer';
 import ScrollToTop from '../ScrollUpButton/ScrollToTop';
+import styled from 'styled-components';
 
+const AppBackground = styled.div`
+  .app-background{
+    background:
+    linear-gradient(to top right,
+    rgba(20, 20, 30, 0.8), 
+    rgba(7, 72, 92, 0.8)
+    ),
+    url("/logo.svg");
+    width: 100%;
+    height: auto;
+    background-size: 300%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+`
 
 function App() {
   return (
-    <div className="App">
-      <React.Fragment>
+    <AppBackground className="App">
+      <div className="app-background">
+        <React.Fragment>
         <Router>
           <Navigation className="no-bg" />
           <Switch>
@@ -42,7 +60,8 @@ function App() {
         <Footer />
         <ScrollToTop />
       </React.Fragment>
-    </div>
+      </div>
+    </AppBackground>
     
 
   );

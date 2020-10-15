@@ -27,9 +27,9 @@ class Bicultural extends Component {
             <div>
                 <ThemeProvider theme={theme}>
                     <Div>
-                        <div class="jumbotron jumbotron-fluid">
-                            <div class="container">
-                                <h1 class="display-1">Services</h1>
+                        <div className="jumbotron jumbotron-fluid">
+                            <div className="container">
+                                <h1 className="display-1">Services</h1>
                             </div>
                         </div>
                     </Div>

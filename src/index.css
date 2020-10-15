@@ -9,9 +9,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("/assets/images/bg_rings.jpg");
-  background-repeat: no-repeat;
-  background-position: bottom-center;
+  background: linear-gradient(to right top, #14141e, #181d2a, #1a2636, #193042, #153a4e, #14455b, #105168);
+  background-attachment: fixed;
+  
   
 }
 

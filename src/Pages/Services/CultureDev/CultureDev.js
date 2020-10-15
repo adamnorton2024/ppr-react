@@ -104,7 +104,7 @@ class CultureDev extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-sm-12 px-5" id='img-culture'>
+                            <div className="col-md-6 col-sm-12 px-5" id='img-culture'>
 
                             </div>
                         </div>
