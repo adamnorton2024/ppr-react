@@ -83,7 +83,7 @@ class Rachel extends Component {
                                     <div className="description">
                                         <h1 className="display-4">Rachel Hale</h1>
                                         <blockquote>
-                                            <p className="lead">J.D., MS., PHR, SHRM-CP<br/>Sr. HR Consultant & Compliance Specialist</p>
+                                            <p className="lead">J.D., MS., PHR, SHRM-CP<br/>VP, Operations and Compliance</p>
                                             <p className="strengths">Empathy | Includer | Connectedness | Positivity | Woo</p>
                                         </blockquote>
 

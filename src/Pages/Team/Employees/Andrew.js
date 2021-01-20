@@ -83,7 +83,7 @@ class Andrew extends Component {
                                     <div className="description">
                                         <h1 className="display-4">Andrew McMillan</h1>
                                         <blockquote>
-                                            <p className="lead">Executive Search Specialist<br/>Associate HR Consultant</p>
+                                            <p className="lead">Executive Search Specialist<br/>Human Capital Consultant</p>
                                             <p className="strengths">Responsibility | Restorative | Individualization | Input | Belief</p>
                                         </blockquote>
 

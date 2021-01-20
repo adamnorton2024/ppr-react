@@ -83,7 +83,7 @@ class Stephanie extends Component {
                                     <div className="description">
                                         <h1 className="display-4">Stephanie McGillicuddy</h1>
                                         <blockquote>
-                                            <p className="lead">HR Consultant</p>
+                                            <p className="lead">Human Capital Consultant</p>
                                             <p className="strengths">Arranger | Relator | Harmony | Input | Developer</p>
                                         </blockquote>
 

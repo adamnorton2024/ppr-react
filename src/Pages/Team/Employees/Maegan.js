@@ -83,7 +83,7 @@ class Maegan extends Component {
                                     <div className="description">
                                         <h1 className="display-4">Maegan Burger</h1>
                                         <blockquote>
-                                            <p className="lead">Administration and Project Manager</p>
+                                            <p className="lead">Talent Coordinator</p>
                                             <p className="strengths">Arranger | Includer | Restorative | Adaptability | Connectedness</p>
                                         </blockquote>
 

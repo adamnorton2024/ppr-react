@@ -4,8 +4,6 @@ import theme from "../../Config/Theme";
 import Gabriela from './Employees/Gabriela';
 import Rachel from './Employees/Rachel';
 import Kacye from './Employees/Kacye';
-import Cindy from './Employees/Cindy';
-import Marissa from './Employees/Marissa';
 import Stephanie from './Employees/Stephanie';
 import Brooke from './Employees/Brooke';
 import Jazmin from './Employees/Jazmin';
@@ -143,13 +141,11 @@ class Team extends Component {
             <Gabriela />
             <Rachel />
             <Kacye />
-            <Cindy />
             <Andrew />
             <Brooke />
             <Jazmin />
             <Kathy />
             <Maegan />
-            <Marissa />
             <Stephanie />
           </div>
         );
