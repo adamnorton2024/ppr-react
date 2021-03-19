@@ -47,6 +47,7 @@ class ClientLogos extends Component {
                     <Image className="img-fluid client-logos" src="./assets/images/logos/logo-trintech.png" alt="Trintech Logo" ></Image>
                     <Image className="img-fluid client-logos" src="./assets/images/logos/logo-tdf.png" alt="The Dallas Foundation Logo" ></Image>
                     <Image className="img-fluid client-logos" src="./assets/images/logos/logo-unitedway.png" alt="United Way of Metropolitan Dallas Logo"></Image>
+                    <Image className="img-fluid client-logos" src="./assets/images/logos/logo-wac.png" alt="World Affairs Council"></Image>
                 </div>
             </Section>
         )
