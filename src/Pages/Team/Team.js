@@ -94,10 +94,10 @@ class Team extends Component {
             <Helmet>
               <html lang="en" />
               <title>
-                Team - Meet your PPR Team.  We become an extension of your team. 
+                Team - Meet your PPR Team.  We become an extension of your team - DFW Best Human Resources Consulting Firm 
               </title>
               <meta
-                name="description"
+                name=" Meet the Team at DFW's Best Human Resources Consulting Firm"
                 content="Meet the team at PPR. When you engage PPR, you gain a team of subject matter experts across a broad range of topics."
               />
             </Helmet>

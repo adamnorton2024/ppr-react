@@ -49,7 +49,7 @@ class Home extends Component {
                 <Helmet>
                     <html lang="en" />
                     <title>PPR Human Resources Consulting and Executive Talent Attraction Specialist</title>
-                    <meta name="description" content="People Performance Resources - PPR - The best human resources consulting firm in the Dallas / Ft. Worth area." />
+                    <meta name="People Performance Resources - DFW Best Human Resources Consulting Firm" content="People Performance Resources - PPR - The best human resources consulting firm in the Dallas / Ft. Worth area." />
                 </Helmet>
                 <Div>
                     <ThemeProvider theme={theme}>

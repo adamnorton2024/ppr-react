@@ -78,9 +78,9 @@ class About extends Component {
           <ThemeProvider theme={theme}>
             <Helmet>
               <html lang="en" />
-              <title>PPR - About Us -</title>
+              <title>PPR - About Us - DFW Best Human Resources Consulting Firm</title>
               <meta
-                name="description"
+                name="About People Performance Resources - DFW Best Human Resources Consulting Firm"
                 content="A commitment of excellence to each client is non-negotiable within our culture, so our HR consultants work closely as a unified extension of the teams we support."
               />
             </Helmet>

@@ -106,7 +106,7 @@ class Contact extends Component {
                 Specialist
               </title>
               <meta
-                name="description"
+                name="Contact - DFW Best Human Resources Consulting Firm"
                 content="Contact PPR to discuss your HR needs."
               />
             </Helmet>

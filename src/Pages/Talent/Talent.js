@@ -107,10 +107,10 @@ class Training extends Component {
             <Helmet>
               <html lang="en" />
               <title>
-                Talent Acquisition - Find the right employee for your team.
+                Talent Acquisition - Find the right employee for your team  - DFW Best Human Resources Consulting Firm
               </title>
               <meta
-                name="description"
+                name="Talent Attraction  - DFW Best Human Resources Consulting Firm"
                 content="With extensive expertise and a positive track record of delivering full-service talent management and executive placement solutions, our experts can support your staff growth needs."
               />
             </Helmet>

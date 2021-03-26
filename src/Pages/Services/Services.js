@@ -97,9 +97,9 @@ class Services extends Component {
           <div>
             <Helmet>
               <html lang="en" />
-              <title>Services - What Do We Do For You?</title>
+              <title>Services - What Do We Do For You?  - DFW Best Human Resources Consulting Firm</title>
               <meta
-                name="description"
+                name="People Performance Resources Services  - DFW Best Human Resources Consulting Firm"
                 content="In today's rapidly evolving business environment, a trusted advisor who not only provides relevant insights, but delivers a combination of strategic vision, expertise and practical experience can enhance the value of your business dramatically."
               />
             </Helmet>

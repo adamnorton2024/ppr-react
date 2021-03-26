@@ -102,9 +102,9 @@ class Training extends Component {
           <div>
             <Helmet>
               <html lang="en" />
-              <title>Training and Development</title>
+              <title>Training and Development  - DFW Best Human Resources Consulting Firm</title>
               <meta
-                name="description"
+                name="Training and Development - DFW Best Human Resources Consulting Firm"
                 content="Presentations are customized according to your specific needs. Our sessions can be delivered as part of a team meeting, a stand-alone training session, or Lunch-and-Learns."
               />
             </Helmet>

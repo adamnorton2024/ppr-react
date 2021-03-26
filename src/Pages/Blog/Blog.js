@@ -109,10 +109,10 @@ class Blog extends Component {
           <div>
             <Helmet>
               <html lang="en" />
-              <title>HR Insider - People Performance Resources</title>
+              <title>HR Insider - People Performance Resources - Blog</title>
               <meta
-                name="description"
-                content="HR Insider - People Performance Resources - Features and Information that Matter to You"
+                name="HR - Insider Blog"
+                content="HR Insider - People Performance Resources - Features and Information that Matter to You - Blog - Newsletter"
               />
             </Helmet>
             <ThemeProvider theme={theme}>
