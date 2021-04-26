@@ -11,6 +11,7 @@ import Andrew from './Employees/Andrew';
 import Maegan from './Employees/Maegan';
 import Kathy from './Employees/Kathy';
 import Candace from './Employees/Candace';
+import Erica from './Employees/Erica';
 import { Helmet } from 'react-helmet';
 
 
@@ -142,6 +143,7 @@ class Team extends Component {
             <Gabriela />
             <Rachel />
             <Kacye />
+            <Erica />
             <Andrew />
             <Brooke />
             <Jazmin />
