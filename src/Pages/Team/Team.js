@@ -143,7 +143,6 @@ class Team extends Component {
             <Gabriela />
             <Rachel />
             <Kacye />
-            <Erica />
             <Andrew />
             <Brooke />
             <Jazmin />
