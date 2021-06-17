@@ -150,6 +150,20 @@ class Reviews extends Component {
                                 </div>
                             </div>
                         </Carousel.Item>
+                        <Carousel.Item className='box'>
+                            <div className="row">
+                                    <div className="col-lg-4 col-md-12">
+                                    <div className="logo">
+                                        <img className="img-fluid review-logos" src="./assets/images/logos/logo-wac.png" alt="World Affairs Council Logo" />
+                                    </div>
+                                </div>
+                                    <div className="col-lg-8 col-md-12">
+                                    <p>"PPR guided us through an efficient and thorough interview process, and helped us zero in on the best candidate. Then PPR assisted us through the hiring process, to a successful conclusion."
+                                </p>
+                                    <p className="client">- World Affairs Council</p>
+                                </div>
+                            </div>
+                        </Carousel.Item>
                     </Carousel>
                 </div>
             </ReviewsSection>
