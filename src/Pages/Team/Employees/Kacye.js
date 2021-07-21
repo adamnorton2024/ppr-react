@@ -83,7 +83,7 @@ class Kacye extends Component {
                                     <div className="description">
                                         <h1 className="display-4">Kacye Benson</h1>
                                         <blockquote>
-                                            <p className="lead">M.PA, PHR, SHRM-SCP, Certified Trained Mediator<br/>Sr. Human Capital Consultant</p>
+                                            <p className="lead">M.PA, PHR, SHRM-SCP, Certified Trained Mediator<br/>Managing Director, Human Capital</p>
                                             <p className="strengths">Responsibility | Relator | Strategic | Learner | Significance</p>
                                         </blockquote>
 

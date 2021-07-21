@@ -67,29 +67,29 @@ const Div = styled.div`
 
 `
 
-class Rachel extends Component {
+class Amber extends Component {
 
     render() {
         return (
             <ThemeProvider theme={theme}>
                 <Div>
-                    <section className="banner px-3 pt-3 pb-3" id="rachel">
+                    <section className="banner px-3 pt-3 pb-3" id="amber">
                         <div className="row mx-0 shadow bg-white">
                             <div className="col-md-4 col-sm-12 px-5 bg-light d-flex align-items-center">
-                                <img className="img-fluid employee mx-auto" src="/assets/images/team/rachel.jpg" alt="rachel" id="img-rachel" />
+                                <img className="img-fluid employee mx-auto" src="/assets/images/team/amber.jpg" alt="amber" id="img-amber" />
                             </div>
                             <div className="col-md-8 col-sm-12 text-box-container">
                                 <div className="text-box">
                                     <div className="description">
-                                        <h1 className="display-4">Rachel Hale</h1>
+                                        <h1 className="display-4">Amber Hinojosa</h1>
                                         <blockquote>
-                                            <p className="lead">J.D., MS., PHR, SHRM-CP<br/>Human Capital Consultant</p>
-                                            <p className="strengths">Empathy | Includer | Connectedness | Positivity | Woo</p>
+                                            <p className="lead">PHR, SHRM-CP<br/>Sr. Human Capital Consultant</p>
+                                            <p className="strengths">Learner | Achiever | Belief | Input | Responsibility</p>
                                         </blockquote>
 
-                                        <p>Rachel’s focuses on HR best practices, and overall compliance guidance. She is a licensed attorney and a graduate of Texas A&M University School of Law.</p>
-                                        <p>Rachel is an active member and has served on the boards at Tarrant County Bar Association Women’s Section, Fort Worth Tri Club and currently serves on the Board at Fort Worth Christian School.</p>
-                                        <p>For fun, Rachel enjoys endurance sports and has finished multiple marathons and triathlons, including the New York City Marathon and five half Ironman races.</p>
+                                        <p>Amber joins PPR’s team as a Sr. Human Capital Consultant and brings a depth of expertise in overall human resources through a career that expands over 12 years. Her diverse background includes supporting both large and small organizations for which she led at a generalist capacity. Some of her most recent accomplishments include, creating a pandemic response plan and leading through COVID-19 operational needs/changes for virtual transition and for office re-entry, developing and championing culture health through times of adversity, hiring and onboarding over 150 employees as part of a company relocation, building trust and rapport with staff, while acting as a trusted advisor to main decision makers.</p>
+                                        <p>Amber’s expertise include compliance, risk management, employee relations, investigations, change management, succession planning and development, talent acquisition, benefits management, payroll, training and development, employee engagement, regulatory leave management, team cohesion and recognition, compensation and more.</p>
+                                        <p>Amber holds a B.S. in Business Administration Entrepreneurial Management from Texas Christian University.</p>
                                     </div>
                                 </div>
                             </div>
@@ -102,4 +102,4 @@ class Rachel extends Component {
     }
 }
 
-export default Rachel;
+export default Amber;

@@ -83,8 +83,8 @@ class Candace extends Component {
                                     <div className="description">
                                         <h1 className="display-4">Candace Anderson</h1>
                                         <blockquote>
-                                            <p className="lead">Human Capital Consultant</p>
-                                            
+                                            <p className="lead">M.A., SHRM-CP<br/> Human Capital Consultant</p>
+                                            <p className="strengths">Maximizer | Positivity | Arranger | Relator | Strategic</p>
                                         </blockquote>
 
                                         <p>Candace is a talented HR professional with over ten years of experience in a variety of industries. While she enjoys all aspects of HR, her passions are employee relations, talent optimization, and organizational development.</p>

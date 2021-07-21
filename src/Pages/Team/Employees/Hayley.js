@@ -67,29 +67,29 @@ const Div = styled.div`
 
 `
 
-class Rachel extends Component {
+class Stephanie extends Component {
 
     render() {
         return (
             <ThemeProvider theme={theme}>
                 <Div>
-                    <section className="banner px-3 pt-3 pb-3" id="rachel">
+                    <section className="banner px-3 pt-3 pb-3" id="stephanie">
                         <div className="row mx-0 shadow bg-white">
                             <div className="col-md-4 col-sm-12 px-5 bg-light d-flex align-items-center">
-                                <img className="img-fluid employee mx-auto" src="/assets/images/team/rachel.jpg" alt="rachel" id="img-rachel" />
+                                <img className="img-fluid employee mx-auto" src="/assets/images/team/stephanie.jpg" alt="stephanie" id="img-stephanie" />
                             </div>
                             <div className="col-md-8 col-sm-12 text-box-container">
                                 <div className="text-box">
                                     <div className="description">
-                                        <h1 className="display-4">Rachel Hale</h1>
+                                        <h1 className="display-4">Stephanie McGillicuddy</h1>
                                         <blockquote>
-                                            <p className="lead">J.D., MS., PHR, SHRM-CP<br/>Human Capital Consultant</p>
-                                            <p className="strengths">Empathy | Includer | Connectedness | Positivity | Woo</p>
+                                            <p className="lead">Human Capital Consultant</p>
+                                            <p className="strengths">Arranger | Relator | Harmony | Input | Developer</p>
                                         </blockquote>
 
-                                        <p>Rachel’s focuses on HR best practices, and overall compliance guidance. She is a licensed attorney and a graduate of Texas A&M University School of Law.</p>
-                                        <p>Rachel is an active member and has served on the boards at Tarrant County Bar Association Women’s Section, Fort Worth Tri Club and currently serves on the Board at Fort Worth Christian School.</p>
-                                        <p>For fun, Rachel enjoys endurance sports and has finished multiple marathons and triathlons, including the New York City Marathon and five half Ironman races.</p>
+                                        <p>Stephanie is dedicated to providing clients with knowledge of HR best practices and guidance to help them reach their full organizational potential. She particularly enjoys performance management, compensation, and analytics.</p>
+                                        <p>Stephanie earned an M.S. in Organizational Leadership with a graduate certificate in Human Resources Management, as well as a B.S. in Sport Management.</p>
+                                        <p>Stephanie loves outdoor and water activities like hiking and scuba diving, spending time at the beach, lake or pool, and watching sports, especially New England teams.</p>
                                     </div>
                                 </div>
                             </div>
@@ -102,4 +102,4 @@ class Rachel extends Component {
     }
 }
 
-export default Rachel;
+export default Stephanie;
