@@ -73,10 +73,10 @@ class Candace extends Component {
         return (
             <ThemeProvider theme={theme}>
                 <Div>
-                    <section className="banner px-3 pt-3 pb-3" id="stephanie">
+                    <section className="banner px-3 pt-3 pb-3" id="candace">
                         <div className="row mx-0 shadow bg-white">
                             <div className="col-md-4 col-sm-12 px-5 bg-light d-flex align-items-center">
-                                <img className="img-fluid employee mx-auto" src="/assets/images/team/placeholder-female.jpg" alt="stephanie" id="img-stephanie" />
+                                <img className="img-fluid employee mx-auto" src="/assets/images/team/candace.jpg" alt="candace" id="img-candace" />
                             </div>
                             <div className="col-md-8 col-sm-12 text-box-container">
                                 <div className="text-box">
