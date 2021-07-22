@@ -10,6 +10,8 @@ import Andrew from './Employees/Andrew';
 import Maegan from './Employees/Maegan';
 import Kathy from './Employees/Kathy';
 import Candace from './Employees/Candace';
+import Amber from './Employees/Amber';
+import Hayley from './Employees/Hayley';
 import { Helmet } from 'react-helmet';
 
 
@@ -139,14 +141,16 @@ class Team extends Component {
               </Div>
             </ThemeProvider>
             <Gabriela />
-            <Rachel />
             <Kacye />
+            <Amber />
             <Andrew />
+            <Candace />
+            <Hayley />
             <Jazmin />
             <Kathy />
             <Maegan />
             <Stephanie />
-            <Candace />
+            <Rachel />
           </div>
         );
     }

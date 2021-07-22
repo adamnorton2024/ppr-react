@@ -67,29 +67,29 @@ const Div = styled.div`
 
 `
 
-class Stephanie extends Component {
+class Hayley extends Component {
 
     render() {
         return (
             <ThemeProvider theme={theme}>
                 <Div>
-                    <section className="banner px-3 pt-3 pb-3" id="stephanie">
+                    <section className="banner px-3 pt-3 pb-3" id="hayley">
                         <div className="row mx-0 shadow bg-white">
                             <div className="col-md-4 col-sm-12 px-5 bg-light d-flex align-items-center">
-                                <img className="img-fluid employee mx-auto" src="/assets/images/team/stephanie.jpg" alt="stephanie" id="img-stephanie" />
+                                <img className="img-fluid employee mx-auto" src="/assets/images/team/hayley.jpg" alt="hayley" id="img-hayley" />
                             </div>
                             <div className="col-md-8 col-sm-12 text-box-container">
                                 <div className="text-box">
                                     <div className="description">
-                                        <h1 className="display-4">Stephanie McGillicuddy</h1>
+                                        <h1 className="display-4">Hayley Tibbetts</h1>
                                         <blockquote>
-                                            <p className="lead">Human Capital Consultant</p>
-                                            <p className="strengths">Arranger | Relator | Harmony | Input | Developer</p>
+                                            <p className="lead">Executive Assistant</p>
+                                            <p className="strengths">Harmony | Developer | Restorative | Achiever | Responsibility</p>
                                         </blockquote>
 
-                                        <p>Stephanie is dedicated to providing clients with knowledge of HR best practices and guidance to help them reach their full organizational potential. She particularly enjoys performance management, compensation, and analytics.</p>
-                                        <p>Stephanie earned an M.S. in Organizational Leadership with a graduate certificate in Human Resources Management, as well as a B.S. in Sport Management.</p>
-                                        <p>Stephanie loves outdoor and water activities like hiking and scuba diving, spending time at the beach, lake or pool, and watching sports, especially New England teams.</p>
+                                        <p>Hayley leads PPR’s administrative needs. With over 10 years supporting executives, six at the Four Seasons Hotel in Dallas, Hayley’s excellent relationship building skills emphasize PPR’s insistence on leading with a personal touch. Her efficiency and responsibility ensure our team remains focused on client needs.</p>
+                                        <p>Outside of PPR, Hayley continues her studies at Dallas College and enjoys spending time with friends, family, and a few rescue cats.</p>
+                                       
                                     </div>
                                 </div>
                             </div>
@@ -102,4 +102,4 @@ class Stephanie extends Component {
     }
 }
 
-export default Stephanie;
+export default Hayley;
