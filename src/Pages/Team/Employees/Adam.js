@@ -53,9 +53,9 @@ const Div = styled.div`
                 }
 
             }
-        } 
-            
-            .employee{
+        }
+
+        .employee{
                 background-repeat: no-repeat;
                 background-position: center center;
                 background-size: cover;
@@ -63,33 +63,65 @@ const Div = styled.div`
                 border: 3px solid ${props => props.theme.colors.orange};
                 margin: 2em;
             }
-        }
+        } 
 
 `
 
-class Amber extends Component {
+class Adam extends Component {
+    constructor() {
+        super();
+
+        this.state = {
+            profilepic: "/assets/images/team/adam.jpg"
+        }
+
+        this.handleMouseOver = this.handleMouseOver.bind(this);
+        this.handleMouseOut = this.handleMouseOut.bind(this);
+
+    }
+
+    handleMouseOver() {
+        let num = Math.random();
+        if (num < 0.6) {
+            this.setState({ profilepic: '/assets/images/team/adam_fun.jpg' });
+        } else {
+            this.setState({ profilepic: '/assets/images/team/adam_fun2.jpg' });
+        }
+        
+    }
+
+    handleMouseOut() {
+        this.setState({ profilepic: '/assets/images/team/adam.jpg' });
+    }
 
     render() {
         return (
             <ThemeProvider theme={theme}>
                 <Div>
-                    <section className="banner px-3 pt-3 pb-3" id="amber">
+                    <section className="banner px-3 pt-3 pb-3" id="adam">
                         <div className="row mx-0 shadow bg-white">
                             <div className="col-md-4 col-sm-12 px-5 bg-light d-flex align-items-center">
-                                <img className="img-fluid employee mx-auto" src="/assets/images/team/amber.jpg" alt="amber" id="img-amber" />
+                                <img className="img-fluid employee mx-auto"
+                                    onMouseOver={this.handleMouseOver}
+                                    onMouseOut={this.handleMouseOut}
+                                    src={this.state.profilepic}
+                                    alt="adam"
+                                    id="img-adam" />
                             </div>
                             <div className="col-md-8 col-sm-12 text-box-container">
                                 <div className="text-box">
                                     <div className="description">
-                                        <h1 className="display-4">Amber Hinojosa</h1>
+                                        <h1 className="display-4">Adam Norton</h1>
                                         <blockquote>
-                                            <p className="lead">PHR, SHRM-CP<br/>Sr. Human Capital Consultant</p>
-                                            <p className="strengths">Learner | Achiever | Belief | Input | Responsibility</p>
+                                            <p className="lead">Chief Technology & Strategy Officer</p>
+                                            <p className="strengths">Strategic | Maximizer | Achiever | Futuristic | Adaptability</p>
                                         </blockquote>
 
-                                        <p>Amber joins PPR’s team as a Sr. Human Capital Consultant and brings a depth of expertise in overall human resources through a career that expands over 12 years. Her diverse background includes supporting both large and small organizations for which she led at a generalist capacity. She is very skilled at building trust and rapport with staff, while acting as a trusted advisor to main decision makers.</p>
-                                        <p>Amber’s expertise include compliance, risk management, employee relations, investigations, change management, succession planning and development, talent acquisition, benefits management, payroll, training and development, employee engagement, regulatory leave management, team cohesion and recognition, compensation and more.</p>
-                                        <p>Amber holds a B.S. in Business Administration Entrepreneurial Management from Texas Christian University.</p>
+                                        <p>Adam has more than 25 years of experience working in many different aspects of the technology sector.  He expertise includes computer graphics and animation, multi-media, video production, full-stack web development, and IT.</p>
+
+                                        <p>Adam also has extensive experience in project management tools and methodologies, and excels at finding inefficiencies and making adjustments to correct them. He has been a professional artist for over 25 years and loves projects that blend technology and art.</p>
+
+                                        <p>Adam has a degree in Computer Animation and Multimedia, and is proficient in 12 different programming languages, but is also an avid scuba diver who prefers to spend as much time as possible traveling and exploring the world's oceans.</p>
                                     </div>
                                 </div>
                             </div>
@@ -102,4 +134,4 @@ class Amber extends Component {
     }
 }
 
-export default Amber;
+export default Adam;

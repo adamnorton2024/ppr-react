@@ -83,7 +83,7 @@ class Hayley extends Component {
                                     <div className="description">
                                         <h1 className="display-4">Hayley Tibbetts</h1>
                                         <blockquote>
-                                            <p className="lead">Executive Assistant</p>
+                                            <p className="lead">Human Capital Coordinator</p>
                                             <p className="strengths">Harmony | Developer | Restorative | Achiever | Responsibility</p>
                                         </blockquote>
 

@@ -53,9 +53,9 @@ const Div = styled.div`
                 }
 
             }
-        } 
-            
-            .employee{
+        }
+
+        .employee{
                 background-repeat: no-repeat;
                 background-position: center center;
                 background-size: cover;
@@ -63,33 +63,35 @@ const Div = styled.div`
                 border: 3px solid ${props => props.theme.colors.orange};
                 margin: 2em;
             }
-        }
+        } 
 
 `
 
-class Amber extends Component {
+class Luke extends Component {
 
     render() {
         return (
             <ThemeProvider theme={theme}>
                 <Div>
-                    <section className="banner px-3 pt-3 pb-3" id="amber">
+                    <section className="banner px-3 pt-3 pb-3" id="luke">
                         <div className="row mx-0 shadow bg-white">
                             <div className="col-md-4 col-sm-12 px-5 bg-light d-flex align-items-center">
-                                <img className="img-fluid employee mx-auto" src="/assets/images/team/amber.jpg" alt="amber" id="img-amber" />
+                                <img className="img-fluid employee mx-auto" src="/assets/images/team/luke.jpg" alt="luke" id="img-luke" />
                             </div>
                             <div className="col-md-8 col-sm-12 text-box-container">
                                 <div className="text-box">
                                     <div className="description">
-                                        <h1 className="display-4">Amber Hinojosa</h1>
+                                        <h1 className="display-4">Luke Benson</h1>
                                         <blockquote>
-                                            <p className="lead">PHR, SHRM-CP<br/>Sr. Human Capital Consultant</p>
-                                            <p className="strengths">Learner | Achiever | Belief | Input | Responsibility</p>
+                                            <p className="lead">Human Capital Consultant</p>
+                                            <p className="strengths">Learner | Achiever | Arranger | Analytical | Self-Assurance</p>
                                         </blockquote>
 
-                                        <p>Amber joins PPR’s team as a Sr. Human Capital Consultant and brings a depth of expertise in overall human resources through a career that expands over 12 years. Her diverse background includes supporting both large and small organizations for which she led at a generalist capacity. She is very skilled at building trust and rapport with staff, while acting as a trusted advisor to main decision makers.</p>
-                                        <p>Amber’s expertise include compliance, risk management, employee relations, investigations, change management, succession planning and development, talent acquisition, benefits management, payroll, training and development, employee engagement, regulatory leave management, team cohesion and recognition, compensation and more.</p>
-                                        <p>Amber holds a B.S. in Business Administration Entrepreneurial Management from Texas Christian University.</p>
+                                        <p>Luke joins PPR’s team as a Human Capital Consultant and brings expertise that includes criminal and staff investigations; risk prevention, assessment, mitigation, and management; workforce safety and emergency response; leadership training and development, professional coaching; team development and cohesion; data analysis; policy and procedure; talent acquisition and onboarding; cognitive training development programming; and change management.</p>
+
+                                        <p>Luke has a proven track record in developing and implementing strategic and operational initiatives, training and development of leadership and staff, and professional coaching, and operational leadership positions for several non-profit organizations.</p>
+
+                                        <p>Luke holds a Master of Business Administration from Baylor University and a Bachelor’s of Criminal Justice from the University of North Texas.  Luke also holds a Master Peace Officers license in the State of Texas and is a Cognitive Interview Specialist.</p>
                                     </div>
                                 </div>
                             </div>
@@ -102,4 +104,4 @@ class Amber extends Component {
     }
 }
 
-export default Amber;
+export default Luke;

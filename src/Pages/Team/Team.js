@@ -2,16 +2,15 @@ import React, { Component } from 'react';
 import styled, { ThemeProvider } from 'styled-components';
 import theme from "../../Config/Theme";
 import Gabriela from './Employees/Gabriela';
-import Rachel from './Employees/Rachel';
 import Kacye from './Employees/Kacye';
-import Stephanie from './Employees/Stephanie';
+import Adam from './Employees/Adam';
 import Jazmin from './Employees/Jazmin';
-import Andrew from './Employees/Andrew';
-import Maegan from './Employees/Maegan';
 import Kathy from './Employees/Kathy';
 import Candace from './Employees/Candace';
 import Amber from './Employees/Amber';
 import Hayley from './Employees/Hayley';
+import Luke from './Employees/Luke';
+import Kellee from './Employees/Kellee';
 import { Helmet } from 'react-helmet';
 
 
@@ -142,15 +141,14 @@ class Team extends Component {
             </ThemeProvider>
             <Gabriela />
             <Kacye />
+            <Adam />
             <Amber />
-            <Andrew />
             <Candace />
             <Hayley />
             <Jazmin />
             <Kathy />
-            <Maegan />
-            <Stephanie />
-            <Rachel />
+            <Kellee />
+            <Luke />
           </div>
         );
     }
