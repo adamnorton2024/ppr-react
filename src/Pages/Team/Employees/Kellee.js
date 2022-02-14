@@ -87,11 +87,11 @@ class Kellee extends Component {
                                             <p className="strengths">Includer | Developer | Individualization | Learner | Achiever</p>
                                         </blockquote>
 
-                                        <p>Kellee joins PPR with over ten years of Human Resources experience focused mostly in retail, technology, and real estate.  Her background consists of supporting small to medium companies, both privately and publicly held, at Generalist and Business Partner levels.  While she has supported all aspects of Human Resources, her expertise lies in building trust with employees and managers to be an advocate, investigations, policy and procedure formation, coaching, training and development, culture development, and employee relations.</p>
-
-                                        <p>In her free time, Kellee spends time with her family made up of her husband, their four children, and their three-legged Boston Terrier, Samson.  She can also be found volunteering weekly as a Sunday School Teacher for Hope Fellowship Church.</p>
+                                        <p>Kellee joins PPR with over ten years of Human Resources experience focused mostly in retail, technology, and real estate. Her background consists of supporting small to medium companies, both privately and publicly held, at Generalist and Business Partner levels.  While Kellee has an extensive knowledge of multi-disciplinary areas in HR such as investigations, policy and procedure formation, coaching, training and development, culture development, and employee relations, her expertise lies in building trust with employees and leaders to be a balanced advocate for teams while protecting the business.</p>
 
                                         <p>Kellee’s educational background includes a B.A. in Psychology from Salem College as well as a Strategic Human Resources Business Partner certification from the Human Capital Institute.</p>
+
+                                        <p>For fun, Kellee spends time with her husband, their four children, and their three-legged Boston Terrier, Samson.  She can also be found volunteering weekly as a Sunday School Teacher for Hope Fellowship Church.</p>
                                     </div>
                                 </div>
                             </div>

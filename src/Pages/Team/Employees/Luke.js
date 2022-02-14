@@ -87,11 +87,11 @@ class Luke extends Component {
                                             <p className="strengths">Learner | Achiever | Arranger | Analytical | Self-Assurance</p>
                                         </blockquote>
 
-                                        <p>Luke joins PPR’s team as a Human Capital Consultant and brings expertise that includes criminal and staff investigations; risk prevention, assessment, mitigation, and management; workforce safety and emergency response; leadership training and development, professional coaching; team development and cohesion; data analysis; policy and procedure; talent acquisition and onboarding; cognitive training development programming; and change management.</p>
-
-                                        <p>Luke has a proven track record in developing and implementing strategic and operational initiatives, training and development of leadership and staff, and professional coaching, and operational leadership positions for several non-profit organizations.</p>
+                                        <p>Luke brings specialized expertise in leading investigations; risk prevention that includes liability assessment, mitigation, and solutions management; workforce safety and emergency response; leadership training and development, professional coaching; team development and cohesion; data analysis; policy and procedure development; talent acquisition and onboarding; cognitive training development programming; operational leadership and change management. Luke has a successful proven track record in developing and implementing strategic and operational methodologies and with a high analytical skills, he naturally utilizes fact checks and facts gathering in root cause finding initiatives. </p>
 
                                         <p>Luke holds a Master of Business Administration from Baylor University and a Bachelor’s of Criminal Justice from the University of North Texas.  Luke also holds a Master Peace Officers license in the State of Texas and is a Cognitive Interview Specialist.</p>
+
+                                        <p>For fun, Luke loves to spend time with his wife, their four wonderful kids, two good dogs (most of the time) and a cat.</p>
                                     </div>
                                 </div>
                             </div>

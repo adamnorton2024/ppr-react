@@ -117,11 +117,11 @@ class Adam extends Component {
                                             <p className="strengths">Strategic | Maximizer | Achiever | Futuristic | Adaptability</p>
                                         </blockquote>
 
-                                        <p>Adam has more than 25 years of experience working in many different aspects of the technology sector.  He expertise includes computer graphics and animation, multi-media, video production, full-stack web development, and IT.</p>
+                                        <p>Adam has more than 25 years of experience working in many different aspects of the technology sector. He brings to PPR deep expertise in project management, software development, computer graphics and animation, multi-media, video production, full-stack web development, digital production art, and IT management. Adam excels at finding process inefficiencies and making adjustments to correct them, while ensuring visuals go from great to excellent, so he loves projects that blend technology and art. Adam has led small and large teams and has directed projects with budgets ranging from $100k to over $300 million, all to successful and timely completion. </p>
 
-                                        <p>Adam also has extensive experience in project management tools and methodologies, and excels at finding inefficiencies and making adjustments to correct them. He has been a professional artist for over 25 years and loves projects that blend technology and art.</p>
+                                        <p>Adam holds a B.A. in Computer Animation and Multimedia, and is proficient in 12 different programming languages. .</p>
 
-                                        <p>Adam has a degree in Computer Animation and Multimedia, and is proficient in 12 different programming languages, but is also an avid scuba diver who prefers to spend as much time as possible traveling and exploring the world's oceans.</p>
+                                        <p>For fun, he is an avid scuba diver who prefers to spend as much time as possible traveling with is wife and exploring the world's oceans.</p>
                                     </div>
                                 </div>
                             </div>
