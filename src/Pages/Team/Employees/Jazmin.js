@@ -83,7 +83,7 @@ class Jazmin extends Component {
                                     <div className="description">
                                         <h1 className="display-4">Jazmin Kelly</h1>
                                         <blockquote>
-                                            <p className="lead">M.S., SHRM-CP<br />Human Capital Consultant & StrengthsFinder Coach</p>
+                                            <p className="lead">M.S., SHRM-CP<br />Chief of Staff</p>
                                             <p className="strengths">Deliberative | Restorative | Harmony | Intellection | Input</p>
                                         </blockquote>
 

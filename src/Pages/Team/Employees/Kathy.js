@@ -68,6 +68,31 @@ const Div = styled.div`
 `
 
 class Kathy extends Component {
+    constructor() {
+        super();
+
+        this.state = {
+            profilepic: "/assets/images/team/kathy.jpg"
+        }
+
+        this.handleMouseOver = this.handleMouseOver.bind(this);
+        this.handleMouseOut = this.handleMouseOut.bind(this);
+
+    }
+
+    handleMouseOver() {
+        let num = Math.random();
+        if (num < 0.6) {
+            this.setState({ profilepic: '/assets/images/team/kathy_fun.jpg' });
+        } else {
+            this.setState({ profilepic: '/assets/images/team/kathy_fun2.jpg' });
+        }
+        
+    }
+
+    handleMouseOut() {
+        this.setState({ profilepic: '/assets/images/team/kathy.jpg' });
+    }
 
     render() {
         return (
@@ -76,7 +101,12 @@ class Kathy extends Component {
                     <section className="banner px-3 pt-3 pb-4" id="kathy">
                         <div className="row mx-0 shadow bg-white">
                             <div className="col-md-4 col-sm-12 px-5 bg-light d-flex align-items-center">
-                                <img className="img-fluid employee mx-auto" src="/assets/images/team/kathy.jpg" alt="kathy" id="kathy" />
+                                <img className="img-fluid employee mx-auto"
+                                    onMouseOver={this.handleMouseOver}
+                                    onMouseOut={this.handleMouseOut}
+                                    src={this.state.profilepic}
+                                    alt="kathy"
+                                    id="img-kathy" />
                             </div>
                             <div className="col-md-8 col-sm-12 text-box-container">
                                 <div className="text-box">
