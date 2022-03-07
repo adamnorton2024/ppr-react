@@ -87,9 +87,9 @@ class Jazmin extends Component {
                                             <p className="strengths">Deliberative | Restorative | Harmony | Intellection | Input</p>
                                         </blockquote>
 
-                                        <p>Jazmin provides a unique combination of Psychology and behavior understanding to PPR’s people-focused initiatives. As a certified StrengthsFinder Coach by the Gallup organization, Jazmin facilitates organizational cohesiveness through training in this methodology.</p>
-                                        <p>Jazmin holds an M.S. in Applied Psychology from the University of Southern California and a B.S. in Psychology from Austin College.</p>
-                                        <p>Jazmin enjoys fostering animals through Dallas Pets Alive!, as well as finding new and exciting restaurants in Dallas and beyond.</p>
+                                        <p>Jazmin provides a unique combination of Psychology and behavioral understanding to PPR’s people-focused initiatives and data analytics. As a certified StrengthsFinder Coach by the Gallup organization, Jazmin facilitates organizational cohesiveness through training in this methodology and leads PPR’s authored strategic organizational projects, such Talent Planning Analysis and Culture Engagement. Internally, Jazmin is a member of the executive team and leads internal strategic and innovative initiatives.</p>
+                                        <p>Jazmin earned a M.S. in Applied Psychology from the University of Southern California and a B.S. in Psychology from Austin College.</p>
+                                        <p>For fun, Jazmin enjoys fostering animals through Dallas Pets Alive!, as well as finding new and exciting restaurants in Dallas and beyond.</p>
                                     </div>
                                 </div>
                             </div>

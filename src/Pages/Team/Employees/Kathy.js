@@ -117,9 +117,9 @@ class Kathy extends Component {
                                             <p className="strengths">Learner | Communication | Relator | Positivity | Strategic</p>
                                         </blockquote>
 
-                                        <p>Kathy has over ten years of HR management experience and specializes in talent acquisition. She has a passion for connecting top talent to the technical and soft skills our clients require in order to enhance their cultures.</p>
-                                        <p>Kathy has a heart for serving others and volunteers with nonprofit organizations. Recently, Kathy and her dog Dusty became a Certified Caring Canine team. Together, they make visits to local hospitals.</p>
-                                        <p>Kathy earned her MSHRM and her B.A. in Management from the University of Texas at Arlington.</p>
+                                        <p>Kathy has over ten years of HR management experience and specializes in talent acquisition with a niche in executive searches. She has a passion for connecting top talent to the technical and soft skills our clients require in order to enhance their cultures. Kathy has led placements in both for-profit and non-profit environments, with great success placing specialized positions, development/fundraising professionals, and school leaders.  </p>
+                                        <p>Kathy earned a M.S. in Human Resources Management and her B.A. in Management from the University of Texas at Arlington.</p>
+                                        <p>For fun, Kathy has a heart for serving others and volunteers with nonprofit organizations. Kathy and her dog Dusty became a Certified Caring Canine team. Together, they make visits to local hospitals.</p>
                                     </div>
                                 </div>
                             </div>

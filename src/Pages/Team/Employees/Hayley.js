@@ -87,8 +87,9 @@ class Hayley extends Component {
                                             <p className="strengths">Harmony | Developer | Restorative | Achiever | Responsibility</p>
                                         </blockquote>
 
-                                        <p>Hayley leads PPR’s administrative needs. With over 10 years supporting executives, six at the Four Seasons Hotel in Dallas, Hayley’s excellent relationship building skills emphasize PPR’s insistence on leading with a personal touch. Her efficiency and responsibility ensure our team remains focused on client needs.</p>
-                                        <p>Outside of PPR, Hayley continues her studies at Dallas College and enjoys spending time with friends, family, and a few rescue cats.</p>
+                                        <p>Hayley has over 10 years of experience supporting executives with administrative and financial functions. Six of those years were spent at the Four Seasons Hotel in Dallas, where Hayley developed excellent relationship nurturing skills. Her thoughtful approach, ability to elevate efficiencies, sense of responsibility, and personal touch, delivers high levels of quality to the special projects she leads at PPR.</p>
+                                        <p>Hayley holds an A.A. from Dallas College.</p>
+                                        <p>For fun, Hayley enjoys spending time with her boyfriend, their friends, family, and a few (super adorable) rescue cats.</p>
                                        
                                     </div>
                                 </div>

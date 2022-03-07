@@ -87,11 +87,11 @@ class Kacye extends Component {
                                             <p className="strengths">Responsibility | Relator | Strategic | Learner | Significance</p>
                                         </blockquote>
 
-                                        <p>Kacye has over ten years of experience in HR, working in the government and non-profit sectors. Her expertise includes employment relations, compensation, performance management, risk management, training and development,    organizational development, payroll management, and other generalist functions.</p>
+                                        <p>Kacye has over fifteen years of experience in HR with specialty in government and non-profit sectors. Her expertise includes employment relations, compensation, performance management, risk management, conflict resolution, training and development, organizational development, payroll management, leading strategic initiatives and elevating cultures through positive empowerment. Internally, Kacye is a member of the executive team and leads and mentors the HR consulting group. She also contributes in operational strategies and serves as second in command. </p>
 
-                                        <p>Kacye earned a Master’s Degree in Public Administration from Marist College and a B.S. in Criminal Justice.</p>
+                                        <p>Kacye earned a M.S. in Public Administration from Marist College and a B.S. in Criminal Justice.</p>
 
-                                        <p>Kacye enjoys most any outdoor activity including running, hiking, tennis & spending as much time as possible pool or beachside.</p>
+                                        <p>For fun, Kacye enjoys most any outdoor activity including running, hiking, tennis and spending as much time as possible pool or beachside.</p>
                                     </div>
                                 </div>
                             </div>

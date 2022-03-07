@@ -87,15 +87,13 @@ class Gabriela extends Component {
                                                     <p className="strengths">Positivity | Achiever | Arranger | Responsibility | Input</p>
                                             </blockquote>
 
-                                                <p>Gabriela is a passionate and strategic HR subject matter expert. Along with a talented team, Gabriela focuses on delivering best practices in operational excellence, high-level decision making, bilingual/bicultural expertise, board governance support, CEO succession planning, human capital analysis, executive assessment/coaching, conflict resolution, performance management, compensation, organizational development, diversity, equity and inclusion, strategic planning and development, change management, mergers and acquisitions, employment compliance, labor relations management, organizational development, executive search, talent acquisition and more.</p>
+                                                <p>Gabriela established PPR in February of 2010, following a dream to build a firm that could positively influence work environments. Since securing PPR’s first client, the Dallas Regional Chamber, Gabriela insisted in going above and beyond for client needs, something that opened other doors. To this date, PPR has grown 100% as a result of referrals. Gabriela has thoughtfully selected a group of talented experts who compliment her, surrounding herself with outstanding and passionate HR professionals that now form a well-rounded team in all facets of human resources. PPR’s bar is high and under Gabriela’s leadership, her team has consistently delivered with excellence in all they do, partnering with clients to create excellent workplaces.</p>
 
+                                                <p>Gabriela areas of focus include operational excellence, executive and board level decision making, bilingual/bicultural expertise, board governance support, CEO succession planning, human capital analysis, executive coaching, re-inventing performance management methodologies, executive compensation, diversity, equity and inclusion, strategic planning and development, change management, employment compliance, organizational enhancement, executive searches, and more.</p>
 
+                                                <p>Gabriela participates in several causes that support low-income communities, women’s causes, at risk children and conservation efforts.</p>
 
-                                                <p>Gabriela participates in several causes that support low income communities, women’s causes, at risk children and conservation efforts.</p>
-
-
-
-                                                <p>When not enjoying time at PPR, Gabriela is a foodie who loves to travel, run, snorkel, and spend time with her family and dog, Harley.</p>
+                                                <p>When not enjoying time at PPR, Gabriela is a foodie who loves to travel, run, snorkel, and spend time with her family and rescued dog, Harley.</p>
                                         </div>
                                     </div>
                                 </div>

@@ -87,9 +87,9 @@ class Amber extends Component {
                                             <p className="strengths">Learner | Achiever | Belief | Input | Responsibility</p>
                                         </blockquote>
 
-                                        <p>Amber joins PPR’s team as a Sr. Human Capital Consultant and brings a depth of expertise in overall human resources through a career that expands over 12 years. Her diverse background includes supporting both large and small organizations for which she led at a generalist capacity. She is very skilled at building trust and rapport with staff, while acting as a trusted advisor to main decision makers.</p>
-                                        <p>Amber’s expertise include compliance, risk management, employee relations, investigations, change management, succession planning and development, talent acquisition, benefits management, payroll, training and development, employee engagement, regulatory leave management, team cohesion and recognition, compensation and more.</p>
-                                        <p>Amber holds a B.S. in Business Administration Entrepreneurial Management from Texas Christian University.</p>
+                                        <p>Amber’s HR career expands over 12 years and includes a diverse background in supporting both large and small sized organizations. Her areas of focus are in building trust and rapport with teams, while acting as a trusted advisor to main decision makers, compliance, risk management, employee relations, investigations, change management, succession planning, talent acquisition, benefits management, payroll, HRIS implementations, training and development, employee engagement, regulatory leave management, team cohesion and recognition, compensation, and strategic initiatives.</p>
+                                        <p>Amber earned a B.S. in Business Administration Entrepreneurial Management from Texas Christian University.</p>
+                                        <p>For fun, Amber enjoys spending time with her three children and her husband</p>
                                     </div>
                                 </div>
                             </div>
