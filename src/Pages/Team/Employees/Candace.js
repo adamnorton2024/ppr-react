@@ -87,9 +87,9 @@ class Candace extends Component {
                                             <p className="strengths">Maximizer | Positivity | Arranger | Relator | Strategic</p>
                                         </blockquote>
 
-                                        <p>Candace is a talented HR professional with over ten years of experience in a variety of industries. While she enjoys all aspects of HR, her passions are employee relations, talent optimization, and organizational development.</p>
-                                        <p>Candace’s educational background includes a MA in Human Resource Management from Colorado State; MA in Negotiation and Conflict Management from CSU-Dominguez Hills, and a BA degree in English from Loyola Marymount University.</p>
-                                        <p>Always up for a new adventure, Candace spends her free time traveling with her daughters and taking on local adventures like axe throwing, cooking classes and museums.  </p>
+                                        <p>Candace has over ten years of experience in a variety of industries that include service, security, manufacturing, and non-profit.  While she enjoys all aspects of HR, her passion and areas of focus are employee relations, talent optimization, executive placements, organizational development and leading stellar Diversity, Equity and Inclusion strategies.”</p>
+                                        <p>Candace’s earned two Master degrees: M.A. in Human Resource Management from Colorado State and M.A. in Negotiation and Conflict Management from CSU-Dominguez Hills. Her B.A. degree is in English from Loyola Marymount University.</p>
+                                        <p>For fun, Candace is always up for a new adventure and spends her free time traveling with her daughters and enjoying local fun activities like axe throwing, cooking classes and museums.</p>
                                     </div>
                                 </div>
                             </div>
