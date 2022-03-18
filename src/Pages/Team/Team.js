@@ -141,11 +141,11 @@ class Team extends Component {
             </ThemeProvider>
             <Gabriela />
             <Kacye />
+            <Jazmin />
             <Adam />
             <Amber />
             <Candace />
             <Hayley />
-            <Jazmin />
             <Kathy />
             <Kellee />
             <Luke />

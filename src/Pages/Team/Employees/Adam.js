@@ -119,7 +119,7 @@ class Adam extends Component {
 
                                         <p>Adam has more than twenty-five years of experience working in many different aspects of the technology sector. He brings to PPR deep expertise in project management, software development, computer graphics and animation, multi-media, video production, full-stack web development, digital production art, and IT management. Adam excels at finding process inefficiencies and making adjustments to correct them, while ensuring visuals go from great to excellent, so he loves projects that blend technology and art. Adam has led small and large teams and has directed projects with budgets ranging from $100k to over $300 million, all to successful and timely completion. Internally, Adam is a member of the executive team and leads the build of PPR’s technical proprietary development infrastructure, IT, website, and project management tools. He also oversees all creative and innovative projects and contributes to organizational strategies. </p>
 
-                                        <p>Adam earned a B.A. in Computer Animation and Multimedia, and is proficient in 12 different programming languages.</p>
+                                        <p>Adam earned a degree in Computer Animation and Multimedia, and is proficient in 12 different programming languages.</p>
 
                                         <p>For fun, he is an avid scuba diver who prefers to spend as much time as possible with his wife, traveling and exploring the world's oceans.</p>
                                     </div>

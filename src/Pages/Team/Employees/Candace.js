@@ -88,7 +88,7 @@ class Candace extends Component {
                                         </blockquote>
 
                                         <p>Candace has over ten years of experience in a variety of industries that include service, security, manufacturing, and non-profit. While she enjoys all aspects of HR, her passion and areas of focus are employee relations, talent optimization, executive placements, organizational development and leading stellar Diversity, Equity, and Inclusion strategies.</p>
-                                        <p>Candace’s earned two Master degrees: M.A. in Human Resource Management from Colorado State and M.A. in Negotiation and Conflict Management from CSU-Dominguez Hills. Her B.A. degree is in English from Loyola Marymount University.</p>
+                                        <p>Candace earned two Masters degrees: M.A. in Human Resource Management from Colorado State and M.A. in Negotiation and Conflict Management from CSU-Dominguez Hills. Her B.A. is in English from Loyola Marymount University.</p>
                                         <p>For fun, Candace is always up for a new adventure and spends her free time traveling with her daughters and enjoying local fun activities like axe throwing, cooking classes and museums.</p>
                                     </div>
                                 </div>

@@ -87,9 +87,9 @@ class Kellee extends Component {
                                             <p className="strengths">Includer | Developer | Individualization | Learner | Achiever</p>
                                         </blockquote>
 
-                                        <p>Kellee has over ten years of Human Resources experience focused mostly in retail, technology, and real estate. Her background consists of supporting small to medium companies, both privately and publicly held as a trusted business partner.  While Kellee has an extensive knowledge of multi-disciplinary areas in HR such as investigations, policy and procedure formation, coaching, training and development, culture development, and employee relations, her passion lies in building trust with employees and leaders to be a balanced advocate for teams while protecting the business.</p>
+                                        <p>Kellee has over ten years of Human Resources experience focused mostly in retail, technology, and real estate. Her background consists of supporting small to medium companies, both privately and publicly held, as a trusted business partner.  While Kellee has an extensive knowledge of multi-disciplinary areas in HR such as investigations, policy and procedure formation, coaching, training and development, culture development, and employee relations, her passion lies in building trust with employees and leaders to be a balanced advocate for teams while protecting the business.</p>
 
-                                        <p>Kellee’s earned a B.A. in Psychology from Salem College as well as a Strategic Human Resources Business Partner certification from the Human Capital Institute. </p>
+                                        <p>Kellee earned a B.A. in Psychology from Salem College as well as a Strategic Human Resources Business Partner certification from the Human Capital Institute. </p>
 
                                         <p>For fun, Kellee spends time with her husband, their four children, and their three-legged Boston Terrier, Samson.  She can also be found volunteering weekly as a Sunday School Teacher for Hope Fellowship Church.</p>
                                     </div>
