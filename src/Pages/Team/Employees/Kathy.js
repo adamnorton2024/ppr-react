@@ -113,7 +113,7 @@ class Kathy extends Component {
                                     <div className="description">
                                         <h1 className="display-4">Kathy Bennett</h1>
                                         <blockquote>
-                                            <p className="lead">MSHRM<br/>Talent Consultant</p>
+                                            <p className="lead">MSHRM<br/>Talent Acquisition Consultant</p>
                                             <p className="strengths">Learner | Communication | Relator | Positivity | Strategic</p>
                                         </blockquote>
 
