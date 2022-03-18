@@ -121,7 +121,7 @@ class Adam extends Component {
 
                                         <p>Adam earned a B.A. in Computer Animation and Multimedia, and is proficient in 12 different programming languages.</p>
 
-                                        <p>For fun, he is an avid scuba diver who prefers to spend as much time as possible traveling and exploring the world's oceans.</p>
+                                        <p>For fun, he is an avid scuba diver who prefers to spend as much time as possible with his wife, traveling and exploring the world's oceans.</p>
                                     </div>
                                 </div>
                             </div>
