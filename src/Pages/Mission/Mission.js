@@ -105,7 +105,7 @@ class Mission extends Component {
                       <h1 className="display-4">Mission, Vision, Values</h1>
                       <div className="description"></div>
                       <p className="sub-title">Mission</p>
-                      <p className="lead">We create better workplaces.</p>
+                      <p className="lead">We create excellent workplaces.</p>
                       <p className="sub-title">Vision</p>
                       <p className="lead">
                         To be known and trusted as the most personalized human
