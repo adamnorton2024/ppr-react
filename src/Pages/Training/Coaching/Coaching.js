@@ -78,7 +78,7 @@ class Coaching extends Component {
                                             <li>Successful Leadership</li>
                                             <li>StrengthsFinder Based Leadership</li>
                                             <li>Emotional Intelligence</li>
-                                            <li>Unconsious Bias</li>
+                                            <li>Unconscious Bias</li>
                                             <li>Foundational Skills for First Time Managers/Supervisors</li>
                                             <li>Embracing Change</li>
                                             <li>Contributing to Team Success</li>

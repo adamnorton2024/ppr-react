@@ -7,6 +7,7 @@ import Bicultural from '../../Pages/Bicultural/Bicultural';
 import Training from '../../Pages/Training/Training';
 import Talent from '../../Pages/Talent/Talent';
 import Mission from '../../Pages/Mission/Mission';
+import Compensation from '../../Pages/Compensation/Compensation';
 import Team from '../../Pages/Team/Team';
 import About from '../../Pages/About/About';
 import Blog from '../../Pages/Blog/Blog';
@@ -48,6 +49,7 @@ function App() {
             <Route exact path="/bicultural" component={Bicultural} />
             <Route exact path="/training" component={Training} />
             <Route exact path="/talent" component={Talent} />
+            <Route exact path="/compensation" component={Compensation} />
             <Route exact path="/mission" component={Mission} />
             <Route exact path="/team" component={Team} />
             <Route exact path="/about" component={About} />

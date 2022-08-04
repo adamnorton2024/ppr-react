@@ -139,8 +139,7 @@ class Training extends Component {
                             executive placement solutions, our experts can
                             support your staff growth needs.
                           </p>
-                        </div>
-                        <p className="sub-title">Finding Your Next Team Member</p>
+                          <p className="sub-title">Finding Your Next Team Member</p>
                         <p className="lead">
                           PPR has earned a strong reputation as a subject matter
                           expert in all people matters. Our practices are rooted
@@ -158,6 +157,8 @@ class Training extends Component {
                           delivers clients a highly qualified match, which is
                           critical at all levels.
                         </p>
+                        </div>
+                        
                       </div>
                     </div>
                   </div>

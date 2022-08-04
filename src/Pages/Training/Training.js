@@ -128,8 +128,7 @@ class Training extends Component {
                             part of a team meeting, a stand-alone training
                             session, or Lunch-and-Learns.
                           </p>
-                        </div>
-                        <p className="sub-title">Top 10 HR Issues</p>
+                          <p className="sub-title">Top 10 HR Issues</p>
                         <ul>
                           <li className="lead">Retention</li>
                           <li className="lead">Hiring Practices</li>
@@ -144,6 +143,8 @@ class Training extends Component {
                           <li className="lead">Protected Activities</li>
                           <li className="lead">Payroll</li>
                         </ul>
+                        </div>
+                        
                       </div>
                     </div>
                   </div>
