@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navigation from '../Navbar/Navbar';
 import Home from '../../Pages/Home/Home';
 import Services from '../../Pages/Services/Services';
@@ -43,21 +43,21 @@ function App() {
         <React.Fragment>
         <Router>
           <Navigation className="no-bg" />
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/services" component={Services} />
-            <Route exact path="/bicultural" component={Bicultural} />
-            <Route exact path="/training" component={Training} />
-            <Route exact path="/talent" component={Talent} />
-            <Route exact path="/compensation" component={Compensation} />
-            <Route exact path="/mission" component={Mission} />
-            <Route exact path="/team" component={Team} />
-            <Route exact path="/about" component={About} />
-            <Route exact path="/blog" component={Blog} />
-            <Route exact path="/careers" component={Careers} />
-            <Route exact path="/contact" component={Contact} />
-            <Route component={NoMatch} />
-          </Switch>
+          <Routes>
+            <Route exact path="/" element={<Home/>} />
+            <Route exact path="/services" element={<Services/>} />
+            <Route exact path="/bicultural" element={<Bicultural/>} />
+            <Route exact path="/training" element={<Training/>} />
+            <Route exact path="/talent" element={<Talent/>} />
+            <Route exact path="/compensation" element={<Compensation/>} />
+            <Route exact path="/mission" element={<Mission/>} />
+            <Route exact path="/team" element={<Team/>} />
+            <Route exact path="/about" element={<About/>} />
+            <Route exact path="/blog" element={<Blog/>} />
+            <Route exact path="/careers" element={<Careers/>} />
+            <Route exact path="/contact" element={<Contact/>} />
+            <Route element={<NoMatch/>} />
+          </Routes>
         </Router>
         <Footer />
         <ScrollToTop />
