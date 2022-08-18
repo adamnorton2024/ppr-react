@@ -51,7 +51,7 @@ class Home extends Component {
                         <html lang="en" />
                         <title>PPR Human Resources Consulting and Executive Talent Attraction Specialist</title>
                         <meta name="description" content="The best human resources consulting firm in the Dallas / Ft. Worth area." />
-                        <meta name="keywords" content="human resources, hr, hr consulting" />
+                        <meta name="keywords" content="human resources, hr, hr consulting, human capital" />
                     </Helmet>
                 </HelmetProvider>
                     

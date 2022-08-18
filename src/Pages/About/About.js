@@ -84,6 +84,10 @@ class About extends Component {
                   name="About People Performance Resources - DFW Best Human Resources Consulting Firm"
                   content="A commitment of excellence to each client is non-negotiable within our culture, so our HR consultants work closely as a unified extension of the teams we support."
                 />
+                <meta
+                  name="keywords"
+                  content="trusted partner, hr consulting, human resources"
+                />
               </Helmet>
             </HelmetProvider>
             

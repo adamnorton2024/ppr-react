@@ -150,8 +150,11 @@ class Career extends Component {
                   PPR - Current Searches - Finding your next team member
                 </title>
                 <meta
-                  name="Current Searches - Job Openings - DFW Best Human Resources Consulting Firm"
+                  name="description"
                   content="These are some of the positions we are currently sourcing for. If you or anyone you know would be a good fit, feel free to reach out to us for more information."
+                /><meta
+                  name="keywords"
+                  content="jobs, job openings, job search"
                 />
               </Helmet>
             </HelmetProvider>

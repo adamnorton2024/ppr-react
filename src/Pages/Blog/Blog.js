@@ -112,8 +112,12 @@ class Blog extends Component {
                 <html lang="en" />
                 <title>HR Insider - People Performance Resources - Blog</title>
                 <meta
-                  name="HR - Insider Blog"
+                  name="description"
                   content="HR Insider - People Performance Resources - Features and Information that Matter to You - Blog - Newsletter"
+                />
+                <meta
+                  name="keywords"
+                  content="hr, human resources, articles"
                 />
               </Helmet>
             </HelmetProvider>

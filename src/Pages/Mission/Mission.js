@@ -88,8 +88,12 @@ class Mission extends Component {
               <html lang="en" />
               <title>PPR - Mission, Vision, and Values  - DFW Best Human Resources Consulting Firm</title>
               <meta
-                name="Mission - DFW Best Human Resources Consulting Firm"
+                name="description"
                 content="To be known and trusted as the most personalized human capital firm for small to mid-sized organizations."
+              />
+              <meta
+                name="keywords"
+                content="trusted, advisor, hr, human resources"
               />
             </Helmet>
           </HelmetProvider>

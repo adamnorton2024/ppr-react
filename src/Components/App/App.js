@@ -56,7 +56,7 @@ function App() {
             <Route exact path="/blog" element={<Blog/>} />
             <Route exact path="/careers" element={<Careers/>} />
             <Route exact path="/contact" element={<Contact/>} />
-            <Route element={<NoMatch/>} />
+            {/* <Route element={<NoMatch/>} /> */}
           </Routes>
         </Router>
         <Footer />
