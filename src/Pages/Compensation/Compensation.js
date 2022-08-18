@@ -132,13 +132,13 @@ class Compensation extends Component {
                         <h1 className="display-4">Compensation</h1>
                         <div className="description">
                           <p className="lead">
-                            People Performance Resources (PPR) provides comprehensive compensation consulting services to not-for-profit organizations, and mid- and small-cap public companies through a client-focused approach.  PPR specializes in Executive Compensation, base pay administration, incentive compensation, and working closely with our clients to formulate a strategic direction for their compensation programs so they can attract, motivate, and retain top talent.
+                            People Performance Resources (PPR) provides comprehensive compensation consulting services to not-for-profit organizations, and mid- and small-cap public companies through a client-focused approach.  PPR specializes in Executive Compensation, base pay administration, incentive compensation, and working closely with our clients to formulate a strategic direction for their compensation programs so they can attract, motivate, engage and retain top talent.
                             </p>
                             <p className="lead">
-                                Our goal is to provide strong expertise in strategy, analytics, and program design, all while building strong client relationships. We take pride in developing customized compensation programs for our clients to help achieve their business objectives.
+                                PPR's compensation services provide leaders feasible and effective options to reward and incentives employees to be their best. We take pride in developing customized compensation programs for our clients to help achieve their business objectives.
                             </p>
                             <p className="lead">
-                                PPR specializes in Executive Compensation and Base Pay Administration for all employee levels.  We follow best practices and our commitment to excellence in the following areas of compensation:
+                                We follow best practices and our commitment to excellence in the following areas of compensation:
                           </p>
                           <ul>
                             <li className="lead">Compensation Philosophy development and review</li>
