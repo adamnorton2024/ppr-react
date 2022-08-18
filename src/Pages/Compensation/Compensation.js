@@ -6,7 +6,7 @@ import JobDescription from './JobDescription/JobDescription';
 import styled, { ThemeProvider } from 'styled-components';
 import theme from "../../Config/Theme";
 
-import { Helmet } from 'react-helmet';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 const Div = styled.div`
     .jumbotron{
@@ -102,14 +102,21 @@ class Compensation extends Component {
     render() {
         return (
           <div>
-            <Helmet>
-              <html lang="en" />
-              <title>Compensation Consulting Services  - DFW Best Human Resources Consulting Firm</title>
-              <meta
-                name="Compensation - DFW Best Human Resources Consulting Firm"
-                content="Presentations are customized according to your specific needs. Our sessions can be delivered as part of a team meeting, a stand-alone training session, or Lunch-and-Learns."
-              />
-            </Helmet>
+            <HelmetProvider>
+              <Helmet>
+                <html lang="en" />
+                <title>Compensation Consulting Services  - DFW Best Human Resources Consulting Firm</title>
+                <meta
+                  name="description"
+                  content="We provide comprehensive compensation consulting services to mid- and small-cap public companies and no-for-profit organization through a client-focused approach. PPR specializes in Executive Compensation, base pay administration, incentive compensation, and working closely with our clients to formulate a strategic direction for their compensation programs so they can attract, motivate, and retain top talent."
+                />
+                <meta 
+                  name='keywords'
+                  content="compensation consulting, executive compensation, compensation, pay administration, incentive compensation, incentives, retention, total rewards, compensation philosophy, market pricing, job descriptions"
+                />
+              </Helmet>
+            </HelmetProvider>
+            
             <ThemeProvider theme={theme}>
               <Div>
                 <div className="jumbotron jumbotron-fluid">

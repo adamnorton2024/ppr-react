@@ -7,7 +7,7 @@ import Policy from "./Policy/Policy";
 import Strategy from './Strategy/Strategy';
 import Rewards from './Rewards/Rewards';
 import Workforce from './Workforce/Workforce';
-import { Helmet } from 'react-helmet';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 const Div = styled.div`
     .jumbotron{
@@ -95,14 +95,21 @@ class Services extends Component {
     render() {
         return (
           <div>
-            <Helmet>
-              <html lang="en" />
-              <title>Services - What Do We Do For You?  - DFW Best Human Resources Consulting Firm</title>
-              <meta
-                name="People Performance Resources Services  - DFW Best Human Resources Consulting Firm"
-                content="In today's rapidly evolving business environment, a trusted advisor who not only provides relevant insights, but delivers a combination of strategic vision, expertise and practical experience can enhance the value of your business dramatically."
-              />
-            </Helmet>
+            <HelmetProvider>
+              <Helmet>
+                <html lang="en" />
+                <title>Services - What Do We Do For You?  - DFW Best Human Resources Consulting Firm</title>
+                <meta
+                  name="description"
+                  content="In today's rapidly evolving business environment, a trusted advisor who not only provides relevant insights, but delivers a combination of strategic vision, expertise and practical experience can enhance the value of your business dramatically."
+                />
+                <meta 
+                  name='keywords'
+                  content="consulting services, hr consulting, human resources, training, talent acquisition, culture development, performance management, policy, procedures, risk management, strategy, total rewards, workforce planning, talent attraction"
+                />
+              </Helmet>
+            </HelmetProvider>
+            
             <ThemeProvider theme={theme}>
               <Div>
                 <div className="jumbotron jumbotron-fluid">

@@ -51,7 +51,7 @@ class Footer extends Component {
         super(props);
         
         this.state = {
-            copyrightYear: ''
+            copyrightYear: '1908'
         };
 
     }
@@ -104,7 +104,7 @@ class Footer extends Component {
                                 </div>
                                 <div className="row">
                                     <div className="col">
-                                        <p className="text-center"><small>&copy; Copyright <span id="current-year" dangerouslySetInnerHTML={{__html: this.state.copyrightYear}}></span>, People Performance Resources - A Human Resources Solutions Firm. All rights Reserved.</small></p>
+                                        <p className="text-center"><small>&copy; Copyright <span id="current-year">{this.state.copyrightYear}</span>, People Performance Resources - A Human Resources Solutions Firm. All rights Reserved.</small></p>
                                     </div>
                                 </div>
                             </div>                                                                  

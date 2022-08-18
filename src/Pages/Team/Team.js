@@ -11,7 +11,7 @@ import Amber from './Employees/Amber';
 import Hayley from './Employees/Hayley';
 import Luke from './Employees/Luke';
 import Kellee from './Employees/Kellee';
-import { Helmet } from 'react-helmet';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 
 
@@ -91,16 +91,19 @@ class Team extends Component {
     render() {
         return (
           <div>
-            <Helmet>
-              <html lang="en" />
-              <title>
-                Team - Meet your PPR Team.  We become an extension of your team - DFW Best Human Resources Consulting Firm 
-              </title>
-              <meta
-                name=" Meet the Team at DFW's Best Human Resources Consulting Firm"
-                content="Meet the team at PPR. When you engage PPR, you gain a team of subject matter experts across a broad range of topics."
-              />
-            </Helmet>
+            <HelmetProvider>
+              <Helmet>
+                <html lang="en" />
+                <title>
+                  Team - Meet your PPR Team.  We become an extension of your team - DFW Best Human Resources Consulting Firm 
+                </title>
+                <meta
+                  name=" Meet the Team at DFW's Best Human Resources Consulting Firm"
+                  content="Meet the team at PPR. When you engage PPR, you gain a team of subject matter experts across a broad range of topics."
+                />
+              </Helmet>
+            </HelmetProvider>
+            
             <ThemeProvider theme={theme}>
               <Div>
                 <div className="jumbotron jumbotron-fluid">

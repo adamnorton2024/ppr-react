@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled, { ThemeProvider } from 'styled-components';
 import theme from "../../Config/Theme";
-import { Helmet } from 'react-helmet';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 const Div = styled.div `
 
@@ -76,14 +76,17 @@ class About extends Component {
     render() {
         return (
           <ThemeProvider theme={theme}>
-            <Helmet>
-              <html lang="en" />
-              <title>PPR - About Us - DFW Best Human Resources Consulting Firm</title>
-              <meta
-                name="About People Performance Resources - DFW Best Human Resources Consulting Firm"
-                content="A commitment of excellence to each client is non-negotiable within our culture, so our HR consultants work closely as a unified extension of the teams we support."
-              />
-            </Helmet>
+            <HelmetProvider>
+              <Helmet>
+                <html lang="en" />
+                <title>PPR - About Us - DFW Best Human Resources Consulting Firm</title>
+                <meta
+                  name="About People Performance Resources - DFW Best Human Resources Consulting Firm"
+                  content="A commitment of excellence to each client is non-negotiable within our culture, so our HR consultants work closely as a unified extension of the teams we support."
+                />
+              </Helmet>
+            </HelmetProvider>
+            
             <Div>
               <div className="jumbotron jumbotron-fluid pt-0 mb-0">
                 <div className="container">

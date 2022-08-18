@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled, { ThemeProvider } from 'styled-components';
 import theme from "../../Config/Theme";
-import { Helmet } from 'react-helmet';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 
 const Div = styled.div`
@@ -143,16 +143,19 @@ class Career extends Component {
     render() {
         return (
           <div>
-            <Helmet>
-              <html lang="en" />
-              <title>
-                PPR - Career Opportunities - Finding your next team member
-              </title>
-              <meta
-                name="Career Opportunities - Job Openings - DFW Best Human Resources Consulting Firm"
-                content="These are some of the positions we are currently sourcing for. If you or anyone you know would be a good fit, feel free to reach out to us for more information."
-              />
-            </Helmet>
+            <HelmetProvider>
+              <Helmet>
+                <html lang="en" />
+                <title>
+                  PPR - Current Searches - Finding your next team member
+                </title>
+                <meta
+                  name="Current Searches - Job Openings - DFW Best Human Resources Consulting Firm"
+                  content="These are some of the positions we are currently sourcing for. If you or anyone you know would be a good fit, feel free to reach out to us for more information."
+                />
+              </Helmet>
+            </HelmetProvider>
+            
             <ThemeProvider theme={theme}>
               <Div>
                 <div className="jumbotron jumbotron-fluid">
@@ -165,7 +168,7 @@ class Career extends Component {
                   <div className="row mx-0">
                     <div className="col-lg-7 col-md-12 my-5">
                       <div className="text-box">
-                        <h1 className="display-4">Career Opportunities</h1>
+                        <h1 className="display-4">Current Searches</h1>
                         <div className="description"></div>
                         <p className="sub-title">
                           Finding Your Next Team Member

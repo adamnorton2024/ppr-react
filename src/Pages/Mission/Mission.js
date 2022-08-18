@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled, { ThemeProvider } from 'styled-components';
 import theme from "../../Config/Theme";
-import { Helmet } from 'react-helmet';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 
 const Div = styled.div`
@@ -72,7 +72,8 @@ const Div = styled.div`
 
             }
                 
-            }    
+          }  
+    }  
 
 `
 
@@ -82,14 +83,17 @@ class Mission extends Component {
     render() {
       return (
         <div>
-          <Helmet>
-            <html lang="en" />
-            <title>PPR - Mission, Vision, and Values  - DFW Best Human Resources Consulting Firm</title>
-            <meta
-              name="Mission - DFW Best Human Resources Consulting Firm"
-              content="To be known and trusted as the most personalized human capital firm for small to mid-sized organizations."
-            />
-          </Helmet>
+          <HelmetProvider>
+            <Helmet>
+              <html lang="en" />
+              <title>PPR - Mission, Vision, and Values  - DFW Best Human Resources Consulting Firm</title>
+              <meta
+                name="Mission - DFW Best Human Resources Consulting Firm"
+                content="To be known and trusted as the most personalized human capital firm for small to mid-sized organizations."
+              />
+            </Helmet>
+          </HelmetProvider>
+          
           <ThemeProvider theme={theme}>
             <Div>
               <div className="jumbotron jumbotron-fluid">
@@ -105,7 +109,7 @@ class Mission extends Component {
                       <h1 className="display-4">Mission, Vision, Values</h1>
                       <div className="description"></div>
                       <p className="sub-title">Mission</p>
-                      <p className="lead">We create excellent workplaces.</p>
+                      <p className="lead">We inspire excellent workplaces.</p>
                       <p className="sub-title">Vision</p>
                       <p className="lead">
                         To be known and trusted as the most personalized human

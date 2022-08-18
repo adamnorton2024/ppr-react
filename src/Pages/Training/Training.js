@@ -4,7 +4,7 @@ import theme from "../../Config/Theme";
 import StrengthsFinder from './StrengthsFinder/StrengthsFinder';
 import Coaching from './Coaching/Coaching';
 import Compliance from './Compliance/Compliance';
-import { Helmet } from 'react-helmet';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 const Div = styled.div`
     .jumbotron{
@@ -100,14 +100,21 @@ class Training extends Component {
     render() {
         return (
           <div>
-            <Helmet>
-              <html lang="en" />
-              <title>Training and Development  - DFW Best Human Resources Consulting Firm</title>
-              <meta
-                name="Training and Development - DFW Best Human Resources Consulting Firm"
-                content="Presentations are customized according to your specific needs. Our sessions can be delivered as part of a team meeting, a stand-alone training session, or Lunch-and-Learns."
-              />
-            </Helmet>
+            <HelmetProvider>
+              <Helmet>
+                <html lang="en" />
+                <title>Training and Development  - DFW Best Human Resources Consulting Firm</title>
+                <meta
+                  name="description"
+                  content="Presentations are customized according to your specific needs. Our sessions can be delivered as part of a team meeting, a stand-alone training session, or Lunch-and-Learns."
+                />
+                <meta
+                  name="keywords"
+                  content="training, development, strengthsfinder, compliance, executive coaching"
+                />
+              </Helmet>
+            </HelmetProvider>
+            
             <ThemeProvider theme={theme}>
               <Div>
                 <div className="jumbotron jumbotron-fluid">

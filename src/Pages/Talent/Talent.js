@@ -4,7 +4,7 @@ import theme from "../../Config/Theme";
 import Hiring from './Hiring/Hiring';
 import Background from './Background/Background';
 import Orientation from './Orientation/Orientation';
-import { Helmet } from 'react-helmet';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 
 const Div = styled.div`
@@ -104,16 +104,23 @@ class Training extends Component {
     render() {
         return (
           <div>
-            <Helmet>
-              <html lang="en" />
-              <title>
-                Talent Acquisition - Find the right employee for your team  - DFW Best Human Resources Consulting Firm
-              </title>
-              <meta
-                name="Talent Attraction  - DFW Best Human Resources Consulting Firm"
-                content="With extensive expertise and a positive track record of delivering full-service talent management and executive placement solutions, our experts can support your staff growth needs."
-              />
-            </Helmet>
+            <HelmetProvider>
+              <Helmet>
+                <html lang="en" />
+                <title>
+                  Talent Acquisition - Find the right employee for your team  - DFW Best Human Resources Consulting Firm
+                </title>
+                <meta
+                  name="description"
+                  content="With extensive expertise and a positive track record of delivering full-service talent management and executive placement solutions, our experts can support your staff growth needs."
+                />
+                <meta
+                  name="keywords"
+                  content="recruiting, talent attraction, talent acquisition, workforce planning, hiring process, new hire, orientation, background check"
+                />
+              </Helmet>
+            </HelmetProvider>
+            
             <ThemeProvider theme={theme}>
               <Div>
                 <div className="jumbotron jumbotron-fluid">
