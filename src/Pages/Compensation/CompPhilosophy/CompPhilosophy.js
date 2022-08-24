@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Button } from 'react-bootstrap';
 import styled, { ThemeProvider } from 'styled-components';
 import theme from "../../../Config/Theme";
 
@@ -59,7 +60,20 @@ const Div = styled.div`
 
 `
 
+const ContactButton = styled(Button)`{
+  color: ${props => props.theme.colors.orange};
+
+  $:hover:{
+    color: ${props => props.theme.colors.white};
+  }
+}`
+
 class CompPhilosophy extends Component {
+
+    contactSherri() {
+      const subjectLine = `Compensation Analysis Information`
+      window.open(`mailto:sgates@pprhr.com?subject=${subjectLine}`);
+    }
 
     render() {
         return (
@@ -75,6 +89,11 @@ class CompPhilosophy extends Component {
                                     <h1 className="display-4">Compensation Philosophy</h1>
                                     <div className="description">
                                         <p className="lead">A sound compensation philosophy helps define the competitive market position of the organization as well as serves as the foundation for developing the base pay administration program, variable pay and benefits. PPR will partner with key executives to create a compensation philosophy that supports the organization’s strategic plan and initiatives, business goals, and compensation and total reward strategies. The compensation philosophy is the compass to determining an organization’s market competitiveness.  </p>
+                                        <div className="mt-5">
+                          <ContactButton variant="outline-warning" onClick={() => this.contactSherri()}>
+                            Contact Us For a Free Consultation
+                          </ContactButton>
+                        </div>
                                     </div>
                                 </div>
                             </div>

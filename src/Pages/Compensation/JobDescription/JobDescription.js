@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Button } from 'react-bootstrap';
 import styled, { ThemeProvider } from 'styled-components';
 import theme from "../../../Config/Theme";
 
@@ -59,7 +60,20 @@ const Div = styled.div`
 
 `
 
+const ContactButton = styled(Button)`{
+  color: ${props => props.theme.colors.orange};
+
+  $:hover:{
+    color: ${props => props.theme.colors.white};
+  }
+}`
+
 class JobDescription extends Component {
+
+    contactSherri() {
+      const subjectLine = `Compensation Analysis Information`
+      window.open(`mailto:sgates@pprhr.com?subject=${subjectLine}`);
+    }
 
     render() {
         return (
@@ -83,6 +97,11 @@ class JobDescription extends Component {
                                             <li className='lead'>Prepare job descriptions, documenting essential functions and required qualifications</li>
                                             <li className='lead'>Utilize the job descriptions to build the job architecture, determine market competitiveness and build clearly defined career paths</li>
                                         </ul>
+                                        <div className="mt-5">
+                          <ContactButton variant="outline-warning" onClick={() => this.contactSherri()}>
+                            Contact Us For a Free Consultation
+                          </ContactButton>
+                        </div>
                                     </div>
                                     
                                 </div>

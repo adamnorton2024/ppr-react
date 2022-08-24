@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Button } from 'react-bootstrap';
 import styled, { ThemeProvider } from 'styled-components';
 import theme from "../../../Config/Theme";
 
@@ -61,7 +62,20 @@ const Div = styled.div`
 
 `
 
+const ContactButton = styled(Button)`{
+  color: ${props => props.theme.colors.orange};
+
+  $:hover:{
+    color: ${props => props.theme.colors.white};
+  }
+}`
+
 class MarketPricing extends Component {
+
+    contactSherri() {
+      const subjectLine = `Compensation Analysis Information`
+      window.open(`mailto:sgates@pprhr.com?subject=${subjectLine}`);
+    }
 
     render() {
         return (
@@ -76,7 +90,12 @@ class MarketPricing extends Component {
                                         <p className="lead">Market pricing is the process of determining the competitive worth of a position. It is a vital step for organizations to attract, motivate and retain top talent. We recognize not-for-profit organizations are competing for talent across both the not-for-profit and for-profit sectors. PPR helps not-for-profit organizations understand the external marketplace to support pay decisions. Market pricing should be done periodically to ensure competitiveness over time</p>
                                         <p className='lead'>To conduct a market study, it is important to understand the components of the position to be priced, as well as the competitive labor market (e.g., geography, industry, size) within which it competes. PPR has access to salary surveys that allow us to gain access to data that is relevant to your organization.</p>
                                         <p className='lead'>Once completed, the results of the market study can be utilized to develop a salary structure and conduct a pay analysis to ensure employees are paid fair and equitable in the market as well as internally. </p>
-                                        <p className='lead'>The key to market pricing jobs is to have well defined job descriptions that accurately describe the essential duties and responsibilities, education and experience and specialized skills necessary to be successful in the role.  </p>                                        
+                                        <p className='lead'>The key to market pricing jobs is to have well defined job descriptions that accurately describe the essential duties and responsibilities, education and experience and specialized skills necessary to be successful in the role.  </p>  
+                                        <div className="mt-5">
+                          <ContactButton variant="outline-warning" onClick={() => this.contactSherri()}>
+                            Contact Us For a Free Consultation
+                          </ContactButton>
+                        </div>
                                     </div>
                                 </div>
                             </div>

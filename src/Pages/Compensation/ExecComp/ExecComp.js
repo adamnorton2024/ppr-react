@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Button } from 'react-bootstrap';
 import styled, { ThemeProvider } from 'styled-components';
 import theme from "../../../Config/Theme";
 
@@ -59,7 +60,21 @@ const Div = styled.div`
 
 `
 
+const ContactButton = styled(Button)`{
+  color: ${props => props.theme.colors.orange};
+
+  $:hover:{
+    color: ${props => props.theme.colors.white};
+  }
+}
+`
+
 class ExecComp extends Component {
+
+    contactSherri() {
+      const subjectLine = `Compensation Analysis Information`
+      window.open(`mailto:sgates@pprhr.com?subject=${subjectLine}`);
+    }
 
     render() {
         return (
@@ -72,13 +87,19 @@ class ExecComp extends Component {
                                     <h1 className="display-4">Executive Compensation</h1>
                                     <div className="description">
                                         <p className="lead">Nonprofit board of directors are not only responsible for hiring the executive director/CEO but setting clear expectations for executive performance and executive compensation (salary and benefits).  PPR’s executive compensation consultants provide expertise in executive compensation and pay-for-performance alignment, all of which are grounded in market and industry practices as well as align with the “reasonable and not excessive” compensation according to the IRS.</p>
+                                        <div className="mt-5">
+                          <ContactButton variant="outline-warning" onClick={() => this.contactSherri()}>
+                            Contact Us For a Free Consultation
+                          </ContactButton>
+                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-md-6 col-sm-12 px-5" id='img-execcomp'>
-
                             </div>
+                            
                         </div>
+                        
                     </section>
                 </Div>
             </ThemeProvider>

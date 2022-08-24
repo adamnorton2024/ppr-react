@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Button } from 'react-bootstrap';
 import ExecComp from './ExecComp/ExecComp';
 import CompPhilosophy from './CompPhilosophy/CompPhilosophy';
 import MarketPricing from './MarketPricing/MarketPricing';
@@ -96,8 +97,21 @@ const Div = styled.div`
 
 `
 
+const ContactButton = styled(Button)`{
+  color: ${props => props.theme.colors.orange};
+
+  $:hover:{
+    color: ${props => props.theme.colors.white};
+  }
+}`
+
 
 class Compensation extends Component {
+
+  contactSherri() {
+      const subjectLine = `Compensation Analysis Information`
+      window.open(`mailto:sgates@pprhr.com?subject=${subjectLine}`);
+    }
 
     render() {
         return (
@@ -150,6 +164,11 @@ class Compensation extends Component {
                             <li className="lead">Variable Pay development and review</li>
                             <li className="lead">Program Implementations and Employee Communication</li>
                           </ul>
+                        </div>
+                        <div className="mt-5">
+                          <ContactButton variant="outline-warning" onClick={() => this.contactSherri()}>
+                            Contact Us For a Free Consultation
+                          </ContactButton>
                         </div>
                         
                       </div>
