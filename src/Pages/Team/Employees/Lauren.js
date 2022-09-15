@@ -83,7 +83,7 @@ class Lauren extends Component {
                                     <div className="description">
                                         <h1 className="display-4">Lauren Lloyd</h1>
                                         <blockquote>
-                                            <p className="lead">Talent Acquisition Consultant</p>
+                                            <p className="lead">M.A.<br/>Talent Acquisition Consultant</p>
                                             <p className="strengths">Empathy | Maximizer | Adaptability | Strategic | Input</p>
                                         </blockquote>
 

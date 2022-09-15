@@ -83,7 +83,7 @@ class Sherri extends Component {
                                     <div className="description">
                                         <h1 className="display-4">Sherri Gates</h1>
                                         <blockquote>
-                                            <p className="lead">Senior Compensation Consultant</p>
+                                            <p className="lead">CCP<br/>Senior Compensation Consultant</p>
                                             <p className="strengths">Responsibility | Belief | Harmony | Arranger | Maximizer</p>
                                         </blockquote>
 

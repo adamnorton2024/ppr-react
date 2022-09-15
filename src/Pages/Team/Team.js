@@ -156,14 +156,14 @@ class Team extends Component {
             <Candace />
             <Kellee />
             <Sherri />
-            <Hayley />
             <Kathy />
             <Luke />
+            <Tamara />
             <Lauren />
+            <Denise />
             <Tracy />
             <Tim />
-            <Denise />
-            <Tamara />
+            <Hayley />
           </div>
         );
     }

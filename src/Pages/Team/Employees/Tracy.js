@@ -83,7 +83,7 @@ class Tracy extends Component {
                                     <div className="description">
                                         <h1 className="display-4">Tracy Miller</h1>
                                         <blockquote>
-                                            <p className="lead">Human Capital Consultant</p>
+                                            <p className="lead">PHR<br/>Human Capital Consultant</p>
                                             <p className="strengths">Belief | Activator | Developer | Relator | Positivity</p>
                                         </blockquote>
 

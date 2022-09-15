@@ -83,7 +83,7 @@ class Luke extends Component {
                                     <div className="description">
                                         <h1 className="display-4">Luke Benson</h1>
                                         <blockquote>
-                                            <p className="lead">Human Capital Consultant</p>
+                                            <p className="lead">M.S.<br/>Human Capital Consultant</p>
                                             <p className="strengths">Learner | Achiever | Arranger | Analytical | Self-Assurance</p>
                                         </blockquote>
 
