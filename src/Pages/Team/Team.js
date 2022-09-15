@@ -11,6 +11,12 @@ import Amber from './Employees/Amber';
 import Hayley from './Employees/Hayley';
 import Luke from './Employees/Luke';
 import Kellee from './Employees/Kellee';
+import Tim from './Employees/Tim';
+import Tracy from './Employees/Tracy';
+import Tamara from './Employees/Tamara';
+import Sherri from './Employees/Sherri';
+import Lauren from './Employees/Lauren';
+import Denise from './Employees/Denise';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 
@@ -148,10 +154,16 @@ class Team extends Component {
             <Adam />
             <Amber />
             <Candace />
+            <Kellee />
+            <Sherri />
             <Hayley />
             <Kathy />
-            <Kellee />
             <Luke />
+            <Lauren />
+            <Tracy />
+            <Tim />
+            <Denise />
+            <Tamara />
           </div>
         );
     }

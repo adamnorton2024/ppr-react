@@ -53,9 +53,9 @@ const Div = styled.div`
                 }
 
             }
-        } 
-            
-            .employee{
+        }
+
+        .employee{
                 background-repeat: no-repeat;
                 background-position: center center;
                 background-size: cover;
@@ -63,35 +63,35 @@ const Div = styled.div`
                 border: 3px solid ${props => props.theme.colors.orange};
                 margin: 2em;
             }
-        }
+        } 
 
 `
 
-class Jazmin extends Component {
+class Denise extends Component {
 
     render() {
         return (
             <ThemeProvider theme={theme}>
                 <Div>
-                    <section className="banner px-3 pt-3 pb-3" id="jazmin">
+                    <section className="banner px-3 pt-3 pb-3" id="denise">
                         <div className="row mx-0 shadow bg-white">
                             <div className="col-md-4 col-sm-12 px-5 bg-light d-flex align-items-center">
-                                <img className="img-fluid employee mx-auto" src="/assets/images/team/jazmin.jpg" alt="jazmin" id="jazmin" />
+                                <img className="img-fluid employee mx-auto" src="/assets/images/team/denise.jpg" alt="denise" id="img-denise" />
                             </div>
                             <div className="col-md-8 col-sm-12 text-box-container">
                                 <div className="text-box">
                                     <div className="description">
-                                        <h1 className="display-4">Jazmin Kelly</h1>
+                                        <h1 className="display-4">Denise Maloney-Flores</h1>
                                         <blockquote>
-                                            <p className="lead">M.S., SHRM-CP<br />Chief of Staff</p>
-                                            <p className="strengths">Deliberative | Restorative | Harmony | Intellection | Input</p>
+                                            <p className="lead">Talent Acquisition Coordinator</p>
+                                            <p className="strengths">Learner | Individualization | Context | Achiever | Input</p>
                                         </blockquote>
 
-                                        <p>Jazmin provides a unique combination of Psychology and behavioral understanding to PPR’s people-focused initiatives and data analytics. As a certified StrengthsFinder Coach by the Gallup organization, Jazmin facilitates organizational cohesiveness through training in this methodology and leads PPR’s authored strategic organizational projects, such Talent Planning Analysis and Culture Engagement. Internally, Jazmin is a member of the executive team and leads strategic and innovative initiatives.</p>
+                                        <p>Denise has over ten years of experience in budgeting, project management, and customer service. Before joining our team, Denise supported the HR and Recruitment function at a top-ranked school district in California. Her areas of focus are full administration of recruiting efforts, ensuring that clients and candidates receive stellar experiences and that internally our processes flow in the most efficient ways.</p>
 
-                                        <p>Jazmin earned a M.S. in Applied Psychology from the University of Southern California and a B.S. in Psychology from Austin College.</p>
-                                        
-                                        <p>For fun, Jazmin enjoys fostering animals through Dallas Pets Alive!, as well as finding new and exciting restaurants in Dallas and beyond.</p>
+                                        <p>Denise earned a B.S. in Psychology from California State University, Los Angeles.</p>
+
+                                        <p>For fun, Denise enjoys reading, spending time with her two children and husband. In her spare time, she likes to explore what Texas has to offer. </p>
                                     </div>
                                 </div>
                             </div>
@@ -104,4 +104,4 @@ class Jazmin extends Component {
     }
 }
 
-export default Jazmin;
+export default Denise;

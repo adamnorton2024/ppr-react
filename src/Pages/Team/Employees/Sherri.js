@@ -53,9 +53,9 @@ const Div = styled.div`
                 }
 
             }
-        } 
-            
-            .employee{
+        }
+
+        .employee{
                 background-repeat: no-repeat;
                 background-position: center center;
                 background-size: cover;
@@ -63,35 +63,37 @@ const Div = styled.div`
                 border: 3px solid ${props => props.theme.colors.orange};
                 margin: 2em;
             }
-        }
+        } 
 
 `
 
-class Jazmin extends Component {
+class Sherri extends Component {
 
     render() {
         return (
             <ThemeProvider theme={theme}>
                 <Div>
-                    <section className="banner px-3 pt-3 pb-3" id="jazmin">
+                    <section className="banner px-3 pt-3 pb-3" id="sherri">
                         <div className="row mx-0 shadow bg-white">
                             <div className="col-md-4 col-sm-12 px-5 bg-light d-flex align-items-center">
-                                <img className="img-fluid employee mx-auto" src="/assets/images/team/jazmin.jpg" alt="jazmin" id="jazmin" />
+                                <img className="img-fluid employee mx-auto" src="/assets/images/team/sherri.jpg" alt="sherri" id="img-sherri" />
                             </div>
                             <div className="col-md-8 col-sm-12 text-box-container">
                                 <div className="text-box">
                                     <div className="description">
-                                        <h1 className="display-4">Jazmin Kelly</h1>
+                                        <h1 className="display-4">Sherri Gates</h1>
                                         <blockquote>
-                                            <p className="lead">M.S., SHRM-CP<br />Chief of Staff</p>
-                                            <p className="strengths">Deliberative | Restorative | Harmony | Intellection | Input</p>
+                                            <p className="lead">Senior Compensation Consultant</p>
+                                            <p className="strengths">Responsibility | Belief | Harmony | Arranger | Maximizer</p>
                                         </blockquote>
 
-                                        <p>Jazmin provides a unique combination of Psychology and behavioral understanding to PPR’s people-focused initiatives and data analytics. As a certified StrengthsFinder Coach by the Gallup organization, Jazmin facilitates organizational cohesiveness through training in this methodology and leads PPR’s authored strategic organizational projects, such Talent Planning Analysis and Culture Engagement. Internally, Jazmin is a member of the executive team and leads strategic and innovative initiatives.</p>
+                                        <p>Sherri is a Sr. certified compensation expert with over fifteen years of extensive experience. Her diverse background includes supporting both large and small organizations in a variety of industries. Her primary areas of focus include leading PPR’s compensation business that include implementing best practices in projects such as base pay administration, short-term incentive plan design and administration, compensation structure personalization, market pricing analysis, job documentation, pay structure design and implementation, HR process implementation, employee communications, merger & acquisition integration, FLSA audits, HRIS reporting and implementation, employee recognition programs, and performance management.</p>
 
-                                        <p>Jazmin earned a M.S. in Applied Psychology from the University of Southern California and a B.S. in Psychology from Austin College.</p>
-                                        
-                                        <p>For fun, Jazmin enjoys fostering animals through Dallas Pets Alive!, as well as finding new and exciting restaurants in Dallas and beyond.</p>
+                                        <p>Sherri is a detailed-oriented with a proven history of positively influencing leadership via  a combination of subject matter expertise, relationship-building, and advanced analytical skills. She also has a proven track record of excelling in both strategic initiatives, and the tactical application of action items to ensure compensation best practices are successfully tied to operational excellence. </p>
+
+                                        <p>Sherri earned a B.A. in English from Southern Methodist University.   </p>
+
+                                        <p>For fun, Sherri likes to volunteer at Cornerstone Assistance Network of North Central Texas, a faith-based nonprofit that takes a comprehensive approach to helping neighbors in need. </p>
                                     </div>
                                 </div>
                             </div>
@@ -104,4 +106,4 @@ class Jazmin extends Component {
     }
 }
 
-export default Jazmin;
+export default Sherri;
