@@ -13,7 +13,6 @@ import Luke from './Employees/Luke';
 import Kellee from './Employees/Kellee';
 import Tim from './Employees/Tim';
 import Tracy from './Employees/Tracy';
-import Tamara from './Employees/Tamara';
 import Sherri from './Employees/Sherri';
 import Lauren from './Employees/Lauren';
 import Denise from './Employees/Denise';
@@ -158,7 +157,6 @@ class Team extends Component {
             <Sherri />
             <Kathy />
             <Luke />
-            <Tamara />
             <Lauren />
             <Denise />
             <Tracy />
