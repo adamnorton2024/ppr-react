@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { ContactForm } from '../../Components/ContactForm/ContactForm';
 import styled, { ThemeProvider } from 'styled-components';
 import theme from "../../Config/Theme";
 import { Helmet, HelmetProvider } from "react-helmet-async";

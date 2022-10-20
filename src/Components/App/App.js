@@ -15,6 +15,7 @@ import Careers from '../../Pages/Careers/Careers';
 import Contact from '../../Pages/Contact/Contact';
 import NoMatch from '../../Pages/NoMatch/NoMatch';
 import Footer from '../Footer/Footer';
+import ThankYouComp from '../../Pages/Thankyou/ThankYouComp';
 import ScrollToTop from '../ScrollUpButton/ScrollToTop';
 import styled from 'styled-components';
 
@@ -49,7 +50,8 @@ function App() {
             <Route exact path="/bicultural" element={<Bicultural/>} />
             <Route exact path="/training" element={<Training/>} />
             <Route exact path="/talent" element={<Talent/>} />
-            <Route exact path="/compensation" element={<Compensation/>} />
+            <Route exact path="/compensation" element={<Compensation />} />
+            <Route exact path='/compensation/thankyou' element={<ThankYouComp />} />
             <Route exact path="/mission" element={<Mission/>} />
             <Route exact path="/team" element={<Team/>} />
             <Route exact path="/about" element={<About/>} />

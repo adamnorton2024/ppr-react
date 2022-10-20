@@ -62,13 +62,13 @@ const Div = styled.div`
 
 `
 
-const ContactButton = styled(Button)`{
-  color: ${props => props.theme.colors.orange};
+// const ContactButton = styled(Button)`{
+//   color: ${props => props.theme.colors.orange};
 
-  $:hover:{
-    color: ${props => props.theme.colors.white};
-  }
-}`
+//   $:hover:{
+//     color: ${props => props.theme.colors.white};
+//   }
+// }`
 
 class MarketPricing extends Component {
 
@@ -92,15 +92,10 @@ class MarketPricing extends Component {
                                         <p className='lead'>Once completed, the results of the market study can be utilized to develop a salary structure and conduct a pay analysis to ensure employees are paid fair and equitable in the market as well as internally. </p>
                                         <p className='lead'>The key to market pricing jobs is to have well defined job descriptions that accurately describe the essential duties and responsibilities, education and experience and specialized skills necessary to be successful in the role.  </p>  
                                         <div className="mt-5">
-                          <ContactButton variant="outline-warning" onClick={() => this.contactSherri()}>
-                            Contact Us For a Free Consultation
-                          </ContactButton>
+                
                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="col-md-6 col-sm-12 px-5" id='img-marketpricing'>
-
                             </div>
                         </div>
                     </section>

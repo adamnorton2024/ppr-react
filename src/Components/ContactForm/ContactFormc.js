@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import { ContactForm } from './ContactForm';
 import styled, { ThemeProvider } from 'styled-components';
-import theme from "../../../Config/Theme";
+import theme from "../../Config/Theme";
 
 const Div = styled.div`
     .banner{
-        background-color: #f4f4f4;
+        background-color: ${props => props.theme.colors.white};
         padding: 3em 3em;
         @media only screen and (min-width: ${props => props.theme.sizes.portrait_phone} ) and (max-width: ${props => props.theme.sizes.landscape_phones}) {
                     padding: 2em;
@@ -47,43 +48,32 @@ const Div = styled.div`
                     font-size: 1em;
                     }
                 }
+            }
         }
 
-        #img-compphilosophy{
-                background-image: url('/assets/images/services/comp-philosophy.jpg');
+
+        #img-marketpricing{
+                background-image: url('/assets/images/services/comp-pricing.jpg');
                 background-repeat: no-repeat;
-                background-position: center center;
+                background-position: top right;
                 background-size: cover;
             }
     }
 
 `
 
-
-
-class CompPhilosophy extends Component {
-
-    contactSherri() {
-      const subjectLine = `Compensation Analysis Information`
-      window.open(`mailto:sgates@pprhr.com?subject=${subjectLine}`);
-    }
-
+class ContactFormc extends Component {
+    
     render() {
         return (
             <ThemeProvider theme={theme}>
                 <Div>
-                    <section className="banner">
-                        <div className="row mx-0 shadow bg-white">
-                            <div className="col-md-6 col-sm-12 px-5 bg-white" id='img-compphilosophy'>
-
-                            </div>
-                            <div className="col-md-6 col-sm-12 text-box-container">
-                                <div className="text-box">
-                                    <h1 className="display-4">Compensation Philosophy</h1>
-                                    <div className="description">
-                                        <p className="lead">A sound compensation philosophy helps define the competitive market position of the organization as well as serves as the foundation for developing the base pay administration program, variable pay and benefits. PPR will partner with key executives to create a compensation philosophy that supports the organization’s strategic plan and initiatives, business goals, and compensation and total reward strategies. The compensation philosophy is the compass to determining an organization’s market competitiveness.  </p>
-                                        
-                                    </div>
+                    <section className='banner'>
+                        <div className='row mx-0 shadow'>
+                            <div className='text-box'>
+                                <h1 className='display-4 px-5'>Contact Us for Compensation Services</h1>
+                                <div className='description p-5'>
+                                    <ContactForm />
                                 </div>
                             </div>
                         </div>
@@ -94,4 +84,4 @@ class CompPhilosophy extends Component {
     }
 }
 
-export default CompPhilosophy;
+export default ContactFormc;
