@@ -11,7 +11,6 @@ import Amber from './Employees/Amber';
 import Hayley from './Employees/Hayley';
 import Luke from './Employees/Luke';
 import Kellee from './Employees/Kellee';
-import Tim from './Employees/Tim';
 import Tracy from './Employees/Tracy';
 import Sherri from './Employees/Sherri';
 import Lauren from './Employees/Lauren';
@@ -160,7 +159,6 @@ class Team extends Component {
             <Lauren />
             <Denise />
             <Tracy />
-            <Tim />
             <Hayley />
           </div>
         );
