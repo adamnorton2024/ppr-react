@@ -80,6 +80,17 @@
       var ml_account = ml('accounts', '2289491', 'h4u9d5h6s1', 'load');
     </script>
     <!-- End MailerLite Universal -->
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-800577984"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'AW-800577984');
+    </script>
+
     
   </head>
   <body>
@@ -98,5 +109,17 @@
       var dib_id = 'ZKG80AT6VZR7NSLZCG7V';
     </script>
     <script src="https://dropinblog.com/js/embed.js"></script>
+    <script>
+      window.addEventListener('load', function () {
+        if (window.location.href.indexOf('//thankyou')) {
+          gtag('event', 'conversion', {
+            'send_to': 'AW-800577984/CrQjCN6FuIAYEMCz3_0C'
+          });
+        }
+      });
+
+    </script>
+
   </body>
+
 </html>

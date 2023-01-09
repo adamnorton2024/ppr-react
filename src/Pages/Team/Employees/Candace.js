@@ -83,7 +83,7 @@ class Candace extends Component {
                                     <div className="description">
                                         <h1 className="display-4">Candace Anderson</h1>
                                         <blockquote>
-                                            <p className="lead">M.A., SHRM-CP<br/> Human Capital Consultant</p>
+                                            <p className="lead">M.A., SHRM-CP<br/> Sr. Human Capital Consultant</p>
                                             <p className="strengths">Maximizer | Positivity | Arranger | Relator | Strategic</p>
                                         </blockquote>
 

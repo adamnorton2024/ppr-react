@@ -83,7 +83,7 @@ class Kellee extends Component {
                                     <div className="description">
                                         <h1 className="display-4">Kellee Casper</h1>
                                         <blockquote>
-                                            <p className="lead">Sr. Human Capital Consultant</p>
+                                            <p className="lead">sHRBP<br/>Sr. Human Capital Consultant</p>
                                             <p className="strengths">Includer | Developer | Individualization | Learner | Achiever</p>
                                         </blockquote>
 

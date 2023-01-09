@@ -1,6 +1,7 @@
 import React from 'react';
 import styled, { ThemeProvider } from 'styled-components';
 import theme from '../../Config/Theme';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 const Div = styled.div`
     .jumbotron{
@@ -97,6 +98,20 @@ const ThankYouComp = () => {
 
         return (
             <div>
+                <HelmetProvider>
+              <Helmet>
+                <html lang="en" />
+                <title>Thank You for your interest in our Compensation Services</title>
+                <meta
+                  name="description"
+                  content="Thank You for your interest in our Compensation Services"
+                />
+                <meta 
+                  name='keywords'
+                  content="compensation consulting contact form has been completed"
+                />
+              </Helmet>
+            </HelmetProvider>
                 <ThemeProvider theme={theme}>
                     <Div>
                         <div className="jumbotron jumbotron-fluid">
