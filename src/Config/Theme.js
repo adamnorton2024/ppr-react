@@ -17,6 +17,7 @@ const Theme = {
         desktop: "1199.98px"
     }
 }
+
 export default Theme;
 
 

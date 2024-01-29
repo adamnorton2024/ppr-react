@@ -113,8 +113,7 @@ class About extends Component {
                           of Art, United Way of Metropolitan Dallas, Verde Valle
                           Foods, Palacios & Sons (Charras Tostadas), Out Teach
                           and many others, have trusted our expertise and
-                          through this process, we have been able to be a part
-                          of creating better workplaces.
+                          through this process, we have been able to inspire excellent workplaces.
                         </p>
                         <p className="lead">
                           A commitment of excellence to each client is
