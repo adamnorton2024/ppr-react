@@ -7,7 +7,6 @@ import Adam from './Employees/Adam';
 import Jazmin from './Employees/Jazmin';
 import Kathy from './Employees/Kathy';
 import Candace from './Employees/Candace';
-import Amber from './Employees/Amber';
 import Hayley from './Employees/Hayley';
 import Luke from './Employees/Luke';
 import Tracy from './Employees/Tracy';
@@ -148,7 +147,6 @@ class Team extends Component {
             <Kacye />
             <Jazmin />
             <Adam />
-            <Amber />
             <Candace />
             <Kathy />
             <Luke />

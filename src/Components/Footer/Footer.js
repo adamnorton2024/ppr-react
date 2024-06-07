@@ -11,9 +11,6 @@ const Foot = styled.footer `
 
 
 
-
-
-
 const Div = styled.div `
     padding-top: 2em;
     padding-left: 0em;
@@ -94,7 +91,7 @@ class Footer extends Component {
                                             <A href="https://www.facebook.com/pprhr" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-square fa-3x px-2"></i></A>
                                             <A href="https://www.instagram.com/ppr_hr/" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram fa-3x px-2"></i></A>
                                             <A href="https://www.linkedin.com/company/people-performance-resources-llc/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin fa-3x px-2"></i></A>
-                                            <A href="https://twitter.com/info_ppr/" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter-square fa-3x px-2"></i></A>
+                                            {/* <A href="https://twitter.com/info_ppr/" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter-square fa-3x px-2"></i></A> */}
 
                                         <div className="ml-form-embed"
                                             data-account="2289491:h4u9d5h6s1"
