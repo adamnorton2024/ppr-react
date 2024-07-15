@@ -9,6 +9,7 @@ import Kathy from './Employees/Kathy';
 import Candace from './Employees/Candace';
 import Hayley from './Employees/Hayley';
 import Luke from './Employees/Luke';
+import Mercedes from './Employees/Mercedes';
 import Tracy from './Employees/Tracy';
 import Lauren from './Employees/Lauren';
 import Denise from './Employees/Denise';
@@ -154,6 +155,7 @@ class Team extends Component {
             <Denise />
             <Tracy />
             <Hayley />
+            <Mercedes />
           </div>
         );
     }

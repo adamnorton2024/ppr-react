@@ -67,31 +67,31 @@ const Div = styled.div`
 
 `
 
-class Kacye extends Component {
+class Mercedes extends Component {
 
     render() {
         return (
             <ThemeProvider theme={theme}>
                 <Div>
-                    <section className="banner px-3 pt-3 pb-3" id="kacye">
+                    <section className="banner px-3 pt-3 pb-3" id="mercedes">
                         <div className="row mx-0 shadow bg-white">
                             <div className="col-md-4 col-sm-12 px-5 bg-light d-flex align-items-center">
-                                <img className="img-fluid employee mx-auto" src="/assets/images/team/kacye.jpg" alt="kacye" id="img-kacye" />
+                                <img className="img-fluid employee mx-auto" src="/assets/images/team/mercedes.jpg" alt="mercedes" id="img-mercedes" />
                             </div>
                             <div className="col-md-8 col-sm-12 text-box-container">
                                 <div className="text-box">
                                     <div className="description">
-                                        <h1 className="display-4">Kacye Benson</h1>
+                                        <h1 className="display-4">Mercedes Contreras</h1>
                                         <blockquote>
-                                            <p className="lead">MPA, SHRM-SCP, Mediator<br/>Managing Partner, Human Capital</p>
-                                            <p className="strengths">Responsibility | Relator | Strategic | Learner | Significance</p>
+                                            <p className="lead">Human Capital Consultant</p>
+                                            <p className="strengths">Restorative | Connectedness | Achiever | Developer | Arranger</p>
                                         </blockquote>
 
-                                        <p>Kacye has over fifteen years of experience in HR with specialty in government and non-profit sectors. Her expertise includes employment relations, compensation, performance management, risk management, conflict resolution, training and development, organizational development, payroll management, leading strategic initiatives, and elevating cultures through positive empowerment. Internally, Kacye is a member of the executive team and leads and mentors the HR consulting group. She also contributes to operational strategies and serves as second in command.</p>
+                                        <p>Mercedes has over fifteen years of Human Resources experience primarily in retail and customer service industries for both small and medium companies.  While she enjoys all aspects of HR, her passion and areas of focus are employee benefits, compliance, employee engagement, training and development and payroll management.</p>
 
-                                        <p>Kacye earned a Master's in Public Administration from Marist College and a B.S. in Criminal Justice.</p>
+                                        <p>Mercedes earned a B.S. in Business Administration Human Resources and Organizational Behavior from University of North Texas and was previously a certified Professional in Human Resources (PHR) from HRCI.</p>
 
-                                        <p>For fun, Kacye enjoys most any outdoor activity including running, hiking, tennis and spending as much time as possible pool or beachside.</p>
+                                        <p>For fun, Mercedes enjoys spending time with her two children, her husband and loveable dog Millie. She also loves to master her Pilates moves, attend concerts, seek out new restaurants (non-chain),  and try new recipes. </p>
                                     </div>
                                 </div>
                             </div>
@@ -104,4 +104,4 @@ class Kacye extends Component {
     }
 }
 
-export default Kacye;
+export default Mercedes;
