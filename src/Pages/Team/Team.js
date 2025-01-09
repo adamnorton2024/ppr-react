@@ -5,14 +5,17 @@ import Gabriela from './Employees/Gabriela';
 import Kacye from './Employees/Kacye';
 import Adam from './Employees/Adam';
 import Jazmin from './Employees/Jazmin';
-import Kathy from './Employees/Kathy';
+import Karen from './Employees/Karen';
+// import Kathy from './Employees/Kathy';
 import Candace from './Employees/Candace';
+import Haley from './Employees/Haley';
 import Hayley from './Employees/Hayley';
 import Luke from './Employees/Luke';
 import Mercedes from './Employees/Mercedes';
+import Mikayla from './Employees/Mikayla';
 import Tracy from './Employees/Tracy';
 import Lauren from './Employees/Lauren';
-import Denise from './Employees/Denise';
+// import Denise from './Employees/Denise';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 
@@ -149,13 +152,16 @@ class Team extends Component {
             <Jazmin />
             <Adam />
             <Candace />
-            <Kathy />
             <Luke />
+            <Mercedes />
             <Lauren />
-            <Denise />
             <Tracy />
             <Hayley />
-            <Mercedes />
+            <Haley />
+            <Karen />
+            <Mikayla />
+            
+            
           </div>
         );
     }

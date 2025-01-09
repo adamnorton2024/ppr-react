@@ -67,31 +67,31 @@ const Div = styled.div`
 
 `
 
-class Amber extends Component {
+class Mikayla extends Component {
 
     render() {
         return (
             <ThemeProvider theme={theme}>
                 <Div>
-                    <section className="banner px-3 pt-3 pb-3" id="amber">
+                    <section className="banner px-3 pt-3 pb-3" id="candace">
                         <div className="row mx-0 shadow bg-white">
                             <div className="col-md-4 col-sm-12 px-5 bg-light d-flex align-items-center">
-                                <img className="img-fluid employee mx-auto" src="/assets/images/team/amber.jpg" alt="amber" id="img-amber" />
+                                <img className="img-fluid employee mx-auto" src="/assets/images/team/placeholder-female.jpg" alt="mikayla" id="img-mikayla" />
                             </div>
                             <div className="col-md-8 col-sm-12 text-box-container">
                                 <div className="text-box">
                                     <div className="description">
-                                        <h1 className="display-4">Amber Hinojosa</h1>
+                                        <h1 className="display-4">Mikayla McMillan</h1>
                                         <blockquote>
-                                            <p className="lead">PHR, SHRM-CP<br/>Sr. Human Capital Consultant</p>
-                                            <p className="strengths">Learner | Achiever | Belief | Input | Responsibility</p>
+                                            <p className="lead">Social Media</p>
+                                            <p className="strengths">Includer | Futuristic | Achiever | Communication | Woo</p>
                                         </blockquote>
 
-                                        <p>Amber’s HR career expands over twelve years and includes a diverse background in supporting both large and small sized organizations. Her areas of focus are in building trust and rapport with teams, while acting as a trusted advisor to main decision makers, compliance, risk management, employee relations, investigations, change management, succession planning, talent acquisition, benefits management, payroll, HRIS implementations, training and development, employee engagement, regulatory leave management, team cohesion and recognition, compensation, and strategic initiatives.</p>
+                                        <p>Bio coming soon...</p>
 
-                                        <p>Amber earned a B.S. in Business Administration Entrepreneurial Management from Texas Christian University.</p>
-
-                                        <p>For fun, Amber enjoys spending time with her three children and her husband, watching them play baseball and trying new restaurants. </p>
+                                        {/* <p>Candace has over ten years of experience in a variety of industries that include service, security, manufacturing, and non-profit. While she enjoys all aspects of HR, her passion and areas of focus are employee relations, talent optimization, executive placements, organizational development and leading stellar Diversity, Equity, and Inclusion strategies.</p>
+                                        <p>Candace earned two Masters degrees: M.A. in Human Resource Management from Colorado State and M.A. in Negotiation and Conflict Management from CSU-Dominguez Hills. Her B.A. is in English from Loyola Marymount University.</p>
+                                        <p>For fun, Candace is always up for a new adventure and spends her free time traveling with her daughters and enjoying local fun activities like axe throwing, cooking classes and museums.</p> */}
                                     </div>
                                 </div>
                             </div>
@@ -104,4 +104,4 @@ class Amber extends Component {
     }
 }
 
-export default Amber;
+export default Mikayla;
