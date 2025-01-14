@@ -87,11 +87,11 @@ class Tracy extends Component {
                                             <p className="strengths">Belief | Activator | Developer | Relator | Positivity</p>
                                         </blockquote>
 
-                                        <p>Tracy has over twenty years of HR experience in various industries that includes hospitality, nonprofit, healthcare, waste treatment and disposal, and manufacturing. As a trusted business partner, she has supported both small and large companies, privately and publicly held. She has extensive experience as a generalist, but her passion and focus areas are coaching, training and development, change management, compliance, employee engagement, investigations, and talent acquisitions. </p>
+                                        <p>Tracy has over twenty-five years of HR experience across diverse industries, including hospitality, nonprofit, healthcare, waste management, and manufacturing. As a trusted business partner, she has supported organizations ranging from small businesses to large, publicly traded companies. While Tracy is a seasoned HR generalist, her true passions lie in coaching, training and development, change management, compliance, employee engagement, investigations, and talent acquisition. </p>
 
-                                        <p>Tracy earned a B.B.A. in Business Administration from Iowa State University and has been a certified Professional in Human Resources from HRCI for over seventeen years.</p>
+                                        <p>Tracy holds a B.B.A. in Business Administration from Iowa State University and has been a certified Professional in Human Resources (PHR) through HRCI for over twenty years.</p>
 
-                                        <p>For fun, Tracy enjoys spending time with her husband, their two adult sons, and their sweet Labrador Retriever, Ally. When not working, she can be found outside gardening, grilling, and going on walks with her husband and dog.</p>
+                                        <p>For fun, Tracy loves spending quality time with her husband, their two adult sons, and their lovable Labrador Retriever, Ally. She finds joy in cooking, swimming, and taking long walks with her husband and Ally.</p>
                                     </div>
                                 </div>
                             </div>

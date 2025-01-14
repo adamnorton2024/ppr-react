@@ -87,11 +87,12 @@ class Haley extends Component {
                                             <p className="strengths">Learner | Responsibility | Developer | Strategic | Positivity </p>
                                         </blockquote>
 
-                                        <p>Bio Coming Soon...</p>
+                                        <p>Haley brings over three years of experience in operations management, complemented by a strong foundation in customer service. Her proactive approach has enabled her to excel in streamlining systems and improving efficiencies. Known for her exceptional critical thinking, problem solving, and communication skills, Haley has made these abilities a cornerstone of her professional success.</p>
 
-                                        {/* <p>Candace has over ten years of experience in a variety of industries that include service, security, manufacturing, and non-profit. While she enjoys all aspects of HR, her passion and areas of focus are employee relations, talent optimization, executive placements, organizational development and leading stellar Diversity, Equity, and Inclusion strategies.</p>
-                                        <p>Candace earned two Masters degrees: M.A. in Human Resource Management from Colorado State and M.A. in Negotiation and Conflict Management from CSU-Dominguez Hills. Her B.A. is in English from Loyola Marymount University.</p>
-                                        <p>For fun, Candace is always up for a new adventure and spends her free time traveling with her daughters and enjoying local fun activities like axe throwing, cooking classes and museums.</p> */}
+                                        <p>Haley holds an Associate of Science degree from McHenry County College.</p>
+
+                                        <p>Outside of work, Haley enjoys quality time with family and friends, as well as running, baking, and diving into a good book.</p>
+
                                     </div>
                                 </div>
                             </div>

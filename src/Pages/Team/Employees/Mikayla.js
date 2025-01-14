@@ -76,7 +76,7 @@ class Mikayla extends Component {
                     <section className="banner px-3 pt-3 pb-3" id="candace">
                         <div className="row mx-0 shadow bg-white">
                             <div className="col-md-4 col-sm-12 px-5 bg-light d-flex align-items-center">
-                                <img className="img-fluid employee mx-auto" src="/assets/images/team/placeholder-female.jpg" alt="mikayla" id="img-mikayla" />
+                                <img className="img-fluid employee mx-auto" src="/assets/images/team/mikayla.jpg" alt="mikayla" id="img-mikayla" />
                             </div>
                             <div className="col-md-8 col-sm-12 text-box-container">
                                 <div className="text-box">
@@ -87,11 +87,9 @@ class Mikayla extends Component {
                                             <p className="strengths">Includer | Futuristic | Achiever | Communication | Woo</p>
                                         </blockquote>
 
-                                        <p>Bio coming soon...</p>
-
-                                        {/* <p>Candace has over ten years of experience in a variety of industries that include service, security, manufacturing, and non-profit. While she enjoys all aspects of HR, her passion and areas of focus are employee relations, talent optimization, executive placements, organizational development and leading stellar Diversity, Equity, and Inclusion strategies.</p>
-                                        <p>Candace earned two Masters degrees: M.A. in Human Resource Management from Colorado State and M.A. in Negotiation and Conflict Management from CSU-Dominguez Hills. Her B.A. is in English from Loyola Marymount University.</p>
-                                        <p>For fun, Candace is always up for a new adventure and spends her free time traveling with her daughters and enjoying local fun activities like axe throwing, cooking classes and museums.</p> */}
+                                        <p>Mikayla is a senior at the University of Texas at Austin, pursuing a degree in Corporate Communications and set to graduate in May 2025. As a Social Media Coordinator, she leverages her passion for communication and creativity to craft engaging content strategies and build meaningful connections across online platforms.</p>
+                                        <p>In her free time, Mikayla enjoys volunteering, exploring Austin's vibrant outdoors, immersing herself in captivating books, and uncovering the city’s top food spots.</p>
+                                        
                                     </div>
                                 </div>
                             </div>

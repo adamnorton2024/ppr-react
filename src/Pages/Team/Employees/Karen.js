@@ -87,9 +87,12 @@ class Karen extends Component {
                                             <p className="strengths">Maximizer | Positivity | Arranger | Relator | Strategic</p>
                                         </blockquote>
 
-                                        <p>Bio coming soon...</p>
-                                        {/* <p>Candace earned two Masters degrees: M.A. in Human Resource Management from Colorado State and M.A. in Negotiation and Conflict Management from CSU-Dominguez Hills. Her B.A. is in English from Loyola Marymount University.</p>
-                                        <p>For fun, Candace is always up for a new adventure and spends her free time traveling with her daughters and enjoying local fun activities like axe throwing, cooking classes and museums.</p> */}
+                                        <p>With over 25 years of experience in human resources, Karen is a seasoned professional specializing in nonprofit organizations. Her expertise spans compliance, employee relations, and policy development, all focused on helping organizations create positive, compliant, and effective workplaces. Karen partners with leaders to design HR strategies that foster employee engagement while ensuring adherence to evolving labor laws and regulations.</p>
+
+                                        <p>Karen holds a JD from the University of the Pacific, McGeorge School of Law, an MA in Communication from Arizona State University, and a BA in Organizational Communication from CSU, Sacramento. Her unique blend of legal, communication, and organizational skills enables her to provide thoughtful, practical solutions to complex HR challenges. Karen’s strategic, solution-oriented approach has earned her a reputation as a trusted partner for organizations seeking to optimize their HR practices.</p>
+
+                                        <p>In her spare time, Karen enjoys getting outdoors with her husband and their labradoodle, Gracie, spending time with her children and their families, and traveling.</p>
+                                        
                                     </div>
                                 </div>
                             </div>

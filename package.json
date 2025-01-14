@@ -39,5 +39,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "http://pprhr.com"
+  "homepage": "http://pprhr.com",
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  }
 }
