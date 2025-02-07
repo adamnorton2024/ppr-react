@@ -84,7 +84,7 @@ class Karen extends Component {
                                         <h1 className="display-4">Karen Hester</h1>
                                         <blockquote>
                                             <p className="lead">JD, MA<br/>Human Capital Consultant</p>
-                                            {/* <p className="strengths">Maximizer | Positivity | Arranger | Relator | Strategic</p> */}
+                                            <p className="strengths">Learner | Input | Responsibility | Relator | Intellection</p>
                                         </blockquote>
 
                                         <p>With over 25 years of experience in human resources, Karen is a seasoned professional specializing in nonprofit organizations. Her expertise spans compliance, employee relations, and policy development, all focused on helping organizations create positive, compliant, and effective workplaces. Karen partners with leaders to design HR strategies that foster employee engagement while ensuring adherence to evolving labor laws and regulations.</p>

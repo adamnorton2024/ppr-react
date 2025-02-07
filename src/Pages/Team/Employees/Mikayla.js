@@ -83,7 +83,7 @@ class Mikayla extends Component {
                                     <div className="description">
                                         <h1 className="display-4">Mikayla McMillan</h1>
                                         <blockquote>
-                                            <p className="lead">Social Media</p>
+                                            <p className="lead">Social Media Coordinator</p>
                                             <p className="strengths">Includer | Futuristic | Achiever | Communication | Woo</p>
                                         </blockquote>
 
