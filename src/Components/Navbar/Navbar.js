@@ -65,7 +65,7 @@ class Navigation extends Component {
                             <NavDropdown className="dropdown" title="Services" id="collapsible-nav-dropdown">
                                 <NavDropdown.Item className="nav-item" href="/services">HR Consulting</NavDropdown.Item>
                                 <NavDropdown.Item className="nav-item" href="/training">Training</NavDropdown.Item>
-                                <NavDropdown.Item className="nav-item" href="/talent">Talent Acquisition</NavDropdown.Item>
+                                {/* <NavDropdown.Item className="nav-item" href="/talent">Talent Acquisition</NavDropdown.Item> */}
                             </NavDropdown>
                             <Nav.Link className='nav-link' href='/compensation'>Compensation</Nav.Link>
                             <Nav.Link className="nav-link" href="/mission">Mission & Values</Nav.Link>
