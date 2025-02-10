@@ -28,6 +28,7 @@ class ClientLogos extends Component {
                     <Image className="img-fluid client-logos" src="./assets/images/logos/logo-ctl.png" alt="Center for Transforming Lives Logo" ></Image>
                     <Image className="img-fluid client-logos" src="./assets/images/logos/logo-dma.png" alt="Dallas Museum of Art Logo" ></Image>
                     <Image className="img-fluid client-logos" src="./assets/images/logos/logo-dal-zoo.png" alt="Dallas Zoo" ></Image>
+                    <Image className="img-fluid client-logos" src="./assets/images/logos/logo-commit.png" alt="Commit Partnership" ></Image>
                     {/* <Image className="img-fluid client-logos" src="./assets/images/logos/logo-dt.png" alt="Dura-Teach Logo" ></Image> */}
                     <Image className="img-fluid client-logos" src="./assets/images/logos/logo-ddi.png" alt="Downtown Dallas Inc Logo" ></Image>
                     {/* <Image className="img-fluid client-logos" src="./assets/images/logos/logo-je.png" alt="Joshua Expeditions Logo" ></Image> */}
@@ -37,7 +38,7 @@ class ClientLogos extends Component {
                     <Image className="img-fluid client-logos" src="./assets/images/logos/logo-txwf.png" alt="Texas Womens Foundation Logo" ></Image>
                     <Image className="img-fluid client-logos" src="./assets/images/logos/logo-tex.png" alt="Tex Protects Logo" ></Image>
                     <Image className="img-fluid client-logos" src="./assets/images/logos/logo-vvf.png" alt="Verde Valle Foods Logo" ></Image>
-                    <Image className="img-fluid client-logos" src="./assets/images/logos/logo-concilio.png" alt="The Concilio Logo" ></Image>
+                    {/* <Image className="img-fluid client-logos" src="./assets/images/logos/logo-concilio.png" alt="The Concilio Logo" ></Image> */}
                     <Image className="img-fluid client-logos" src="./assets/images/logos/logo-everge.png" alt="eVerge Logo" ></Image>
                     <Image className="img-fluid client-logos" src="./assets/images/logos/logo-hoglund.png" alt="The Hoglund Foundation Logo" ></Image>
                     <Image className="img-fluid client-logos" src="./assets/images/logos/logo-outteach.png" alt="Out Teach Logo" ></Image>
