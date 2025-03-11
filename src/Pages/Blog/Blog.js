@@ -104,6 +104,32 @@ const Div = styled.div`
 
 class Blog extends Component {
 
+  componentDidMount() {
+    if (!document.getElementById('dropinblog-script')) {
+        const script = document.createElement('script');
+        script.src = "https://io.dropinblog.com/embedjs/ZKG80AT6VZR7NSLZCG7V.js"; // replace with your actual URL
+        script.async = true;
+        script.id = "dropinblog-script";
+        script.onload = () => {
+            if (window.DIB && window.DIB.reload) {
+                window.DIB.reload();
+            }
+        };
+        document.body.appendChild(script);
+    } else if (window.DIB && window.DIB.reload) {
+        window.DIB.reload();
+    }
+}
+
+componentDidUpdate(prevProps) {
+  // Force reload if navigation occurred or props changed
+  if (this.props.location !== prevProps.location && window.DIB && window.DIB.reload) {
+      window.DIB.reload();
+  }
+}
+
+
+
     render() {
         return (
           <div>
